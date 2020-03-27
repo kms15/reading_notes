@@ -2,6 +2,12 @@ provider "aws" {
     region = "us-west-2"
 }
 
+variable "server_port" {
+    description = "listening port for the web server"
+    type=number
+    default=8080
+}
+
 # find the ami for the most recent version of ubuntu 18.04
 data "aws_ami" "ubuntu" {
     most_recent = true
@@ -24,8 +30,8 @@ resource "aws_security_group" "instance" {
     name = "terraform-example-instance"
 
     ingress {
-        from_port = 8080
-        to_port = 8080
+        from_port = var.server_port
+        to_port = var.server_port
         protocol = "tcp"
         cidr_blocks = ["0.0.0.0/0"]
     }
@@ -42,10 +48,17 @@ resource "aws_instance" "example" {
     user_data = <<-EOF
         #!/bin/bash
         echo "<html><head><title>Hello</title></head><body><h1>Hello world!</h1></body></html>" > index.html
-        nohup busybox httpd -f -p 8080 &
+        nohup busybox httpd -f -p ${var.server_port} &
         EOF
 
     tags = {
         Name = "terraform-example"
     }
 }
+
+# show the url of the new server
+output "url" {
+    description = "URL for the new server"
+    value = "http://${aws_instance.example.public_ip}:${var.server_port}"
+}
+
