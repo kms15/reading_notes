@@ -1,2 +1,2 @@
 #!/bin/bash
-podman run --rm -p 127.0.0.1:8888:8888 -u $(id -u):$(id -g) --userns=keep-id -e JUPYTER_ENABLE_LAB=yes -v "${PWD}":/home/jovyan/work docker.io/jupyter/datascience-notebook
+podman run --rm -p 127.0.0.1:8888:8888 -u $(id -u):$(id -g) --userns=keep-id -e JUPYTER_ENABLE_LAB=yes -v "${PWD}":/home/jovyan docker.io/jupyter/datascience-notebook
