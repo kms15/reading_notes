@@ -1,3 +1,6 @@
 #!/bin/bash
-podman build -t reading-notes-notebook .
+VERSION=0.0.2
+if ! ( podman image ls | grep -q "reading-notes-notebook\\s*${VERSION}" ); then
+    podman build -t reading-notes-notebook:${VERSION} .
+fi
 podman run --rm -p 127.0.0.1:8888:8888 -u $(id -u):$(id -g) --userns=keep-id -e JUPYTER_ENABLE_LAB=yes -v "${PWD}":/home/jovyan reading-notes-notebook
