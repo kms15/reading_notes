@@ -2,8 +2,7 @@
 VERSION=0.0.2
 
 echo "Checking for existing podman image..."
-if ! ( podman image ls \
-       | grep -q "reading-notes-notebook\\s*${VERSION}" ); then
+if ! ( podman image exists "reading-notes-notebook:${VERSION}" ); then
     echo "Building podman image..."
     podman build -t reading-notes-notebook:${VERSION} .
 fi
