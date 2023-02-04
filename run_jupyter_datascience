@@ -22,7 +22,7 @@ echo "logging to $LOGFILE"
 read LOWERPORT UPPERPORT < /proc/sys/net/ipv4/ip_local_port_range
 while :; do
     PORT="`shuf -i $LOWERPORT-$UPPERPORT -n 1`"
-    ss -lpn | grep -q ":$PORT " || break
+    ss -ln | grep -q ":$PORT " || break
 done
 
 podman run --rm -p 127.0.0.1:$PORT:8888 \
