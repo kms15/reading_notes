@@ -1,10 +1,10 @@
 #!/bin/bash
-VERSION=0.0.2
+VERSION=0.1.0
 
-echo "Checking for existing podman image..."
-if ! ( podman image exists "reading-notes-notebook:${VERSION}" ); then
-    echo "Building podman image..."
-    podman build -t reading-notes-notebook:${VERSION} .
+echo "Checking for existing docker image..."
+if ! ( docker image ls | grep -q "reading-notes-notebook\s*${VERSION}" ); then
+    echo "Building docker image..."
+    docker build -t reading-notes-notebook:${VERSION} .
 fi
 
 LOGFILE="$(mktemp)"
@@ -12,7 +12,7 @@ LOGFILE="$(mktemp)"
 function cleanup() {
     echo "cleaning up..."
     rm -f $LOGFILE
-    kill $PODMAN_PID || true
+    kill $DOCKER_PID || true
 }
 trap cleanup EXIT
 
@@ -25,25 +25,34 @@ while :; do
     ss -ln | grep -q ":$PORT " || break
 done
 
-podman run --rm -p 127.0.0.1:$PORT:8888 \
-    -u $(id -u):$(id -g) --userns=keep-id \
+# If the nvidia container toolkit is installed, pass the GPUs
+# to docker.
+if [[ "__$(which nvidia-ctk)__" != "____" ]]; then
+    DOCKER_GPU_OPTS="--runtime=nvidia --gpus all"
+else
+    DOCKER_GPU_OPTS=
+fi
+
+docker run --rm -p 127.0.0.1:$PORT:8888 \
+    -u $(id -u):$(id -g) \
+    ${DOCKER_GPU_OPTS} \
     -e JUPYTER_ENABLE_LAB=yes \
     -v "${PWD}":/home/jovyan \
     reading-notes-notebook:${VERSION} \
     > $LOGFILE 2>&1 &
-PODMAN_PID=$!
+DOCKER_PID=$!
 
 printf "launching server"
 while ! (grep -q http://127.0.0.1:8888 $LOGFILE \
-        || ! kill -s 0 $PODMAN_PID); do
+        || ! kill -s 0 $DOCKER_PID); do
     printf .
     sleep 1
 done
 printf "\n"
 
 # if the container crashed, print an error message
-if (! kill -s 0 $PODMAN_PID); then
-    echo "Podman container exited prematurely:"
+if (! kill -s 0 $DOCKER_PID); then
+    echo "Docker container exited prematurely:"
     cat $LOGFILE
 fi
 
