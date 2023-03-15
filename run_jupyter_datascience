@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION=0.1.1
+VERSION=0.1.2
 
 echo "Checking for existing docker image..."
 if ! ( docker image ls | grep -q "reading-notes-notebook\s*${VERSION}" ); then
@@ -12,18 +12,30 @@ LOGFILE="$(mktemp)"
 function cleanup() {
     echo "cleaning up..."
     rm -f $LOGFILE
+    docker container stop $CONTAINER_NAME || true
     kill $DOCKER_PID || true
 }
 trap cleanup EXIT
 
 echo "logging to $LOGFILE"
 
-# Find a free port (from https://gist.github.com/lusentis/8453523 )
-read LOWERPORT UPPERPORT < /proc/sys/net/ipv4/ip_local_port_range
-while :; do
-    PORT="`shuf -i $LOWERPORT-$UPPERPORT -n 1`"
-    ss -ln | grep -q ":$PORT " || break
-done
+if [[ "_${JUPYTER_PORT}_" == "__" ]]; then
+    # Find a free port (from https://gist.github.com/lusentis/8453523 )
+    read LOWERPORT UPPERPORT < /proc/sys/net/ipv4/ip_local_port_range
+    while :; do
+        JUPYTER_PORT="`shuf -i $LOWERPORT-$UPPERPORT -n 1`"
+        ss -ln | grep -q ":$JUPYTER_PORT " || break
+    done
+fi
+
+if [[ "_${TENSORBOARD_PORT}_" == "__" ]]; then
+    # Find a free port (from https://gist.github.com/lusentis/8453523 )
+    read LOWERPORT UPPERPORT < /proc/sys/net/ipv4/ip_local_port_range
+    while :; do
+        TENSORBOARD_PORT="`shuf -i $LOWERPORT-$UPPERPORT -n 1`"
+        ss -ln | grep -q ":$TENSORBOARD_PORT " || break
+    done
+fi
 
 # If the nvidia container toolkit is installed, pass the GPUs
 # to docker.
@@ -33,7 +45,13 @@ else
     DOCKER_GPU_OPTS=
 fi
 
-docker run --rm -p 127.0.0.1:$PORT:8888 \
+CONTAINER_NAME=reading_notes_$$
+
+docker run --rm --name $CONTAINER_NAME \
+    -p 127.0.0.1:$JUPYTER_PORT:$JUPYTER_PORT \
+    -p 127.0.0.1:$TENSORBOARD_PORT:$TENSORBOARD_PORT \
+    -e JUPYTER_PORT=$JUPYTER_PORT \
+    -e TENSORBOARD_PORT=$TENSORBOARD_PORT \
     -u $(id -u):$(id -g) \
     ${DOCKER_GPU_OPTS} \
     -e JUPYTER_ENABLE_LAB=yes \
@@ -41,13 +59,13 @@ docker run --rm -p 127.0.0.1:$PORT:8888 \
     -v  $(dirname $SSH_AUTH_SOCK):$(dirname $SSH_AUTH_SOCK) \
     -e SSH_AUTH_SOCK=$SSH_AUTH_SOCK \
     reading-notes-notebook:${VERSION} \
-    > $LOGFILE 2>&1 &
+    2>&1 | tee $LOGFILE &
 DOCKER_PID=$!
 
 printf "launching server"
-while ! (grep -q http://127.0.0.1:8888 $LOGFILE \
+CONTAINER_URL_START=http://127.0.0.1:$JUPYTER_PORT
+while ! (grep -q $CONTAINER_URL_START $LOGFILE \
         || ! kill -s 0 $DOCKER_PID); do
-    printf .
     sleep 1
 done
 printf "\n"
@@ -59,9 +77,9 @@ if (! kill -s 0 $DOCKER_PID); then
 fi
 
 URL=$(cat $LOGFILE \
-    | grep http://127.0.0.1:8888 \
+    | grep "$CONTAINER_URL_START" \
     | head -1 \
-    | sed "s-.*http://127.0.0.1:8888-http://127.0.0.1:$PORT-g" \
+    | sed "s-^.*$CONTAINER_URL_START-$CONTAINER_URL_START-g" \
 )
 
 echo "Launching firefox to connect to $URL"
