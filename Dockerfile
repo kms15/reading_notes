@@ -31,9 +31,14 @@ RUN pip3 install \
     tensorflow-probability==0.19.0 \
     xgboost==1.7.4 \
     -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+RUN pip3 install \
+    torch==2.0.0 \
+    torchaudio==2.0.1 \
+    torchvision==0.15.1 \
+    --index-url https://download.pytorch.org/whl/cu118
 RUN apt-get install -y curl wget
 ENV HOME=/home/jovyan
 RUN mkdir -p $HOME
 WORKDIR $HOME
 CMD jupyter lab --ip 0.0.0.0
-EXPOSE 8888
+EXPOSE 8888 6006
