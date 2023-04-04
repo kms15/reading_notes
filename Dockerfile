@@ -2,12 +2,14 @@ FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
 USER root
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
+    curl \
     git \
     graphviz \
     htop \
     openssh-client \
     python3-pip \
-    vim-nox
+    vim-nox \
+    wget
 RUN pip3 install pip==23.0.1
 RUN pip3 install \
     dask==2023.2.1 \
@@ -36,7 +38,11 @@ RUN pip3 install \
     torchaudio==2.0.1 \
     torchvision==0.15.1 \
     --index-url https://download.pytorch.org/whl/cu118
-RUN apt-get install -y curl wget
+# Turn off python hash randomization to improve reproducibility. Note that the
+# randomization exists to prevent denial of service attacks through intentional
+# hash collisions, so extra care will be needed if this container is used to
+# expose a service to untrusted users (e.g. see the -R option for python).
+ENV PYTHONHASHSEED=0
 ENV HOME=/home/jovyan
 RUN mkdir -p $HOME
 WORKDIR $HOME
