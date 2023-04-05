@@ -1,10 +1,13 @@
 #!/bin/bash
-VERSION=0.1.4
+VERSION=0.1.5
 
 echo "Checking for existing docker image..."
 if ! ( docker image ls | grep -q "reading-notes-notebook\s*${VERSION}" ); then
     echo "Building docker image..."
-    docker build -t reading-notes-notebook:${VERSION} .
+    if ! docker build -t reading-notes-notebook:${VERSION} .; then
+        echo "Error building docker image"
+        exit 1
+    fi
 fi
 
 LOGFILE="$(mktemp)"
