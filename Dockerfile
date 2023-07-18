@@ -36,6 +36,7 @@ RUN pip3 install \
     numba==0.56.4 \
     numpy==1.23.5 \
     pandas==1.5.3 \
+    pulp==2.7.0 \
     rpy2==3.5.10 \
     scikit-learn==1.2.1 \
     scipy==1.10.1 \
@@ -64,6 +65,8 @@ RUN pip3 install \
 RUN nbdime config-git --enable --system
 # Install a bash kernel for git
 RUN python3 -m bash_kernel.install
+# set up pulp
+RUN pulptest
 # Turn off python hash randomization to improve reproducibility. Note that the
 # randomization exists to prevent denial of service attacks through intentional
 # hash collisions, so extra care will be needed if this container is used to
