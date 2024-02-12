@@ -1,3 +1,6 @@
 [submodule "handson-ml"]
 	path = handsonml/handson-ml
 	url = https://github.com/ageron/handson-ml.git
+[submodule "RegressionAndOtherStories/ROS-Examples"]
+	path = RegressionAndOtherStories/ROS-Examples
+	url = git@github.com:avehtari/ROS-Examples.git

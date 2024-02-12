@@ -1,5 +1,7 @@
 #!/bin/bash
-VERSION=0.1.6
+VERSION=0.1.7
+
+set -x
 
 echo "Checking for existing docker image..."
 if ! ( docker image ls | grep -q "reading-notes-notebook\s*${VERSION}" ); then

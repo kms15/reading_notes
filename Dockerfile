@@ -4,6 +4,7 @@ USER root
 ARG DEBIAN_FRONTEND=noninteractive
 # Install base debian packages
 RUN apt-get update && apt-get install -y \
+    build-essential \
     curl \
     git \
     graphviz \
@@ -11,51 +12,67 @@ RUN apt-get update && apt-get install -y \
     openssh-client \
     python3-pip \
     r-base \
+    r-base-dev \
+    r-cran-arm \
+    r-cran-bayesplot \
     r-cran-coda \
     r-cran-devtools \
+    r-cran-ggplot2 \
+    r-cran-knitr \
+    r-cran-loo \
     r-cran-mvtnorm \
+    r-cran-rprojroot \
+    r-cran-rstan \
+    r-cran-rstanarm \
+    r-cran-survey \
     vim-nox \
     wget
 # Update pip to a known-good version
-RUN pip3 install pip==23.0.1
+RUN pip3 install pip==23.3.1
 # Update pip packages to known-good versions
 RUN pip3 install \
-    bash_kernel==0.9.0 \
-    dask==2023.2.1 \
-    einops==0.6.0 \
+    bash_kernel==0.9.3 \
+    dask==2023.12.0 \
+    einops==0.7.0 \
     graphviz==0.20.1 \
-    ipython==8.11.0 \
-    jax[cuda11_cudnn82]==0.4.4 \
-    joblib==1.2.0 \
-    jupyterlab==3.6.3 \
-    jupyterlab-git==0.41.0 \
+    ipython==8.18.1 \
+    joblib==1.3.2 \
+    "jax[cuda11_local]<=0.4.22" \
+    jupyter-collaboration==2.0.0 \
+    jupyterlab==4.0.9 \
+    jupyterlab-git==0.50.0 \
     jupyterlab-link-share==0.3.0 \
-    matplotlib==3.7.0 \
-    nbdime==3.1.1 \
+    lightgbm==4.1.0 \
+    matplotlib==3.8.2 \
+    nbdime==4.0.1 \
     nltk==3.8.1 \
-    numba==0.56.4 \
-    numpy==1.23.5 \
-    pandas==1.5.3 \
+    numba==0.58.1 \
+    numpy==1.24.2 \
+    pandas==2.1.4 \
+    patsy==0.5.4 \
     pulp==2.7.0 \
-    rpy2==3.5.10 \
-    scikit-learn==1.2.1 \
-    scipy==1.10.1 \
-    seaborn==0.12.2 \
-    shap==0.41.0 \
-    tensorflow==2.11.0 \
-    tensorflow-datasets==4.8.3 \
-    tensorflow-probability==0.19.0 \
-    xgboost==1.7.4 \
+    pymc==5.10.2 \
+    ray==2.8.1 \
+    rpy2==3.5.14 \
+    scikit-learn==1.3.2 \
+    scipy==1.11.4 \
+    seaborn==0.13.0 \
+    shap==0.44.0 \
+    statsmodels==0.14.0 \
+    tensorflow==2.13.0 \
+    tensorflow-datasets==4.9.3 \
+    tensorflow-probability==0.23.0 \
+    xgboost==2.0.2 \
     -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-# Install the R kernel for Jupyter and some R packages used by the Statistical
-# Rethinking book.
+## Install the R kernel for Jupyter and some R packages used by the Statistical
+## Rethinking book.
 RUN Rscript \
     -e 'install.packages("IRkernel", repos="https://cloud.r-project.org")' \
     -e 'install.packages("dagitty", repos="https://cloud.r-project.org")' \
     -e 'install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))' \
     -e 'devtools::install_github("rmcelreath/rethinking@v2.2.1")' \
     -e 'IRkernel::installspec(user=FALSE)'
-# Install pytorch
+## Install pytorch
 RUN pip3 install \
     torch==2.0.0 \
     torchaudio==2.0.1 \
