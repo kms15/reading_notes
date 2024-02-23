@@ -38,10 +38,8 @@ RUN pip3 install \
     ipython==8.18.1 \
     joblib==1.3.2 \
     "jax[cuda11_local]<=0.4.22" \
-    jupyter-collaboration==2.0.0 \
     jupyterlab==4.0.9 \
     jupyterlab-git==0.50.0 \
-    jupyterlab-link-share==0.3.0 \
     lightgbm==4.1.0 \
     matplotlib==3.8.2 \
     nbdime==4.0.1 \
@@ -64,6 +62,10 @@ RUN pip3 install \
     tensorflow-probability==0.23.0 \
     xgboost==2.0.2 \
     -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+# HACK: we can install the latest version of keras despite tensorflow
+# requesting an older version as long as we do so after tensorflow is already
+# installed.
+RUN pip3 install keras==3.0.5
 ## Install the R kernel for Jupyter and some R packages used by the Statistical
 ## Rethinking book.
 RUN Rscript \
@@ -100,6 +102,6 @@ ENV HOME=/home/jovyan
 RUN mkdir -p $HOME
 WORKDIR $HOME
 # Run jupyter lab in collabortive mode, exposing the ports on all interfaces
-CMD jupyter lab --ip 0.0.0.0 --collaborative
+CMD jupyter lab --ip 0.0.0.0
 # Default ports for Jupyter lab and TensorBoard
 EXPOSE 8888 6006
