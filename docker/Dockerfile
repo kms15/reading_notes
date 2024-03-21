@@ -59,7 +59,7 @@ RUN pip3 install \
     statsmodels==0.14.0 \
     tensorflow==2.13.0 \
     tensorflow-datasets==4.9.3 \
-    tensorflow-probability==0.23.0 \
+    tensorflow-probability==0.21.0 \
     xgboost==2.0.2 \
     -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 # HACK: we can install the latest version of keras despite tensorflow
