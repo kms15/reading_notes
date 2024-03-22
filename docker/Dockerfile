@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
+FROM nvidia/cuda:12.3.2-cudnn9-devel-ubuntu22.04
 USER root
 # Make sure apt does not pause waiting for user input
 ARG DEBIAN_FRONTEND=noninteractive
@@ -28,44 +28,46 @@ RUN apt-get update && apt-get install -y \
     vim-nox \
     wget
 # Update pip to a known-good version
-RUN pip3 install pip==23.3.1
+RUN pip3 install pip==24.0
 # Update pip packages to known-good versions
 RUN pip3 install \
     bash_kernel==0.9.3 \
     dask==2023.12.0 \
     einops==0.7.0 \
-    graphviz==0.20.1 \
-    ipython==8.18.1 \
+    graphviz==0.20.3 \
+    ipython==8.22.2 \
     joblib==1.3.2 \
-    "jax[cuda11_local]<=0.4.22" \
+    "jax[cuda11_pip]==0.4.25" \
     jupyterlab==4.1.5 \
     jupyterlab-git==0.50.0 \
-    lightgbm==4.1.0 \
-    matplotlib==3.8.2 \
+    keras-cv==0.8.2 \
+    keras-nlp==0.8.2 \
+    keras-tuner==1.4.7 \
+    lightgbm==4.3.0 \
+    matplotlib==3.8.3 \
     nbdime==4.0.1 \
     nltk==3.8.1 \
-    numba==0.58.1 \
-    numpy==1.24.2 \
-    pandas==2.1.4 \
-    patsy==0.5.4 \
-    pulp==2.7.0 \
-    pymc==5.10.2 \
-    ray==2.8.1 \
-    rpy2==3.5.14 \
-    scikit-learn==1.3.2 \
-    scipy==1.11.4 \
-    seaborn==0.13.0 \
-    shap==0.44.0 \
-    statsmodels==0.14.0 \
-    tensorflow==2.13.0 \
-    tensorflow-datasets==4.9.3 \
-    tensorflow-probability==0.21.0 \
-    xgboost==2.0.2 \
+    numba==0.59.1 \
+    numpy==1.26.4 \
+    pandas==2.2.1 \
+    patsy==0.5.6 \
+    pulp==2.8.0 \
+    pymc==5.11.0 \
+    ray==2.10.0 \
+    rpy2==3.5.15 \
+    scikit-learn==1.4.1.post1 \
+    scipy==1.12.0 \
+    seaborn==0.13.2 \
+    shap==0.45.0 \
+    statsmodels==0.14.1 \
+    sympy==1.12 \
+    tensorflow==2.16.1 \
+    tensorflow-datasets==4.9.4 \
+    tensorflow-probability==0.24.0 \
+    tf-keras==2.16.0 \
+    transformers==4.39.0 \
+    xgboost==2.0.3 \
     -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
-# HACK: we can install the latest version of keras despite tensorflow
-# requesting an older version as long as we do so after tensorflow is already
-# installed.
-#RUN pip3 install keras==3.0.5
 ## Install the R kernel for Jupyter and some R packages used by the Statistical
 ## Rethinking book.
 RUN Rscript \
