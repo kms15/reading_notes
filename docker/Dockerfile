@@ -38,7 +38,7 @@ RUN pip3 install \
     ipython==8.18.1 \
     joblib==1.3.2 \
     "jax[cuda11_local]<=0.4.22" \
-    jupyterlab==4.0.9 \
+    jupyterlab==4.1.5 \
     jupyterlab-git==0.50.0 \
     lightgbm==4.1.0 \
     matplotlib==3.8.2 \
@@ -65,7 +65,7 @@ RUN pip3 install \
 # HACK: we can install the latest version of keras despite tensorflow
 # requesting an older version as long as we do so after tensorflow is already
 # installed.
-RUN pip3 install keras==3.0.5
+#RUN pip3 install keras==3.0.5
 ## Install the R kernel for Jupyter and some R packages used by the Statistical
 ## Rethinking book.
 RUN Rscript \
