@@ -61,13 +61,18 @@ RUN pip3 install \
     shap==0.45.0 \
     statsmodels==0.14.1 \
     sympy==1.12 \
-    tensorflow==2.16.1 \
+    tensorflow==2.15.0 \
     tensorflow-datasets==4.9.4 \
-    tensorflow-probability==0.24.0 \
-    tf-keras==2.16.0 \
+    tensorflow-probability==0.23.0 \
     transformers==4.39.0 \
     xgboost==2.0.3 \
     -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+# HACK: we can install the latest version of keras despite tensorflow
+# requesting an older version as long as we do so after tensorflow is already
+# installed (needed until we can install tensorflow >= 2.16), but this breaks
+# tensorflow probability.
+#RUN pip3 install keras==3.0.5
+#    tf-keras==2.16.0 \
 ## Install the R kernel for Jupyter and some R packages used by the Statistical
 ## Rethinking book.
 RUN Rscript \
@@ -76,18 +81,12 @@ RUN Rscript \
     -e 'install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))' \
     -e 'devtools::install_github("rmcelreath/rethinking@v2.2.1")' \
     -e 'IRkernel::installspec(user=FALSE)'
-## Install pytorch
-RUN pip3 install \
-    torch==2.0.0 \
-    torchaudio==2.0.1 \
-    torchvision==0.15.1 \
-    --index-url https://download.pytorch.org/whl/cu118
 # Enable better Jupyter notebook diffs for git
 RUN nbdime config-git --enable --system
 # Install a bash kernel for git
 RUN python3 -m bash_kernel.install
 # set up pulp
-RUN pulptest
+#RUN pulptest
 # Turn off python hash randomization to improve reproducibility. Note that the
 # randomization exists to prevent denial of service attacks through intentional
 # hash collisions, so extra care will be needed if this container is used to
