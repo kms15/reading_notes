@@ -1,0 +1,3238 @@
+\* ORProblem *\
+Minimize
+OBJ: __dummy
+Subject To
+_C1: ResidentAssignment_resident_0_OR0 + ResidentAssignment_resident_0_OR1
+ + ResidentAssignment_resident_0_OR10 + ResidentAssignment_resident_0_OR11
+ + ResidentAssignment_resident_0_OR12 + ResidentAssignment_resident_0_OR13
+ + ResidentAssignment_resident_0_OR14 + ResidentAssignment_resident_0_OR15
+ + ResidentAssignment_resident_0_OR16 + ResidentAssignment_resident_0_OR17
+ + ResidentAssignment_resident_0_OR18 + ResidentAssignment_resident_0_OR19
+ + ResidentAssignment_resident_0_OR2 + ResidentAssignment_resident_0_OR20
+ + ResidentAssignment_resident_0_OR21 + ResidentAssignment_resident_0_OR22
+ + ResidentAssignment_resident_0_OR23 + ResidentAssignment_resident_0_OR24
+ + ResidentAssignment_resident_0_OR25 + ResidentAssignment_resident_0_OR26
+ + ResidentAssignment_resident_0_OR27 + ResidentAssignment_resident_0_OR28
+ + ResidentAssignment_resident_0_OR29 + ResidentAssignment_resident_0_OR3
+ + ResidentAssignment_resident_0_OR30 + ResidentAssignment_resident_0_OR31
+ + ResidentAssignment_resident_0_OR32 + ResidentAssignment_resident_0_OR33
+ + ResidentAssignment_resident_0_OR34 + ResidentAssignment_resident_0_OR35
+ + ResidentAssignment_resident_0_OR36 + ResidentAssignment_resident_0_OR37
+ + ResidentAssignment_resident_0_OR38 + ResidentAssignment_resident_0_OR39
+ + ResidentAssignment_resident_0_OR4 + ResidentAssignment_resident_0_OR5
+ + ResidentAssignment_resident_0_OR6 + ResidentAssignment_resident_0_OR7
+ + ResidentAssignment_resident_0_OR8 + ResidentAssignment_resident_0_OR9 <= 1
+_C10: ResidentAssignment_resident_9_OR0 + ResidentAssignment_resident_9_OR1
+ + ResidentAssignment_resident_9_OR10 + ResidentAssignment_resident_9_OR11
+ + ResidentAssignment_resident_9_OR12 + ResidentAssignment_resident_9_OR13
+ + ResidentAssignment_resident_9_OR14 + ResidentAssignment_resident_9_OR15
+ + ResidentAssignment_resident_9_OR16 + ResidentAssignment_resident_9_OR17
+ + ResidentAssignment_resident_9_OR18 + ResidentAssignment_resident_9_OR19
+ + ResidentAssignment_resident_9_OR2 + ResidentAssignment_resident_9_OR20
+ + ResidentAssignment_resident_9_OR21 + ResidentAssignment_resident_9_OR22
+ + ResidentAssignment_resident_9_OR23 + ResidentAssignment_resident_9_OR24
+ + ResidentAssignment_resident_9_OR25 + ResidentAssignment_resident_9_OR26
+ + ResidentAssignment_resident_9_OR27 + ResidentAssignment_resident_9_OR28
+ + ResidentAssignment_resident_9_OR29 + ResidentAssignment_resident_9_OR3
+ + ResidentAssignment_resident_9_OR30 + ResidentAssignment_resident_9_OR31
+ + ResidentAssignment_resident_9_OR32 + ResidentAssignment_resident_9_OR33
+ + ResidentAssignment_resident_9_OR34 + ResidentAssignment_resident_9_OR35
+ + ResidentAssignment_resident_9_OR36 + ResidentAssignment_resident_9_OR37
+ + ResidentAssignment_resident_9_OR38 + ResidentAssignment_resident_9_OR39
+ + ResidentAssignment_resident_9_OR4 + ResidentAssignment_resident_9_OR5
+ + ResidentAssignment_resident_9_OR6 + ResidentAssignment_resident_9_OR7
+ + ResidentAssignment_resident_9_OR8 + ResidentAssignment_resident_9_OR9 <= 1
+_C11: ResidentAssignment_resident_10_OR0 + ResidentAssignment_resident_10_OR1
+ + ResidentAssignment_resident_10_OR10 + ResidentAssignment_resident_10_OR11
+ + ResidentAssignment_resident_10_OR12 + ResidentAssignment_resident_10_OR13
+ + ResidentAssignment_resident_10_OR14 + ResidentAssignment_resident_10_OR15
+ + ResidentAssignment_resident_10_OR16 + ResidentAssignment_resident_10_OR17
+ + ResidentAssignment_resident_10_OR18 + ResidentAssignment_resident_10_OR19
+ + ResidentAssignment_resident_10_OR2 + ResidentAssignment_resident_10_OR20
+ + ResidentAssignment_resident_10_OR21 + ResidentAssignment_resident_10_OR22
+ + ResidentAssignment_resident_10_OR23 + ResidentAssignment_resident_10_OR24
+ + ResidentAssignment_resident_10_OR25 + ResidentAssignment_resident_10_OR26
+ + ResidentAssignment_resident_10_OR27 + ResidentAssignment_resident_10_OR28
+ + ResidentAssignment_resident_10_OR29 + ResidentAssignment_resident_10_OR3
+ + ResidentAssignment_resident_10_OR30 + ResidentAssignment_resident_10_OR31
+ + ResidentAssignment_resident_10_OR32 + ResidentAssignment_resident_10_OR33
+ + ResidentAssignment_resident_10_OR34 + ResidentAssignment_resident_10_OR35
+ + ResidentAssignment_resident_10_OR36 + ResidentAssignment_resident_10_OR37
+ + ResidentAssignment_resident_10_OR38 + ResidentAssignment_resident_10_OR39
+ + ResidentAssignment_resident_10_OR4 + ResidentAssignment_resident_10_OR5
+ + ResidentAssignment_resident_10_OR6 + ResidentAssignment_resident_10_OR7
+ + ResidentAssignment_resident_10_OR8 + ResidentAssignment_resident_10_OR9
+ <= 1
+_C12: ResidentAssignment_resident_11_OR0 + ResidentAssignment_resident_11_OR1
+ + ResidentAssignment_resident_11_OR10 + ResidentAssignment_resident_11_OR11
+ + ResidentAssignment_resident_11_OR12 + ResidentAssignment_resident_11_OR13
+ + ResidentAssignment_resident_11_OR14 + ResidentAssignment_resident_11_OR15
+ + ResidentAssignment_resident_11_OR16 + ResidentAssignment_resident_11_OR17
+ + ResidentAssignment_resident_11_OR18 + ResidentAssignment_resident_11_OR19
+ + ResidentAssignment_resident_11_OR2 + ResidentAssignment_resident_11_OR20
+ + ResidentAssignment_resident_11_OR21 + ResidentAssignment_resident_11_OR22
+ + ResidentAssignment_resident_11_OR23 + ResidentAssignment_resident_11_OR24
+ + ResidentAssignment_resident_11_OR25 + ResidentAssignment_resident_11_OR26
+ + ResidentAssignment_resident_11_OR27 + ResidentAssignment_resident_11_OR28
+ + ResidentAssignment_resident_11_OR29 + ResidentAssignment_resident_11_OR3
+ + ResidentAssignment_resident_11_OR30 + ResidentAssignment_resident_11_OR31
+ + ResidentAssignment_resident_11_OR32 + ResidentAssignment_resident_11_OR33
+ + ResidentAssignment_resident_11_OR34 + ResidentAssignment_resident_11_OR35
+ + ResidentAssignment_resident_11_OR36 + ResidentAssignment_resident_11_OR37
+ + ResidentAssignment_resident_11_OR38 + ResidentAssignment_resident_11_OR39
+ + ResidentAssignment_resident_11_OR4 + ResidentAssignment_resident_11_OR5
+ + ResidentAssignment_resident_11_OR6 + ResidentAssignment_resident_11_OR7
+ + ResidentAssignment_resident_11_OR8 + ResidentAssignment_resident_11_OR9
+ <= 1
+_C13: ResidentAssignment_resident_12_OR0 + ResidentAssignment_resident_12_OR1
+ + ResidentAssignment_resident_12_OR10 + ResidentAssignment_resident_12_OR11
+ + ResidentAssignment_resident_12_OR12 + ResidentAssignment_resident_12_OR13
+ + ResidentAssignment_resident_12_OR14 + ResidentAssignment_resident_12_OR15
+ + ResidentAssignment_resident_12_OR16 + ResidentAssignment_resident_12_OR17
+ + ResidentAssignment_resident_12_OR18 + ResidentAssignment_resident_12_OR19
+ + ResidentAssignment_resident_12_OR2 + ResidentAssignment_resident_12_OR20
+ + ResidentAssignment_resident_12_OR21 + ResidentAssignment_resident_12_OR22
+ + ResidentAssignment_resident_12_OR23 + ResidentAssignment_resident_12_OR24
+ + ResidentAssignment_resident_12_OR25 + ResidentAssignment_resident_12_OR26
+ + ResidentAssignment_resident_12_OR27 + ResidentAssignment_resident_12_OR28
+ + ResidentAssignment_resident_12_OR29 + ResidentAssignment_resident_12_OR3
+ + ResidentAssignment_resident_12_OR30 + ResidentAssignment_resident_12_OR31
+ + ResidentAssignment_resident_12_OR32 + ResidentAssignment_resident_12_OR33
+ + ResidentAssignment_resident_12_OR34 + ResidentAssignment_resident_12_OR35
+ + ResidentAssignment_resident_12_OR36 + ResidentAssignment_resident_12_OR37
+ + ResidentAssignment_resident_12_OR38 + ResidentAssignment_resident_12_OR39
+ + ResidentAssignment_resident_12_OR4 + ResidentAssignment_resident_12_OR5
+ + ResidentAssignment_resident_12_OR6 + ResidentAssignment_resident_12_OR7
+ + ResidentAssignment_resident_12_OR8 + ResidentAssignment_resident_12_OR9
+ <= 1
+_C14: ResidentAssignment_resident_13_OR0 + ResidentAssignment_resident_13_OR1
+ + ResidentAssignment_resident_13_OR10 + ResidentAssignment_resident_13_OR11
+ + ResidentAssignment_resident_13_OR12 + ResidentAssignment_resident_13_OR13
+ + ResidentAssignment_resident_13_OR14 + ResidentAssignment_resident_13_OR15
+ + ResidentAssignment_resident_13_OR16 + ResidentAssignment_resident_13_OR17
+ + ResidentAssignment_resident_13_OR18 + ResidentAssignment_resident_13_OR19
+ + ResidentAssignment_resident_13_OR2 + ResidentAssignment_resident_13_OR20
+ + ResidentAssignment_resident_13_OR21 + ResidentAssignment_resident_13_OR22
+ + ResidentAssignment_resident_13_OR23 + ResidentAssignment_resident_13_OR24
+ + ResidentAssignment_resident_13_OR25 + ResidentAssignment_resident_13_OR26
+ + ResidentAssignment_resident_13_OR27 + ResidentAssignment_resident_13_OR28
+ + ResidentAssignment_resident_13_OR29 + ResidentAssignment_resident_13_OR3
+ + ResidentAssignment_resident_13_OR30 + ResidentAssignment_resident_13_OR31
+ + ResidentAssignment_resident_13_OR32 + ResidentAssignment_resident_13_OR33
+ + ResidentAssignment_resident_13_OR34 + ResidentAssignment_resident_13_OR35
+ + ResidentAssignment_resident_13_OR36 + ResidentAssignment_resident_13_OR37
+ + ResidentAssignment_resident_13_OR38 + ResidentAssignment_resident_13_OR39
+ + ResidentAssignment_resident_13_OR4 + ResidentAssignment_resident_13_OR5
+ + ResidentAssignment_resident_13_OR6 + ResidentAssignment_resident_13_OR7
+ + ResidentAssignment_resident_13_OR8 + ResidentAssignment_resident_13_OR9
+ <= 1
+_C15: ResidentAssignment_resident_14_OR0 + ResidentAssignment_resident_14_OR1
+ + ResidentAssignment_resident_14_OR10 + ResidentAssignment_resident_14_OR11
+ + ResidentAssignment_resident_14_OR12 + ResidentAssignment_resident_14_OR13
+ + ResidentAssignment_resident_14_OR14 + ResidentAssignment_resident_14_OR15
+ + ResidentAssignment_resident_14_OR16 + ResidentAssignment_resident_14_OR17
+ + ResidentAssignment_resident_14_OR18 + ResidentAssignment_resident_14_OR19
+ + ResidentAssignment_resident_14_OR2 + ResidentAssignment_resident_14_OR20
+ + ResidentAssignment_resident_14_OR21 + ResidentAssignment_resident_14_OR22
+ + ResidentAssignment_resident_14_OR23 + ResidentAssignment_resident_14_OR24
+ + ResidentAssignment_resident_14_OR25 + ResidentAssignment_resident_14_OR26
+ + ResidentAssignment_resident_14_OR27 + ResidentAssignment_resident_14_OR28
+ + ResidentAssignment_resident_14_OR29 + ResidentAssignment_resident_14_OR3
+ + ResidentAssignment_resident_14_OR30 + ResidentAssignment_resident_14_OR31
+ + ResidentAssignment_resident_14_OR32 + ResidentAssignment_resident_14_OR33
+ + ResidentAssignment_resident_14_OR34 + ResidentAssignment_resident_14_OR35
+ + ResidentAssignment_resident_14_OR36 + ResidentAssignment_resident_14_OR37
+ + ResidentAssignment_resident_14_OR38 + ResidentAssignment_resident_14_OR39
+ + ResidentAssignment_resident_14_OR4 + ResidentAssignment_resident_14_OR5
+ + ResidentAssignment_resident_14_OR6 + ResidentAssignment_resident_14_OR7
+ + ResidentAssignment_resident_14_OR8 + ResidentAssignment_resident_14_OR9
+ <= 1
+_C16: ResidentAssignment_resident_15_OR0 + ResidentAssignment_resident_15_OR1
+ + ResidentAssignment_resident_15_OR10 + ResidentAssignment_resident_15_OR11
+ + ResidentAssignment_resident_15_OR12 + ResidentAssignment_resident_15_OR13
+ + ResidentAssignment_resident_15_OR14 + ResidentAssignment_resident_15_OR15
+ + ResidentAssignment_resident_15_OR16 + ResidentAssignment_resident_15_OR17
+ + ResidentAssignment_resident_15_OR18 + ResidentAssignment_resident_15_OR19
+ + ResidentAssignment_resident_15_OR2 + ResidentAssignment_resident_15_OR20
+ + ResidentAssignment_resident_15_OR21 + ResidentAssignment_resident_15_OR22
+ + ResidentAssignment_resident_15_OR23 + ResidentAssignment_resident_15_OR24
+ + ResidentAssignment_resident_15_OR25 + ResidentAssignment_resident_15_OR26
+ + ResidentAssignment_resident_15_OR27 + ResidentAssignment_resident_15_OR28
+ + ResidentAssignment_resident_15_OR29 + ResidentAssignment_resident_15_OR3
+ + ResidentAssignment_resident_15_OR30 + ResidentAssignment_resident_15_OR31
+ + ResidentAssignment_resident_15_OR32 + ResidentAssignment_resident_15_OR33
+ + ResidentAssignment_resident_15_OR34 + ResidentAssignment_resident_15_OR35
+ + ResidentAssignment_resident_15_OR36 + ResidentAssignment_resident_15_OR37
+ + ResidentAssignment_resident_15_OR38 + ResidentAssignment_resident_15_OR39
+ + ResidentAssignment_resident_15_OR4 + ResidentAssignment_resident_15_OR5
+ + ResidentAssignment_resident_15_OR6 + ResidentAssignment_resident_15_OR7
+ + ResidentAssignment_resident_15_OR8 + ResidentAssignment_resident_15_OR9
+ <= 1
+_C17: ResidentAssignment_resident_16_OR0 + ResidentAssignment_resident_16_OR1
+ + ResidentAssignment_resident_16_OR10 + ResidentAssignment_resident_16_OR11
+ + ResidentAssignment_resident_16_OR12 + ResidentAssignment_resident_16_OR13
+ + ResidentAssignment_resident_16_OR14 + ResidentAssignment_resident_16_OR15
+ + ResidentAssignment_resident_16_OR16 + ResidentAssignment_resident_16_OR17
+ + ResidentAssignment_resident_16_OR18 + ResidentAssignment_resident_16_OR19
+ + ResidentAssignment_resident_16_OR2 + ResidentAssignment_resident_16_OR20
+ + ResidentAssignment_resident_16_OR21 + ResidentAssignment_resident_16_OR22
+ + ResidentAssignment_resident_16_OR23 + ResidentAssignment_resident_16_OR24
+ + ResidentAssignment_resident_16_OR25 + ResidentAssignment_resident_16_OR26
+ + ResidentAssignment_resident_16_OR27 + ResidentAssignment_resident_16_OR28
+ + ResidentAssignment_resident_16_OR29 + ResidentAssignment_resident_16_OR3
+ + ResidentAssignment_resident_16_OR30 + ResidentAssignment_resident_16_OR31
+ + ResidentAssignment_resident_16_OR32 + ResidentAssignment_resident_16_OR33
+ + ResidentAssignment_resident_16_OR34 + ResidentAssignment_resident_16_OR35
+ + ResidentAssignment_resident_16_OR36 + ResidentAssignment_resident_16_OR37
+ + ResidentAssignment_resident_16_OR38 + ResidentAssignment_resident_16_OR39
+ + ResidentAssignment_resident_16_OR4 + ResidentAssignment_resident_16_OR5
+ + ResidentAssignment_resident_16_OR6 + ResidentAssignment_resident_16_OR7
+ + ResidentAssignment_resident_16_OR8 + ResidentAssignment_resident_16_OR9
+ <= 1
+_C18: ResidentAssignment_resident_17_OR0 + ResidentAssignment_resident_17_OR1
+ + ResidentAssignment_resident_17_OR10 + ResidentAssignment_resident_17_OR11
+ + ResidentAssignment_resident_17_OR12 + ResidentAssignment_resident_17_OR13
+ + ResidentAssignment_resident_17_OR14 + ResidentAssignment_resident_17_OR15
+ + ResidentAssignment_resident_17_OR16 + ResidentAssignment_resident_17_OR17
+ + ResidentAssignment_resident_17_OR18 + ResidentAssignment_resident_17_OR19
+ + ResidentAssignment_resident_17_OR2 + ResidentAssignment_resident_17_OR20
+ + ResidentAssignment_resident_17_OR21 + ResidentAssignment_resident_17_OR22
+ + ResidentAssignment_resident_17_OR23 + ResidentAssignment_resident_17_OR24
+ + ResidentAssignment_resident_17_OR25 + ResidentAssignment_resident_17_OR26
+ + ResidentAssignment_resident_17_OR27 + ResidentAssignment_resident_17_OR28
+ + ResidentAssignment_resident_17_OR29 + ResidentAssignment_resident_17_OR3
+ + ResidentAssignment_resident_17_OR30 + ResidentAssignment_resident_17_OR31
+ + ResidentAssignment_resident_17_OR32 + ResidentAssignment_resident_17_OR33
+ + ResidentAssignment_resident_17_OR34 + ResidentAssignment_resident_17_OR35
+ + ResidentAssignment_resident_17_OR36 + ResidentAssignment_resident_17_OR37
+ + ResidentAssignment_resident_17_OR38 + ResidentAssignment_resident_17_OR39
+ + ResidentAssignment_resident_17_OR4 + ResidentAssignment_resident_17_OR5
+ + ResidentAssignment_resident_17_OR6 + ResidentAssignment_resident_17_OR7
+ + ResidentAssignment_resident_17_OR8 + ResidentAssignment_resident_17_OR9
+ <= 1
+_C19: ResidentAssignment_resident_18_OR0 + ResidentAssignment_resident_18_OR1
+ + ResidentAssignment_resident_18_OR10 + ResidentAssignment_resident_18_OR11
+ + ResidentAssignment_resident_18_OR12 + ResidentAssignment_resident_18_OR13
+ + ResidentAssignment_resident_18_OR14 + ResidentAssignment_resident_18_OR15
+ + ResidentAssignment_resident_18_OR16 + ResidentAssignment_resident_18_OR17
+ + ResidentAssignment_resident_18_OR18 + ResidentAssignment_resident_18_OR19
+ + ResidentAssignment_resident_18_OR2 + ResidentAssignment_resident_18_OR20
+ + ResidentAssignment_resident_18_OR21 + ResidentAssignment_resident_18_OR22
+ + ResidentAssignment_resident_18_OR23 + ResidentAssignment_resident_18_OR24
+ + ResidentAssignment_resident_18_OR25 + ResidentAssignment_resident_18_OR26
+ + ResidentAssignment_resident_18_OR27 + ResidentAssignment_resident_18_OR28
+ + ResidentAssignment_resident_18_OR29 + ResidentAssignment_resident_18_OR3
+ + ResidentAssignment_resident_18_OR30 + ResidentAssignment_resident_18_OR31
+ + ResidentAssignment_resident_18_OR32 + ResidentAssignment_resident_18_OR33
+ + ResidentAssignment_resident_18_OR34 + ResidentAssignment_resident_18_OR35
+ + ResidentAssignment_resident_18_OR36 + ResidentAssignment_resident_18_OR37
+ + ResidentAssignment_resident_18_OR38 + ResidentAssignment_resident_18_OR39
+ + ResidentAssignment_resident_18_OR4 + ResidentAssignment_resident_18_OR5
+ + ResidentAssignment_resident_18_OR6 + ResidentAssignment_resident_18_OR7
+ + ResidentAssignment_resident_18_OR8 + ResidentAssignment_resident_18_OR9
+ <= 1
+_C2: ResidentAssignment_resident_1_OR0 + ResidentAssignment_resident_1_OR1
+ + ResidentAssignment_resident_1_OR10 + ResidentAssignment_resident_1_OR11
+ + ResidentAssignment_resident_1_OR12 + ResidentAssignment_resident_1_OR13
+ + ResidentAssignment_resident_1_OR14 + ResidentAssignment_resident_1_OR15
+ + ResidentAssignment_resident_1_OR16 + ResidentAssignment_resident_1_OR17
+ + ResidentAssignment_resident_1_OR18 + ResidentAssignment_resident_1_OR19
+ + ResidentAssignment_resident_1_OR2 + ResidentAssignment_resident_1_OR20
+ + ResidentAssignment_resident_1_OR21 + ResidentAssignment_resident_1_OR22
+ + ResidentAssignment_resident_1_OR23 + ResidentAssignment_resident_1_OR24
+ + ResidentAssignment_resident_1_OR25 + ResidentAssignment_resident_1_OR26
+ + ResidentAssignment_resident_1_OR27 + ResidentAssignment_resident_1_OR28
+ + ResidentAssignment_resident_1_OR29 + ResidentAssignment_resident_1_OR3
+ + ResidentAssignment_resident_1_OR30 + ResidentAssignment_resident_1_OR31
+ + ResidentAssignment_resident_1_OR32 + ResidentAssignment_resident_1_OR33
+ + ResidentAssignment_resident_1_OR34 + ResidentAssignment_resident_1_OR35
+ + ResidentAssignment_resident_1_OR36 + ResidentAssignment_resident_1_OR37
+ + ResidentAssignment_resident_1_OR38 + ResidentAssignment_resident_1_OR39
+ + ResidentAssignment_resident_1_OR4 + ResidentAssignment_resident_1_OR5
+ + ResidentAssignment_resident_1_OR6 + ResidentAssignment_resident_1_OR7
+ + ResidentAssignment_resident_1_OR8 + ResidentAssignment_resident_1_OR9 <= 1
+_C20: ResidentAssignment_resident_19_OR0 + ResidentAssignment_resident_19_OR1
+ + ResidentAssignment_resident_19_OR10 + ResidentAssignment_resident_19_OR11
+ + ResidentAssignment_resident_19_OR12 + ResidentAssignment_resident_19_OR13
+ + ResidentAssignment_resident_19_OR14 + ResidentAssignment_resident_19_OR15
+ + ResidentAssignment_resident_19_OR16 + ResidentAssignment_resident_19_OR17
+ + ResidentAssignment_resident_19_OR18 + ResidentAssignment_resident_19_OR19
+ + ResidentAssignment_resident_19_OR2 + ResidentAssignment_resident_19_OR20
+ + ResidentAssignment_resident_19_OR21 + ResidentAssignment_resident_19_OR22
+ + ResidentAssignment_resident_19_OR23 + ResidentAssignment_resident_19_OR24
+ + ResidentAssignment_resident_19_OR25 + ResidentAssignment_resident_19_OR26
+ + ResidentAssignment_resident_19_OR27 + ResidentAssignment_resident_19_OR28
+ + ResidentAssignment_resident_19_OR29 + ResidentAssignment_resident_19_OR3
+ + ResidentAssignment_resident_19_OR30 + ResidentAssignment_resident_19_OR31
+ + ResidentAssignment_resident_19_OR32 + ResidentAssignment_resident_19_OR33
+ + ResidentAssignment_resident_19_OR34 + ResidentAssignment_resident_19_OR35
+ + ResidentAssignment_resident_19_OR36 + ResidentAssignment_resident_19_OR37
+ + ResidentAssignment_resident_19_OR38 + ResidentAssignment_resident_19_OR39
+ + ResidentAssignment_resident_19_OR4 + ResidentAssignment_resident_19_OR5
+ + ResidentAssignment_resident_19_OR6 + ResidentAssignment_resident_19_OR7
+ + ResidentAssignment_resident_19_OR8 + ResidentAssignment_resident_19_OR9
+ <= 1
+_C21: ResidentAssignment_resident_20_OR0 + ResidentAssignment_resident_20_OR1
+ + ResidentAssignment_resident_20_OR10 + ResidentAssignment_resident_20_OR11
+ + ResidentAssignment_resident_20_OR12 + ResidentAssignment_resident_20_OR13
+ + ResidentAssignment_resident_20_OR14 + ResidentAssignment_resident_20_OR15
+ + ResidentAssignment_resident_20_OR16 + ResidentAssignment_resident_20_OR17
+ + ResidentAssignment_resident_20_OR18 + ResidentAssignment_resident_20_OR19
+ + ResidentAssignment_resident_20_OR2 + ResidentAssignment_resident_20_OR20
+ + ResidentAssignment_resident_20_OR21 + ResidentAssignment_resident_20_OR22
+ + ResidentAssignment_resident_20_OR23 + ResidentAssignment_resident_20_OR24
+ + ResidentAssignment_resident_20_OR25 + ResidentAssignment_resident_20_OR26
+ + ResidentAssignment_resident_20_OR27 + ResidentAssignment_resident_20_OR28
+ + ResidentAssignment_resident_20_OR29 + ResidentAssignment_resident_20_OR3
+ + ResidentAssignment_resident_20_OR30 + ResidentAssignment_resident_20_OR31
+ + ResidentAssignment_resident_20_OR32 + ResidentAssignment_resident_20_OR33
+ + ResidentAssignment_resident_20_OR34 + ResidentAssignment_resident_20_OR35
+ + ResidentAssignment_resident_20_OR36 + ResidentAssignment_resident_20_OR37
+ + ResidentAssignment_resident_20_OR38 + ResidentAssignment_resident_20_OR39
+ + ResidentAssignment_resident_20_OR4 + ResidentAssignment_resident_20_OR5
+ + ResidentAssignment_resident_20_OR6 + ResidentAssignment_resident_20_OR7
+ + ResidentAssignment_resident_20_OR8 + ResidentAssignment_resident_20_OR9
+ <= 1
+_C22: ResidentAssignment_resident_21_OR0 + ResidentAssignment_resident_21_OR1
+ + ResidentAssignment_resident_21_OR10 + ResidentAssignment_resident_21_OR11
+ + ResidentAssignment_resident_21_OR12 + ResidentAssignment_resident_21_OR13
+ + ResidentAssignment_resident_21_OR14 + ResidentAssignment_resident_21_OR15
+ + ResidentAssignment_resident_21_OR16 + ResidentAssignment_resident_21_OR17
+ + ResidentAssignment_resident_21_OR18 + ResidentAssignment_resident_21_OR19
+ + ResidentAssignment_resident_21_OR2 + ResidentAssignment_resident_21_OR20
+ + ResidentAssignment_resident_21_OR21 + ResidentAssignment_resident_21_OR22
+ + ResidentAssignment_resident_21_OR23 + ResidentAssignment_resident_21_OR24
+ + ResidentAssignment_resident_21_OR25 + ResidentAssignment_resident_21_OR26
+ + ResidentAssignment_resident_21_OR27 + ResidentAssignment_resident_21_OR28
+ + ResidentAssignment_resident_21_OR29 + ResidentAssignment_resident_21_OR3
+ + ResidentAssignment_resident_21_OR30 + ResidentAssignment_resident_21_OR31
+ + ResidentAssignment_resident_21_OR32 + ResidentAssignment_resident_21_OR33
+ + ResidentAssignment_resident_21_OR34 + ResidentAssignment_resident_21_OR35
+ + ResidentAssignment_resident_21_OR36 + ResidentAssignment_resident_21_OR37
+ + ResidentAssignment_resident_21_OR38 + ResidentAssignment_resident_21_OR39
+ + ResidentAssignment_resident_21_OR4 + ResidentAssignment_resident_21_OR5
+ + ResidentAssignment_resident_21_OR6 + ResidentAssignment_resident_21_OR7
+ + ResidentAssignment_resident_21_OR8 + ResidentAssignment_resident_21_OR9
+ <= 1
+_C23: ResidentAssignment_resident_22_OR0 + ResidentAssignment_resident_22_OR1
+ + ResidentAssignment_resident_22_OR10 + ResidentAssignment_resident_22_OR11
+ + ResidentAssignment_resident_22_OR12 + ResidentAssignment_resident_22_OR13
+ + ResidentAssignment_resident_22_OR14 + ResidentAssignment_resident_22_OR15
+ + ResidentAssignment_resident_22_OR16 + ResidentAssignment_resident_22_OR17
+ + ResidentAssignment_resident_22_OR18 + ResidentAssignment_resident_22_OR19
+ + ResidentAssignment_resident_22_OR2 + ResidentAssignment_resident_22_OR20
+ + ResidentAssignment_resident_22_OR21 + ResidentAssignment_resident_22_OR22
+ + ResidentAssignment_resident_22_OR23 + ResidentAssignment_resident_22_OR24
+ + ResidentAssignment_resident_22_OR25 + ResidentAssignment_resident_22_OR26
+ + ResidentAssignment_resident_22_OR27 + ResidentAssignment_resident_22_OR28
+ + ResidentAssignment_resident_22_OR29 + ResidentAssignment_resident_22_OR3
+ + ResidentAssignment_resident_22_OR30 + ResidentAssignment_resident_22_OR31
+ + ResidentAssignment_resident_22_OR32 + ResidentAssignment_resident_22_OR33
+ + ResidentAssignment_resident_22_OR34 + ResidentAssignment_resident_22_OR35
+ + ResidentAssignment_resident_22_OR36 + ResidentAssignment_resident_22_OR37
+ + ResidentAssignment_resident_22_OR38 + ResidentAssignment_resident_22_OR39
+ + ResidentAssignment_resident_22_OR4 + ResidentAssignment_resident_22_OR5
+ + ResidentAssignment_resident_22_OR6 + ResidentAssignment_resident_22_OR7
+ + ResidentAssignment_resident_22_OR8 + ResidentAssignment_resident_22_OR9
+ <= 1
+_C24: ResidentAssignment_resident_23_OR0 + ResidentAssignment_resident_23_OR1
+ + ResidentAssignment_resident_23_OR10 + ResidentAssignment_resident_23_OR11
+ + ResidentAssignment_resident_23_OR12 + ResidentAssignment_resident_23_OR13
+ + ResidentAssignment_resident_23_OR14 + ResidentAssignment_resident_23_OR15
+ + ResidentAssignment_resident_23_OR16 + ResidentAssignment_resident_23_OR17
+ + ResidentAssignment_resident_23_OR18 + ResidentAssignment_resident_23_OR19
+ + ResidentAssignment_resident_23_OR2 + ResidentAssignment_resident_23_OR20
+ + ResidentAssignment_resident_23_OR21 + ResidentAssignment_resident_23_OR22
+ + ResidentAssignment_resident_23_OR23 + ResidentAssignment_resident_23_OR24
+ + ResidentAssignment_resident_23_OR25 + ResidentAssignment_resident_23_OR26
+ + ResidentAssignment_resident_23_OR27 + ResidentAssignment_resident_23_OR28
+ + ResidentAssignment_resident_23_OR29 + ResidentAssignment_resident_23_OR3
+ + ResidentAssignment_resident_23_OR30 + ResidentAssignment_resident_23_OR31
+ + ResidentAssignment_resident_23_OR32 + ResidentAssignment_resident_23_OR33
+ + ResidentAssignment_resident_23_OR34 + ResidentAssignment_resident_23_OR35
+ + ResidentAssignment_resident_23_OR36 + ResidentAssignment_resident_23_OR37
+ + ResidentAssignment_resident_23_OR38 + ResidentAssignment_resident_23_OR39
+ + ResidentAssignment_resident_23_OR4 + ResidentAssignment_resident_23_OR5
+ + ResidentAssignment_resident_23_OR6 + ResidentAssignment_resident_23_OR7
+ + ResidentAssignment_resident_23_OR8 + ResidentAssignment_resident_23_OR9
+ <= 1
+_C25: ResidentAssignment_resident_24_OR0 + ResidentAssignment_resident_24_OR1
+ + ResidentAssignment_resident_24_OR10 + ResidentAssignment_resident_24_OR11
+ + ResidentAssignment_resident_24_OR12 + ResidentAssignment_resident_24_OR13
+ + ResidentAssignment_resident_24_OR14 + ResidentAssignment_resident_24_OR15
+ + ResidentAssignment_resident_24_OR16 + ResidentAssignment_resident_24_OR17
+ + ResidentAssignment_resident_24_OR18 + ResidentAssignment_resident_24_OR19
+ + ResidentAssignment_resident_24_OR2 + ResidentAssignment_resident_24_OR20
+ + ResidentAssignment_resident_24_OR21 + ResidentAssignment_resident_24_OR22
+ + ResidentAssignment_resident_24_OR23 + ResidentAssignment_resident_24_OR24
+ + ResidentAssignment_resident_24_OR25 + ResidentAssignment_resident_24_OR26
+ + ResidentAssignment_resident_24_OR27 + ResidentAssignment_resident_24_OR28
+ + ResidentAssignment_resident_24_OR29 + ResidentAssignment_resident_24_OR3
+ + ResidentAssignment_resident_24_OR30 + ResidentAssignment_resident_24_OR31
+ + ResidentAssignment_resident_24_OR32 + ResidentAssignment_resident_24_OR33
+ + ResidentAssignment_resident_24_OR34 + ResidentAssignment_resident_24_OR35
+ + ResidentAssignment_resident_24_OR36 + ResidentAssignment_resident_24_OR37
+ + ResidentAssignment_resident_24_OR38 + ResidentAssignment_resident_24_OR39
+ + ResidentAssignment_resident_24_OR4 + ResidentAssignment_resident_24_OR5
+ + ResidentAssignment_resident_24_OR6 + ResidentAssignment_resident_24_OR7
+ + ResidentAssignment_resident_24_OR8 + ResidentAssignment_resident_24_OR9
+ <= 1
+_C26: ResidentAssignment_resident_25_OR0 + ResidentAssignment_resident_25_OR1
+ + ResidentAssignment_resident_25_OR10 + ResidentAssignment_resident_25_OR11
+ + ResidentAssignment_resident_25_OR12 + ResidentAssignment_resident_25_OR13
+ + ResidentAssignment_resident_25_OR14 + ResidentAssignment_resident_25_OR15
+ + ResidentAssignment_resident_25_OR16 + ResidentAssignment_resident_25_OR17
+ + ResidentAssignment_resident_25_OR18 + ResidentAssignment_resident_25_OR19
+ + ResidentAssignment_resident_25_OR2 + ResidentAssignment_resident_25_OR20
+ + ResidentAssignment_resident_25_OR21 + ResidentAssignment_resident_25_OR22
+ + ResidentAssignment_resident_25_OR23 + ResidentAssignment_resident_25_OR24
+ + ResidentAssignment_resident_25_OR25 + ResidentAssignment_resident_25_OR26
+ + ResidentAssignment_resident_25_OR27 + ResidentAssignment_resident_25_OR28
+ + ResidentAssignment_resident_25_OR29 + ResidentAssignment_resident_25_OR3
+ + ResidentAssignment_resident_25_OR30 + ResidentAssignment_resident_25_OR31
+ + ResidentAssignment_resident_25_OR32 + ResidentAssignment_resident_25_OR33
+ + ResidentAssignment_resident_25_OR34 + ResidentAssignment_resident_25_OR35
+ + ResidentAssignment_resident_25_OR36 + ResidentAssignment_resident_25_OR37
+ + ResidentAssignment_resident_25_OR38 + ResidentAssignment_resident_25_OR39
+ + ResidentAssignment_resident_25_OR4 + ResidentAssignment_resident_25_OR5
+ + ResidentAssignment_resident_25_OR6 + ResidentAssignment_resident_25_OR7
+ + ResidentAssignment_resident_25_OR8 + ResidentAssignment_resident_25_OR9
+ <= 1
+_C27: ResidentAssignment_resident_26_OR0 + ResidentAssignment_resident_26_OR1
+ + ResidentAssignment_resident_26_OR10 + ResidentAssignment_resident_26_OR11
+ + ResidentAssignment_resident_26_OR12 + ResidentAssignment_resident_26_OR13
+ + ResidentAssignment_resident_26_OR14 + ResidentAssignment_resident_26_OR15
+ + ResidentAssignment_resident_26_OR16 + ResidentAssignment_resident_26_OR17
+ + ResidentAssignment_resident_26_OR18 + ResidentAssignment_resident_26_OR19
+ + ResidentAssignment_resident_26_OR2 + ResidentAssignment_resident_26_OR20
+ + ResidentAssignment_resident_26_OR21 + ResidentAssignment_resident_26_OR22
+ + ResidentAssignment_resident_26_OR23 + ResidentAssignment_resident_26_OR24
+ + ResidentAssignment_resident_26_OR25 + ResidentAssignment_resident_26_OR26
+ + ResidentAssignment_resident_26_OR27 + ResidentAssignment_resident_26_OR28
+ + ResidentAssignment_resident_26_OR29 + ResidentAssignment_resident_26_OR3
+ + ResidentAssignment_resident_26_OR30 + ResidentAssignment_resident_26_OR31
+ + ResidentAssignment_resident_26_OR32 + ResidentAssignment_resident_26_OR33
+ + ResidentAssignment_resident_26_OR34 + ResidentAssignment_resident_26_OR35
+ + ResidentAssignment_resident_26_OR36 + ResidentAssignment_resident_26_OR37
+ + ResidentAssignment_resident_26_OR38 + ResidentAssignment_resident_26_OR39
+ + ResidentAssignment_resident_26_OR4 + ResidentAssignment_resident_26_OR5
+ + ResidentAssignment_resident_26_OR6 + ResidentAssignment_resident_26_OR7
+ + ResidentAssignment_resident_26_OR8 + ResidentAssignment_resident_26_OR9
+ <= 1
+_C28: ResidentAssignment_resident_27_OR0 + ResidentAssignment_resident_27_OR1
+ + ResidentAssignment_resident_27_OR10 + ResidentAssignment_resident_27_OR11
+ + ResidentAssignment_resident_27_OR12 + ResidentAssignment_resident_27_OR13
+ + ResidentAssignment_resident_27_OR14 + ResidentAssignment_resident_27_OR15
+ + ResidentAssignment_resident_27_OR16 + ResidentAssignment_resident_27_OR17
+ + ResidentAssignment_resident_27_OR18 + ResidentAssignment_resident_27_OR19
+ + ResidentAssignment_resident_27_OR2 + ResidentAssignment_resident_27_OR20
+ + ResidentAssignment_resident_27_OR21 + ResidentAssignment_resident_27_OR22
+ + ResidentAssignment_resident_27_OR23 + ResidentAssignment_resident_27_OR24
+ + ResidentAssignment_resident_27_OR25 + ResidentAssignment_resident_27_OR26
+ + ResidentAssignment_resident_27_OR27 + ResidentAssignment_resident_27_OR28
+ + ResidentAssignment_resident_27_OR29 + ResidentAssignment_resident_27_OR3
+ + ResidentAssignment_resident_27_OR30 + ResidentAssignment_resident_27_OR31
+ + ResidentAssignment_resident_27_OR32 + ResidentAssignment_resident_27_OR33
+ + ResidentAssignment_resident_27_OR34 + ResidentAssignment_resident_27_OR35
+ + ResidentAssignment_resident_27_OR36 + ResidentAssignment_resident_27_OR37
+ + ResidentAssignment_resident_27_OR38 + ResidentAssignment_resident_27_OR39
+ + ResidentAssignment_resident_27_OR4 + ResidentAssignment_resident_27_OR5
+ + ResidentAssignment_resident_27_OR6 + ResidentAssignment_resident_27_OR7
+ + ResidentAssignment_resident_27_OR8 + ResidentAssignment_resident_27_OR9
+ <= 1
+_C29: ResidentAssignment_resident_28_OR0 + ResidentAssignment_resident_28_OR1
+ + ResidentAssignment_resident_28_OR10 + ResidentAssignment_resident_28_OR11
+ + ResidentAssignment_resident_28_OR12 + ResidentAssignment_resident_28_OR13
+ + ResidentAssignment_resident_28_OR14 + ResidentAssignment_resident_28_OR15
+ + ResidentAssignment_resident_28_OR16 + ResidentAssignment_resident_28_OR17
+ + ResidentAssignment_resident_28_OR18 + ResidentAssignment_resident_28_OR19
+ + ResidentAssignment_resident_28_OR2 + ResidentAssignment_resident_28_OR20
+ + ResidentAssignment_resident_28_OR21 + ResidentAssignment_resident_28_OR22
+ + ResidentAssignment_resident_28_OR23 + ResidentAssignment_resident_28_OR24
+ + ResidentAssignment_resident_28_OR25 + ResidentAssignment_resident_28_OR26
+ + ResidentAssignment_resident_28_OR27 + ResidentAssignment_resident_28_OR28
+ + ResidentAssignment_resident_28_OR29 + ResidentAssignment_resident_28_OR3
+ + ResidentAssignment_resident_28_OR30 + ResidentAssignment_resident_28_OR31
+ + ResidentAssignment_resident_28_OR32 + ResidentAssignment_resident_28_OR33
+ + ResidentAssignment_resident_28_OR34 + ResidentAssignment_resident_28_OR35
+ + ResidentAssignment_resident_28_OR36 + ResidentAssignment_resident_28_OR37
+ + ResidentAssignment_resident_28_OR38 + ResidentAssignment_resident_28_OR39
+ + ResidentAssignment_resident_28_OR4 + ResidentAssignment_resident_28_OR5
+ + ResidentAssignment_resident_28_OR6 + ResidentAssignment_resident_28_OR7
+ + ResidentAssignment_resident_28_OR8 + ResidentAssignment_resident_28_OR9
+ <= 1
+_C3: ResidentAssignment_resident_2_OR0 + ResidentAssignment_resident_2_OR1
+ + ResidentAssignment_resident_2_OR10 + ResidentAssignment_resident_2_OR11
+ + ResidentAssignment_resident_2_OR12 + ResidentAssignment_resident_2_OR13
+ + ResidentAssignment_resident_2_OR14 + ResidentAssignment_resident_2_OR15
+ + ResidentAssignment_resident_2_OR16 + ResidentAssignment_resident_2_OR17
+ + ResidentAssignment_resident_2_OR18 + ResidentAssignment_resident_2_OR19
+ + ResidentAssignment_resident_2_OR2 + ResidentAssignment_resident_2_OR20
+ + ResidentAssignment_resident_2_OR21 + ResidentAssignment_resident_2_OR22
+ + ResidentAssignment_resident_2_OR23 + ResidentAssignment_resident_2_OR24
+ + ResidentAssignment_resident_2_OR25 + ResidentAssignment_resident_2_OR26
+ + ResidentAssignment_resident_2_OR27 + ResidentAssignment_resident_2_OR28
+ + ResidentAssignment_resident_2_OR29 + ResidentAssignment_resident_2_OR3
+ + ResidentAssignment_resident_2_OR30 + ResidentAssignment_resident_2_OR31
+ + ResidentAssignment_resident_2_OR32 + ResidentAssignment_resident_2_OR33
+ + ResidentAssignment_resident_2_OR34 + ResidentAssignment_resident_2_OR35
+ + ResidentAssignment_resident_2_OR36 + ResidentAssignment_resident_2_OR37
+ + ResidentAssignment_resident_2_OR38 + ResidentAssignment_resident_2_OR39
+ + ResidentAssignment_resident_2_OR4 + ResidentAssignment_resident_2_OR5
+ + ResidentAssignment_resident_2_OR6 + ResidentAssignment_resident_2_OR7
+ + ResidentAssignment_resident_2_OR8 + ResidentAssignment_resident_2_OR9 <= 1
+_C30: ResidentAssignment_resident_29_OR0 + ResidentAssignment_resident_29_OR1
+ + ResidentAssignment_resident_29_OR10 + ResidentAssignment_resident_29_OR11
+ + ResidentAssignment_resident_29_OR12 + ResidentAssignment_resident_29_OR13
+ + ResidentAssignment_resident_29_OR14 + ResidentAssignment_resident_29_OR15
+ + ResidentAssignment_resident_29_OR16 + ResidentAssignment_resident_29_OR17
+ + ResidentAssignment_resident_29_OR18 + ResidentAssignment_resident_29_OR19
+ + ResidentAssignment_resident_29_OR2 + ResidentAssignment_resident_29_OR20
+ + ResidentAssignment_resident_29_OR21 + ResidentAssignment_resident_29_OR22
+ + ResidentAssignment_resident_29_OR23 + ResidentAssignment_resident_29_OR24
+ + ResidentAssignment_resident_29_OR25 + ResidentAssignment_resident_29_OR26
+ + ResidentAssignment_resident_29_OR27 + ResidentAssignment_resident_29_OR28
+ + ResidentAssignment_resident_29_OR29 + ResidentAssignment_resident_29_OR3
+ + ResidentAssignment_resident_29_OR30 + ResidentAssignment_resident_29_OR31
+ + ResidentAssignment_resident_29_OR32 + ResidentAssignment_resident_29_OR33
+ + ResidentAssignment_resident_29_OR34 + ResidentAssignment_resident_29_OR35
+ + ResidentAssignment_resident_29_OR36 + ResidentAssignment_resident_29_OR37
+ + ResidentAssignment_resident_29_OR38 + ResidentAssignment_resident_29_OR39
+ + ResidentAssignment_resident_29_OR4 + ResidentAssignment_resident_29_OR5
+ + ResidentAssignment_resident_29_OR6 + ResidentAssignment_resident_29_OR7
+ + ResidentAssignment_resident_29_OR8 + ResidentAssignment_resident_29_OR9
+ <= 1
+_C31: ResidentAssignment_resident_30_OR0 + ResidentAssignment_resident_30_OR1
+ + ResidentAssignment_resident_30_OR10 + ResidentAssignment_resident_30_OR11
+ + ResidentAssignment_resident_30_OR12 + ResidentAssignment_resident_30_OR13
+ + ResidentAssignment_resident_30_OR14 + ResidentAssignment_resident_30_OR15
+ + ResidentAssignment_resident_30_OR16 + ResidentAssignment_resident_30_OR17
+ + ResidentAssignment_resident_30_OR18 + ResidentAssignment_resident_30_OR19
+ + ResidentAssignment_resident_30_OR2 + ResidentAssignment_resident_30_OR20
+ + ResidentAssignment_resident_30_OR21 + ResidentAssignment_resident_30_OR22
+ + ResidentAssignment_resident_30_OR23 + ResidentAssignment_resident_30_OR24
+ + ResidentAssignment_resident_30_OR25 + ResidentAssignment_resident_30_OR26
+ + ResidentAssignment_resident_30_OR27 + ResidentAssignment_resident_30_OR28
+ + ResidentAssignment_resident_30_OR29 + ResidentAssignment_resident_30_OR3
+ + ResidentAssignment_resident_30_OR30 + ResidentAssignment_resident_30_OR31
+ + ResidentAssignment_resident_30_OR32 + ResidentAssignment_resident_30_OR33
+ + ResidentAssignment_resident_30_OR34 + ResidentAssignment_resident_30_OR35
+ + ResidentAssignment_resident_30_OR36 + ResidentAssignment_resident_30_OR37
+ + ResidentAssignment_resident_30_OR38 + ResidentAssignment_resident_30_OR39
+ + ResidentAssignment_resident_30_OR4 + ResidentAssignment_resident_30_OR5
+ + ResidentAssignment_resident_30_OR6 + ResidentAssignment_resident_30_OR7
+ + ResidentAssignment_resident_30_OR8 + ResidentAssignment_resident_30_OR9
+ <= 1
+_C32: ResidentAssignment_resident_31_OR0 + ResidentAssignment_resident_31_OR1
+ + ResidentAssignment_resident_31_OR10 + ResidentAssignment_resident_31_OR11
+ + ResidentAssignment_resident_31_OR12 + ResidentAssignment_resident_31_OR13
+ + ResidentAssignment_resident_31_OR14 + ResidentAssignment_resident_31_OR15
+ + ResidentAssignment_resident_31_OR16 + ResidentAssignment_resident_31_OR17
+ + ResidentAssignment_resident_31_OR18 + ResidentAssignment_resident_31_OR19
+ + ResidentAssignment_resident_31_OR2 + ResidentAssignment_resident_31_OR20
+ + ResidentAssignment_resident_31_OR21 + ResidentAssignment_resident_31_OR22
+ + ResidentAssignment_resident_31_OR23 + ResidentAssignment_resident_31_OR24
+ + ResidentAssignment_resident_31_OR25 + ResidentAssignment_resident_31_OR26
+ + ResidentAssignment_resident_31_OR27 + ResidentAssignment_resident_31_OR28
+ + ResidentAssignment_resident_31_OR29 + ResidentAssignment_resident_31_OR3
+ + ResidentAssignment_resident_31_OR30 + ResidentAssignment_resident_31_OR31
+ + ResidentAssignment_resident_31_OR32 + ResidentAssignment_resident_31_OR33
+ + ResidentAssignment_resident_31_OR34 + ResidentAssignment_resident_31_OR35
+ + ResidentAssignment_resident_31_OR36 + ResidentAssignment_resident_31_OR37
+ + ResidentAssignment_resident_31_OR38 + ResidentAssignment_resident_31_OR39
+ + ResidentAssignment_resident_31_OR4 + ResidentAssignment_resident_31_OR5
+ + ResidentAssignment_resident_31_OR6 + ResidentAssignment_resident_31_OR7
+ + ResidentAssignment_resident_31_OR8 + ResidentAssignment_resident_31_OR9
+ <= 1
+_C33: ResidentAssignment_resident_32_OR0 + ResidentAssignment_resident_32_OR1
+ + ResidentAssignment_resident_32_OR10 + ResidentAssignment_resident_32_OR11
+ + ResidentAssignment_resident_32_OR12 + ResidentAssignment_resident_32_OR13
+ + ResidentAssignment_resident_32_OR14 + ResidentAssignment_resident_32_OR15
+ + ResidentAssignment_resident_32_OR16 + ResidentAssignment_resident_32_OR17
+ + ResidentAssignment_resident_32_OR18 + ResidentAssignment_resident_32_OR19
+ + ResidentAssignment_resident_32_OR2 + ResidentAssignment_resident_32_OR20
+ + ResidentAssignment_resident_32_OR21 + ResidentAssignment_resident_32_OR22
+ + ResidentAssignment_resident_32_OR23 + ResidentAssignment_resident_32_OR24
+ + ResidentAssignment_resident_32_OR25 + ResidentAssignment_resident_32_OR26
+ + ResidentAssignment_resident_32_OR27 + ResidentAssignment_resident_32_OR28
+ + ResidentAssignment_resident_32_OR29 + ResidentAssignment_resident_32_OR3
+ + ResidentAssignment_resident_32_OR30 + ResidentAssignment_resident_32_OR31
+ + ResidentAssignment_resident_32_OR32 + ResidentAssignment_resident_32_OR33
+ + ResidentAssignment_resident_32_OR34 + ResidentAssignment_resident_32_OR35
+ + ResidentAssignment_resident_32_OR36 + ResidentAssignment_resident_32_OR37
+ + ResidentAssignment_resident_32_OR38 + ResidentAssignment_resident_32_OR39
+ + ResidentAssignment_resident_32_OR4 + ResidentAssignment_resident_32_OR5
+ + ResidentAssignment_resident_32_OR6 + ResidentAssignment_resident_32_OR7
+ + ResidentAssignment_resident_32_OR8 + ResidentAssignment_resident_32_OR9
+ <= 1
+_C34: ResidentAssignment_resident_33_OR0 + ResidentAssignment_resident_33_OR1
+ + ResidentAssignment_resident_33_OR10 + ResidentAssignment_resident_33_OR11
+ + ResidentAssignment_resident_33_OR12 + ResidentAssignment_resident_33_OR13
+ + ResidentAssignment_resident_33_OR14 + ResidentAssignment_resident_33_OR15
+ + ResidentAssignment_resident_33_OR16 + ResidentAssignment_resident_33_OR17
+ + ResidentAssignment_resident_33_OR18 + ResidentAssignment_resident_33_OR19
+ + ResidentAssignment_resident_33_OR2 + ResidentAssignment_resident_33_OR20
+ + ResidentAssignment_resident_33_OR21 + ResidentAssignment_resident_33_OR22
+ + ResidentAssignment_resident_33_OR23 + ResidentAssignment_resident_33_OR24
+ + ResidentAssignment_resident_33_OR25 + ResidentAssignment_resident_33_OR26
+ + ResidentAssignment_resident_33_OR27 + ResidentAssignment_resident_33_OR28
+ + ResidentAssignment_resident_33_OR29 + ResidentAssignment_resident_33_OR3
+ + ResidentAssignment_resident_33_OR30 + ResidentAssignment_resident_33_OR31
+ + ResidentAssignment_resident_33_OR32 + ResidentAssignment_resident_33_OR33
+ + ResidentAssignment_resident_33_OR34 + ResidentAssignment_resident_33_OR35
+ + ResidentAssignment_resident_33_OR36 + ResidentAssignment_resident_33_OR37
+ + ResidentAssignment_resident_33_OR38 + ResidentAssignment_resident_33_OR39
+ + ResidentAssignment_resident_33_OR4 + ResidentAssignment_resident_33_OR5
+ + ResidentAssignment_resident_33_OR6 + ResidentAssignment_resident_33_OR7
+ + ResidentAssignment_resident_33_OR8 + ResidentAssignment_resident_33_OR9
+ <= 1
+_C35: ResidentAssignment_resident_34_OR0 + ResidentAssignment_resident_34_OR1
+ + ResidentAssignment_resident_34_OR10 + ResidentAssignment_resident_34_OR11
+ + ResidentAssignment_resident_34_OR12 + ResidentAssignment_resident_34_OR13
+ + ResidentAssignment_resident_34_OR14 + ResidentAssignment_resident_34_OR15
+ + ResidentAssignment_resident_34_OR16 + ResidentAssignment_resident_34_OR17
+ + ResidentAssignment_resident_34_OR18 + ResidentAssignment_resident_34_OR19
+ + ResidentAssignment_resident_34_OR2 + ResidentAssignment_resident_34_OR20
+ + ResidentAssignment_resident_34_OR21 + ResidentAssignment_resident_34_OR22
+ + ResidentAssignment_resident_34_OR23 + ResidentAssignment_resident_34_OR24
+ + ResidentAssignment_resident_34_OR25 + ResidentAssignment_resident_34_OR26
+ + ResidentAssignment_resident_34_OR27 + ResidentAssignment_resident_34_OR28
+ + ResidentAssignment_resident_34_OR29 + ResidentAssignment_resident_34_OR3
+ + ResidentAssignment_resident_34_OR30 + ResidentAssignment_resident_34_OR31
+ + ResidentAssignment_resident_34_OR32 + ResidentAssignment_resident_34_OR33
+ + ResidentAssignment_resident_34_OR34 + ResidentAssignment_resident_34_OR35
+ + ResidentAssignment_resident_34_OR36 + ResidentAssignment_resident_34_OR37
+ + ResidentAssignment_resident_34_OR38 + ResidentAssignment_resident_34_OR39
+ + ResidentAssignment_resident_34_OR4 + ResidentAssignment_resident_34_OR5
+ + ResidentAssignment_resident_34_OR6 + ResidentAssignment_resident_34_OR7
+ + ResidentAssignment_resident_34_OR8 + ResidentAssignment_resident_34_OR9
+ <= 1
+_C36: ResidentAssignment_resident_35_OR0 + ResidentAssignment_resident_35_OR1
+ + ResidentAssignment_resident_35_OR10 + ResidentAssignment_resident_35_OR11
+ + ResidentAssignment_resident_35_OR12 + ResidentAssignment_resident_35_OR13
+ + ResidentAssignment_resident_35_OR14 + ResidentAssignment_resident_35_OR15
+ + ResidentAssignment_resident_35_OR16 + ResidentAssignment_resident_35_OR17
+ + ResidentAssignment_resident_35_OR18 + ResidentAssignment_resident_35_OR19
+ + ResidentAssignment_resident_35_OR2 + ResidentAssignment_resident_35_OR20
+ + ResidentAssignment_resident_35_OR21 + ResidentAssignment_resident_35_OR22
+ + ResidentAssignment_resident_35_OR23 + ResidentAssignment_resident_35_OR24
+ + ResidentAssignment_resident_35_OR25 + ResidentAssignment_resident_35_OR26
+ + ResidentAssignment_resident_35_OR27 + ResidentAssignment_resident_35_OR28
+ + ResidentAssignment_resident_35_OR29 + ResidentAssignment_resident_35_OR3
+ + ResidentAssignment_resident_35_OR30 + ResidentAssignment_resident_35_OR31
+ + ResidentAssignment_resident_35_OR32 + ResidentAssignment_resident_35_OR33
+ + ResidentAssignment_resident_35_OR34 + ResidentAssignment_resident_35_OR35
+ + ResidentAssignment_resident_35_OR36 + ResidentAssignment_resident_35_OR37
+ + ResidentAssignment_resident_35_OR38 + ResidentAssignment_resident_35_OR39
+ + ResidentAssignment_resident_35_OR4 + ResidentAssignment_resident_35_OR5
+ + ResidentAssignment_resident_35_OR6 + ResidentAssignment_resident_35_OR7
+ + ResidentAssignment_resident_35_OR8 + ResidentAssignment_resident_35_OR9
+ <= 1
+_C37: ResidentAssignment_resident_36_OR0 + ResidentAssignment_resident_36_OR1
+ + ResidentAssignment_resident_36_OR10 + ResidentAssignment_resident_36_OR11
+ + ResidentAssignment_resident_36_OR12 + ResidentAssignment_resident_36_OR13
+ + ResidentAssignment_resident_36_OR14 + ResidentAssignment_resident_36_OR15
+ + ResidentAssignment_resident_36_OR16 + ResidentAssignment_resident_36_OR17
+ + ResidentAssignment_resident_36_OR18 + ResidentAssignment_resident_36_OR19
+ + ResidentAssignment_resident_36_OR2 + ResidentAssignment_resident_36_OR20
+ + ResidentAssignment_resident_36_OR21 + ResidentAssignment_resident_36_OR22
+ + ResidentAssignment_resident_36_OR23 + ResidentAssignment_resident_36_OR24
+ + ResidentAssignment_resident_36_OR25 + ResidentAssignment_resident_36_OR26
+ + ResidentAssignment_resident_36_OR27 + ResidentAssignment_resident_36_OR28
+ + ResidentAssignment_resident_36_OR29 + ResidentAssignment_resident_36_OR3
+ + ResidentAssignment_resident_36_OR30 + ResidentAssignment_resident_36_OR31
+ + ResidentAssignment_resident_36_OR32 + ResidentAssignment_resident_36_OR33
+ + ResidentAssignment_resident_36_OR34 + ResidentAssignment_resident_36_OR35
+ + ResidentAssignment_resident_36_OR36 + ResidentAssignment_resident_36_OR37
+ + ResidentAssignment_resident_36_OR38 + ResidentAssignment_resident_36_OR39
+ + ResidentAssignment_resident_36_OR4 + ResidentAssignment_resident_36_OR5
+ + ResidentAssignment_resident_36_OR6 + ResidentAssignment_resident_36_OR7
+ + ResidentAssignment_resident_36_OR8 + ResidentAssignment_resident_36_OR9
+ <= 1
+_C38: ResidentAssignment_resident_37_OR0 + ResidentAssignment_resident_37_OR1
+ + ResidentAssignment_resident_37_OR10 + ResidentAssignment_resident_37_OR11
+ + ResidentAssignment_resident_37_OR12 + ResidentAssignment_resident_37_OR13
+ + ResidentAssignment_resident_37_OR14 + ResidentAssignment_resident_37_OR15
+ + ResidentAssignment_resident_37_OR16 + ResidentAssignment_resident_37_OR17
+ + ResidentAssignment_resident_37_OR18 + ResidentAssignment_resident_37_OR19
+ + ResidentAssignment_resident_37_OR2 + ResidentAssignment_resident_37_OR20
+ + ResidentAssignment_resident_37_OR21 + ResidentAssignment_resident_37_OR22
+ + ResidentAssignment_resident_37_OR23 + ResidentAssignment_resident_37_OR24
+ + ResidentAssignment_resident_37_OR25 + ResidentAssignment_resident_37_OR26
+ + ResidentAssignment_resident_37_OR27 + ResidentAssignment_resident_37_OR28
+ + ResidentAssignment_resident_37_OR29 + ResidentAssignment_resident_37_OR3
+ + ResidentAssignment_resident_37_OR30 + ResidentAssignment_resident_37_OR31
+ + ResidentAssignment_resident_37_OR32 + ResidentAssignment_resident_37_OR33
+ + ResidentAssignment_resident_37_OR34 + ResidentAssignment_resident_37_OR35
+ + ResidentAssignment_resident_37_OR36 + ResidentAssignment_resident_37_OR37
+ + ResidentAssignment_resident_37_OR38 + ResidentAssignment_resident_37_OR39
+ + ResidentAssignment_resident_37_OR4 + ResidentAssignment_resident_37_OR5
+ + ResidentAssignment_resident_37_OR6 + ResidentAssignment_resident_37_OR7
+ + ResidentAssignment_resident_37_OR8 + ResidentAssignment_resident_37_OR9
+ <= 1
+_C39: ResidentAssignment_resident_38_OR0 + ResidentAssignment_resident_38_OR1
+ + ResidentAssignment_resident_38_OR10 + ResidentAssignment_resident_38_OR11
+ + ResidentAssignment_resident_38_OR12 + ResidentAssignment_resident_38_OR13
+ + ResidentAssignment_resident_38_OR14 + ResidentAssignment_resident_38_OR15
+ + ResidentAssignment_resident_38_OR16 + ResidentAssignment_resident_38_OR17
+ + ResidentAssignment_resident_38_OR18 + ResidentAssignment_resident_38_OR19
+ + ResidentAssignment_resident_38_OR2 + ResidentAssignment_resident_38_OR20
+ + ResidentAssignment_resident_38_OR21 + ResidentAssignment_resident_38_OR22
+ + ResidentAssignment_resident_38_OR23 + ResidentAssignment_resident_38_OR24
+ + ResidentAssignment_resident_38_OR25 + ResidentAssignment_resident_38_OR26
+ + ResidentAssignment_resident_38_OR27 + ResidentAssignment_resident_38_OR28
+ + ResidentAssignment_resident_38_OR29 + ResidentAssignment_resident_38_OR3
+ + ResidentAssignment_resident_38_OR30 + ResidentAssignment_resident_38_OR31
+ + ResidentAssignment_resident_38_OR32 + ResidentAssignment_resident_38_OR33
+ + ResidentAssignment_resident_38_OR34 + ResidentAssignment_resident_38_OR35
+ + ResidentAssignment_resident_38_OR36 + ResidentAssignment_resident_38_OR37
+ + ResidentAssignment_resident_38_OR38 + ResidentAssignment_resident_38_OR39
+ + ResidentAssignment_resident_38_OR4 + ResidentAssignment_resident_38_OR5
+ + ResidentAssignment_resident_38_OR6 + ResidentAssignment_resident_38_OR7
+ + ResidentAssignment_resident_38_OR8 + ResidentAssignment_resident_38_OR9
+ <= 1
+_C4: ResidentAssignment_resident_3_OR0 + ResidentAssignment_resident_3_OR1
+ + ResidentAssignment_resident_3_OR10 + ResidentAssignment_resident_3_OR11
+ + ResidentAssignment_resident_3_OR12 + ResidentAssignment_resident_3_OR13
+ + ResidentAssignment_resident_3_OR14 + ResidentAssignment_resident_3_OR15
+ + ResidentAssignment_resident_3_OR16 + ResidentAssignment_resident_3_OR17
+ + ResidentAssignment_resident_3_OR18 + ResidentAssignment_resident_3_OR19
+ + ResidentAssignment_resident_3_OR2 + ResidentAssignment_resident_3_OR20
+ + ResidentAssignment_resident_3_OR21 + ResidentAssignment_resident_3_OR22
+ + ResidentAssignment_resident_3_OR23 + ResidentAssignment_resident_3_OR24
+ + ResidentAssignment_resident_3_OR25 + ResidentAssignment_resident_3_OR26
+ + ResidentAssignment_resident_3_OR27 + ResidentAssignment_resident_3_OR28
+ + ResidentAssignment_resident_3_OR29 + ResidentAssignment_resident_3_OR3
+ + ResidentAssignment_resident_3_OR30 + ResidentAssignment_resident_3_OR31
+ + ResidentAssignment_resident_3_OR32 + ResidentAssignment_resident_3_OR33
+ + ResidentAssignment_resident_3_OR34 + ResidentAssignment_resident_3_OR35
+ + ResidentAssignment_resident_3_OR36 + ResidentAssignment_resident_3_OR37
+ + ResidentAssignment_resident_3_OR38 + ResidentAssignment_resident_3_OR39
+ + ResidentAssignment_resident_3_OR4 + ResidentAssignment_resident_3_OR5
+ + ResidentAssignment_resident_3_OR6 + ResidentAssignment_resident_3_OR7
+ + ResidentAssignment_resident_3_OR8 + ResidentAssignment_resident_3_OR9 <= 1
+_C40: ResidentAssignment_resident_39_OR0 + ResidentAssignment_resident_39_OR1
+ + ResidentAssignment_resident_39_OR10 + ResidentAssignment_resident_39_OR11
+ + ResidentAssignment_resident_39_OR12 + ResidentAssignment_resident_39_OR13
+ + ResidentAssignment_resident_39_OR14 + ResidentAssignment_resident_39_OR15
+ + ResidentAssignment_resident_39_OR16 + ResidentAssignment_resident_39_OR17
+ + ResidentAssignment_resident_39_OR18 + ResidentAssignment_resident_39_OR19
+ + ResidentAssignment_resident_39_OR2 + ResidentAssignment_resident_39_OR20
+ + ResidentAssignment_resident_39_OR21 + ResidentAssignment_resident_39_OR22
+ + ResidentAssignment_resident_39_OR23 + ResidentAssignment_resident_39_OR24
+ + ResidentAssignment_resident_39_OR25 + ResidentAssignment_resident_39_OR26
+ + ResidentAssignment_resident_39_OR27 + ResidentAssignment_resident_39_OR28
+ + ResidentAssignment_resident_39_OR29 + ResidentAssignment_resident_39_OR3
+ + ResidentAssignment_resident_39_OR30 + ResidentAssignment_resident_39_OR31
+ + ResidentAssignment_resident_39_OR32 + ResidentAssignment_resident_39_OR33
+ + ResidentAssignment_resident_39_OR34 + ResidentAssignment_resident_39_OR35
+ + ResidentAssignment_resident_39_OR36 + ResidentAssignment_resident_39_OR37
+ + ResidentAssignment_resident_39_OR38 + ResidentAssignment_resident_39_OR39
+ + ResidentAssignment_resident_39_OR4 + ResidentAssignment_resident_39_OR5
+ + ResidentAssignment_resident_39_OR6 + ResidentAssignment_resident_39_OR7
+ + ResidentAssignment_resident_39_OR8 + ResidentAssignment_resident_39_OR9
+ <= 1
+_C41: ResidentAssignment_resident_0_OR0 + ResidentAssignment_resident_10_OR0
+ + ResidentAssignment_resident_11_OR0 + ResidentAssignment_resident_12_OR0
+ + ResidentAssignment_resident_13_OR0 + ResidentAssignment_resident_14_OR0
+ + ResidentAssignment_resident_15_OR0 + ResidentAssignment_resident_16_OR0
+ + ResidentAssignment_resident_17_OR0 + ResidentAssignment_resident_18_OR0
+ + ResidentAssignment_resident_19_OR0 + ResidentAssignment_resident_1_OR0
+ + ResidentAssignment_resident_20_OR0 + ResidentAssignment_resident_21_OR0
+ + ResidentAssignment_resident_22_OR0 + ResidentAssignment_resident_23_OR0
+ + ResidentAssignment_resident_24_OR0 + ResidentAssignment_resident_25_OR0
+ + ResidentAssignment_resident_26_OR0 + ResidentAssignment_resident_27_OR0
+ + ResidentAssignment_resident_28_OR0 + ResidentAssignment_resident_29_OR0
+ + ResidentAssignment_resident_2_OR0 + ResidentAssignment_resident_30_OR0
+ + ResidentAssignment_resident_31_OR0 + ResidentAssignment_resident_32_OR0
+ + ResidentAssignment_resident_33_OR0 + ResidentAssignment_resident_34_OR0
+ + ResidentAssignment_resident_35_OR0 + ResidentAssignment_resident_36_OR0
+ + ResidentAssignment_resident_37_OR0 + ResidentAssignment_resident_38_OR0
+ + ResidentAssignment_resident_39_OR0 + ResidentAssignment_resident_3_OR0
+ + ResidentAssignment_resident_4_OR0 + ResidentAssignment_resident_5_OR0
+ + ResidentAssignment_resident_6_OR0 + ResidentAssignment_resident_7_OR0
+ + ResidentAssignment_resident_8_OR0 + ResidentAssignment_resident_9_OR0 = 1
+_C42: ResidentAssignment_resident_0_OR1 + ResidentAssignment_resident_10_OR1
+ + ResidentAssignment_resident_11_OR1 + ResidentAssignment_resident_12_OR1
+ + ResidentAssignment_resident_13_OR1 + ResidentAssignment_resident_14_OR1
+ + ResidentAssignment_resident_15_OR1 + ResidentAssignment_resident_16_OR1
+ + ResidentAssignment_resident_17_OR1 + ResidentAssignment_resident_18_OR1
+ + ResidentAssignment_resident_19_OR1 + ResidentAssignment_resident_1_OR1
+ + ResidentAssignment_resident_20_OR1 + ResidentAssignment_resident_21_OR1
+ + ResidentAssignment_resident_22_OR1 + ResidentAssignment_resident_23_OR1
+ + ResidentAssignment_resident_24_OR1 + ResidentAssignment_resident_25_OR1
+ + ResidentAssignment_resident_26_OR1 + ResidentAssignment_resident_27_OR1
+ + ResidentAssignment_resident_28_OR1 + ResidentAssignment_resident_29_OR1
+ + ResidentAssignment_resident_2_OR1 + ResidentAssignment_resident_30_OR1
+ + ResidentAssignment_resident_31_OR1 + ResidentAssignment_resident_32_OR1
+ + ResidentAssignment_resident_33_OR1 + ResidentAssignment_resident_34_OR1
+ + ResidentAssignment_resident_35_OR1 + ResidentAssignment_resident_36_OR1
+ + ResidentAssignment_resident_37_OR1 + ResidentAssignment_resident_38_OR1
+ + ResidentAssignment_resident_39_OR1 + ResidentAssignment_resident_3_OR1
+ + ResidentAssignment_resident_4_OR1 + ResidentAssignment_resident_5_OR1
+ + ResidentAssignment_resident_6_OR1 + ResidentAssignment_resident_7_OR1
+ + ResidentAssignment_resident_8_OR1 + ResidentAssignment_resident_9_OR1 = 1
+_C43: ResidentAssignment_resident_0_OR2 + ResidentAssignment_resident_10_OR2
+ + ResidentAssignment_resident_11_OR2 + ResidentAssignment_resident_12_OR2
+ + ResidentAssignment_resident_13_OR2 + ResidentAssignment_resident_14_OR2
+ + ResidentAssignment_resident_15_OR2 + ResidentAssignment_resident_16_OR2
+ + ResidentAssignment_resident_17_OR2 + ResidentAssignment_resident_18_OR2
+ + ResidentAssignment_resident_19_OR2 + ResidentAssignment_resident_1_OR2
+ + ResidentAssignment_resident_20_OR2 + ResidentAssignment_resident_21_OR2
+ + ResidentAssignment_resident_22_OR2 + ResidentAssignment_resident_23_OR2
+ + ResidentAssignment_resident_24_OR2 + ResidentAssignment_resident_25_OR2
+ + ResidentAssignment_resident_26_OR2 + ResidentAssignment_resident_27_OR2
+ + ResidentAssignment_resident_28_OR2 + ResidentAssignment_resident_29_OR2
+ + ResidentAssignment_resident_2_OR2 + ResidentAssignment_resident_30_OR2
+ + ResidentAssignment_resident_31_OR2 + ResidentAssignment_resident_32_OR2
+ + ResidentAssignment_resident_33_OR2 + ResidentAssignment_resident_34_OR2
+ + ResidentAssignment_resident_35_OR2 + ResidentAssignment_resident_36_OR2
+ + ResidentAssignment_resident_37_OR2 + ResidentAssignment_resident_38_OR2
+ + ResidentAssignment_resident_39_OR2 + ResidentAssignment_resident_3_OR2
+ + ResidentAssignment_resident_4_OR2 + ResidentAssignment_resident_5_OR2
+ + ResidentAssignment_resident_6_OR2 + ResidentAssignment_resident_7_OR2
+ + ResidentAssignment_resident_8_OR2 + ResidentAssignment_resident_9_OR2 = 1
+_C44: ResidentAssignment_resident_0_OR3 + ResidentAssignment_resident_10_OR3
+ + ResidentAssignment_resident_11_OR3 + ResidentAssignment_resident_12_OR3
+ + ResidentAssignment_resident_13_OR3 + ResidentAssignment_resident_14_OR3
+ + ResidentAssignment_resident_15_OR3 + ResidentAssignment_resident_16_OR3
+ + ResidentAssignment_resident_17_OR3 + ResidentAssignment_resident_18_OR3
+ + ResidentAssignment_resident_19_OR3 + ResidentAssignment_resident_1_OR3
+ + ResidentAssignment_resident_20_OR3 + ResidentAssignment_resident_21_OR3
+ + ResidentAssignment_resident_22_OR3 + ResidentAssignment_resident_23_OR3
+ + ResidentAssignment_resident_24_OR3 + ResidentAssignment_resident_25_OR3
+ + ResidentAssignment_resident_26_OR3 + ResidentAssignment_resident_27_OR3
+ + ResidentAssignment_resident_28_OR3 + ResidentAssignment_resident_29_OR3
+ + ResidentAssignment_resident_2_OR3 + ResidentAssignment_resident_30_OR3
+ + ResidentAssignment_resident_31_OR3 + ResidentAssignment_resident_32_OR3
+ + ResidentAssignment_resident_33_OR3 + ResidentAssignment_resident_34_OR3
+ + ResidentAssignment_resident_35_OR3 + ResidentAssignment_resident_36_OR3
+ + ResidentAssignment_resident_37_OR3 + ResidentAssignment_resident_38_OR3
+ + ResidentAssignment_resident_39_OR3 + ResidentAssignment_resident_3_OR3
+ + ResidentAssignment_resident_4_OR3 + ResidentAssignment_resident_5_OR3
+ + ResidentAssignment_resident_6_OR3 + ResidentAssignment_resident_7_OR3
+ + ResidentAssignment_resident_8_OR3 + ResidentAssignment_resident_9_OR3 = 1
+_C45: ResidentAssignment_resident_0_OR4 + ResidentAssignment_resident_10_OR4
+ + ResidentAssignment_resident_11_OR4 + ResidentAssignment_resident_12_OR4
+ + ResidentAssignment_resident_13_OR4 + ResidentAssignment_resident_14_OR4
+ + ResidentAssignment_resident_15_OR4 + ResidentAssignment_resident_16_OR4
+ + ResidentAssignment_resident_17_OR4 + ResidentAssignment_resident_18_OR4
+ + ResidentAssignment_resident_19_OR4 + ResidentAssignment_resident_1_OR4
+ + ResidentAssignment_resident_20_OR4 + ResidentAssignment_resident_21_OR4
+ + ResidentAssignment_resident_22_OR4 + ResidentAssignment_resident_23_OR4
+ + ResidentAssignment_resident_24_OR4 + ResidentAssignment_resident_25_OR4
+ + ResidentAssignment_resident_26_OR4 + ResidentAssignment_resident_27_OR4
+ + ResidentAssignment_resident_28_OR4 + ResidentAssignment_resident_29_OR4
+ + ResidentAssignment_resident_2_OR4 + ResidentAssignment_resident_30_OR4
+ + ResidentAssignment_resident_31_OR4 + ResidentAssignment_resident_32_OR4
+ + ResidentAssignment_resident_33_OR4 + ResidentAssignment_resident_34_OR4
+ + ResidentAssignment_resident_35_OR4 + ResidentAssignment_resident_36_OR4
+ + ResidentAssignment_resident_37_OR4 + ResidentAssignment_resident_38_OR4
+ + ResidentAssignment_resident_39_OR4 + ResidentAssignment_resident_3_OR4
+ + ResidentAssignment_resident_4_OR4 + ResidentAssignment_resident_5_OR4
+ + ResidentAssignment_resident_6_OR4 + ResidentAssignment_resident_7_OR4
+ + ResidentAssignment_resident_8_OR4 + ResidentAssignment_resident_9_OR4 = 1
+_C46: ResidentAssignment_resident_0_OR5 + ResidentAssignment_resident_10_OR5
+ + ResidentAssignment_resident_11_OR5 + ResidentAssignment_resident_12_OR5
+ + ResidentAssignment_resident_13_OR5 + ResidentAssignment_resident_14_OR5
+ + ResidentAssignment_resident_15_OR5 + ResidentAssignment_resident_16_OR5
+ + ResidentAssignment_resident_17_OR5 + ResidentAssignment_resident_18_OR5
+ + ResidentAssignment_resident_19_OR5 + ResidentAssignment_resident_1_OR5
+ + ResidentAssignment_resident_20_OR5 + ResidentAssignment_resident_21_OR5
+ + ResidentAssignment_resident_22_OR5 + ResidentAssignment_resident_23_OR5
+ + ResidentAssignment_resident_24_OR5 + ResidentAssignment_resident_25_OR5
+ + ResidentAssignment_resident_26_OR5 + ResidentAssignment_resident_27_OR5
+ + ResidentAssignment_resident_28_OR5 + ResidentAssignment_resident_29_OR5
+ + ResidentAssignment_resident_2_OR5 + ResidentAssignment_resident_30_OR5
+ + ResidentAssignment_resident_31_OR5 + ResidentAssignment_resident_32_OR5
+ + ResidentAssignment_resident_33_OR5 + ResidentAssignment_resident_34_OR5
+ + ResidentAssignment_resident_35_OR5 + ResidentAssignment_resident_36_OR5
+ + ResidentAssignment_resident_37_OR5 + ResidentAssignment_resident_38_OR5
+ + ResidentAssignment_resident_39_OR5 + ResidentAssignment_resident_3_OR5
+ + ResidentAssignment_resident_4_OR5 + ResidentAssignment_resident_5_OR5
+ + ResidentAssignment_resident_6_OR5 + ResidentAssignment_resident_7_OR5
+ + ResidentAssignment_resident_8_OR5 + ResidentAssignment_resident_9_OR5 = 1
+_C47: ResidentAssignment_resident_0_OR6 + ResidentAssignment_resident_10_OR6
+ + ResidentAssignment_resident_11_OR6 + ResidentAssignment_resident_12_OR6
+ + ResidentAssignment_resident_13_OR6 + ResidentAssignment_resident_14_OR6
+ + ResidentAssignment_resident_15_OR6 + ResidentAssignment_resident_16_OR6
+ + ResidentAssignment_resident_17_OR6 + ResidentAssignment_resident_18_OR6
+ + ResidentAssignment_resident_19_OR6 + ResidentAssignment_resident_1_OR6
+ + ResidentAssignment_resident_20_OR6 + ResidentAssignment_resident_21_OR6
+ + ResidentAssignment_resident_22_OR6 + ResidentAssignment_resident_23_OR6
+ + ResidentAssignment_resident_24_OR6 + ResidentAssignment_resident_25_OR6
+ + ResidentAssignment_resident_26_OR6 + ResidentAssignment_resident_27_OR6
+ + ResidentAssignment_resident_28_OR6 + ResidentAssignment_resident_29_OR6
+ + ResidentAssignment_resident_2_OR6 + ResidentAssignment_resident_30_OR6
+ + ResidentAssignment_resident_31_OR6 + ResidentAssignment_resident_32_OR6
+ + ResidentAssignment_resident_33_OR6 + ResidentAssignment_resident_34_OR6
+ + ResidentAssignment_resident_35_OR6 + ResidentAssignment_resident_36_OR6
+ + ResidentAssignment_resident_37_OR6 + ResidentAssignment_resident_38_OR6
+ + ResidentAssignment_resident_39_OR6 + ResidentAssignment_resident_3_OR6
+ + ResidentAssignment_resident_4_OR6 + ResidentAssignment_resident_5_OR6
+ + ResidentAssignment_resident_6_OR6 + ResidentAssignment_resident_7_OR6
+ + ResidentAssignment_resident_8_OR6 + ResidentAssignment_resident_9_OR6 = 1
+_C48: ResidentAssignment_resident_0_OR7 + ResidentAssignment_resident_10_OR7
+ + ResidentAssignment_resident_11_OR7 + ResidentAssignment_resident_12_OR7
+ + ResidentAssignment_resident_13_OR7 + ResidentAssignment_resident_14_OR7
+ + ResidentAssignment_resident_15_OR7 + ResidentAssignment_resident_16_OR7
+ + ResidentAssignment_resident_17_OR7 + ResidentAssignment_resident_18_OR7
+ + ResidentAssignment_resident_19_OR7 + ResidentAssignment_resident_1_OR7
+ + ResidentAssignment_resident_20_OR7 + ResidentAssignment_resident_21_OR7
+ + ResidentAssignment_resident_22_OR7 + ResidentAssignment_resident_23_OR7
+ + ResidentAssignment_resident_24_OR7 + ResidentAssignment_resident_25_OR7
+ + ResidentAssignment_resident_26_OR7 + ResidentAssignment_resident_27_OR7
+ + ResidentAssignment_resident_28_OR7 + ResidentAssignment_resident_29_OR7
+ + ResidentAssignment_resident_2_OR7 + ResidentAssignment_resident_30_OR7
+ + ResidentAssignment_resident_31_OR7 + ResidentAssignment_resident_32_OR7
+ + ResidentAssignment_resident_33_OR7 + ResidentAssignment_resident_34_OR7
+ + ResidentAssignment_resident_35_OR7 + ResidentAssignment_resident_36_OR7
+ + ResidentAssignment_resident_37_OR7 + ResidentAssignment_resident_38_OR7
+ + ResidentAssignment_resident_39_OR7 + ResidentAssignment_resident_3_OR7
+ + ResidentAssignment_resident_4_OR7 + ResidentAssignment_resident_5_OR7
+ + ResidentAssignment_resident_6_OR7 + ResidentAssignment_resident_7_OR7
+ + ResidentAssignment_resident_8_OR7 + ResidentAssignment_resident_9_OR7 = 1
+_C49: ResidentAssignment_resident_0_OR8 + ResidentAssignment_resident_10_OR8
+ + ResidentAssignment_resident_11_OR8 + ResidentAssignment_resident_12_OR8
+ + ResidentAssignment_resident_13_OR8 + ResidentAssignment_resident_14_OR8
+ + ResidentAssignment_resident_15_OR8 + ResidentAssignment_resident_16_OR8
+ + ResidentAssignment_resident_17_OR8 + ResidentAssignment_resident_18_OR8
+ + ResidentAssignment_resident_19_OR8 + ResidentAssignment_resident_1_OR8
+ + ResidentAssignment_resident_20_OR8 + ResidentAssignment_resident_21_OR8
+ + ResidentAssignment_resident_22_OR8 + ResidentAssignment_resident_23_OR8
+ + ResidentAssignment_resident_24_OR8 + ResidentAssignment_resident_25_OR8
+ + ResidentAssignment_resident_26_OR8 + ResidentAssignment_resident_27_OR8
+ + ResidentAssignment_resident_28_OR8 + ResidentAssignment_resident_29_OR8
+ + ResidentAssignment_resident_2_OR8 + ResidentAssignment_resident_30_OR8
+ + ResidentAssignment_resident_31_OR8 + ResidentAssignment_resident_32_OR8
+ + ResidentAssignment_resident_33_OR8 + ResidentAssignment_resident_34_OR8
+ + ResidentAssignment_resident_35_OR8 + ResidentAssignment_resident_36_OR8
+ + ResidentAssignment_resident_37_OR8 + ResidentAssignment_resident_38_OR8
+ + ResidentAssignment_resident_39_OR8 + ResidentAssignment_resident_3_OR8
+ + ResidentAssignment_resident_4_OR8 + ResidentAssignment_resident_5_OR8
+ + ResidentAssignment_resident_6_OR8 + ResidentAssignment_resident_7_OR8
+ + ResidentAssignment_resident_8_OR8 + ResidentAssignment_resident_9_OR8 = 1
+_C5: ResidentAssignment_resident_4_OR0 + ResidentAssignment_resident_4_OR1
+ + ResidentAssignment_resident_4_OR10 + ResidentAssignment_resident_4_OR11
+ + ResidentAssignment_resident_4_OR12 + ResidentAssignment_resident_4_OR13
+ + ResidentAssignment_resident_4_OR14 + ResidentAssignment_resident_4_OR15
+ + ResidentAssignment_resident_4_OR16 + ResidentAssignment_resident_4_OR17
+ + ResidentAssignment_resident_4_OR18 + ResidentAssignment_resident_4_OR19
+ + ResidentAssignment_resident_4_OR2 + ResidentAssignment_resident_4_OR20
+ + ResidentAssignment_resident_4_OR21 + ResidentAssignment_resident_4_OR22
+ + ResidentAssignment_resident_4_OR23 + ResidentAssignment_resident_4_OR24
+ + ResidentAssignment_resident_4_OR25 + ResidentAssignment_resident_4_OR26
+ + ResidentAssignment_resident_4_OR27 + ResidentAssignment_resident_4_OR28
+ + ResidentAssignment_resident_4_OR29 + ResidentAssignment_resident_4_OR3
+ + ResidentAssignment_resident_4_OR30 + ResidentAssignment_resident_4_OR31
+ + ResidentAssignment_resident_4_OR32 + ResidentAssignment_resident_4_OR33
+ + ResidentAssignment_resident_4_OR34 + ResidentAssignment_resident_4_OR35
+ + ResidentAssignment_resident_4_OR36 + ResidentAssignment_resident_4_OR37
+ + ResidentAssignment_resident_4_OR38 + ResidentAssignment_resident_4_OR39
+ + ResidentAssignment_resident_4_OR4 + ResidentAssignment_resident_4_OR5
+ + ResidentAssignment_resident_4_OR6 + ResidentAssignment_resident_4_OR7
+ + ResidentAssignment_resident_4_OR8 + ResidentAssignment_resident_4_OR9 <= 1
+_C50: ResidentAssignment_resident_0_OR9 + ResidentAssignment_resident_10_OR9
+ + ResidentAssignment_resident_11_OR9 + ResidentAssignment_resident_12_OR9
+ + ResidentAssignment_resident_13_OR9 + ResidentAssignment_resident_14_OR9
+ + ResidentAssignment_resident_15_OR9 + ResidentAssignment_resident_16_OR9
+ + ResidentAssignment_resident_17_OR9 + ResidentAssignment_resident_18_OR9
+ + ResidentAssignment_resident_19_OR9 + ResidentAssignment_resident_1_OR9
+ + ResidentAssignment_resident_20_OR9 + ResidentAssignment_resident_21_OR9
+ + ResidentAssignment_resident_22_OR9 + ResidentAssignment_resident_23_OR9
+ + ResidentAssignment_resident_24_OR9 + ResidentAssignment_resident_25_OR9
+ + ResidentAssignment_resident_26_OR9 + ResidentAssignment_resident_27_OR9
+ + ResidentAssignment_resident_28_OR9 + ResidentAssignment_resident_29_OR9
+ + ResidentAssignment_resident_2_OR9 + ResidentAssignment_resident_30_OR9
+ + ResidentAssignment_resident_31_OR9 + ResidentAssignment_resident_32_OR9
+ + ResidentAssignment_resident_33_OR9 + ResidentAssignment_resident_34_OR9
+ + ResidentAssignment_resident_35_OR9 + ResidentAssignment_resident_36_OR9
+ + ResidentAssignment_resident_37_OR9 + ResidentAssignment_resident_38_OR9
+ + ResidentAssignment_resident_39_OR9 + ResidentAssignment_resident_3_OR9
+ + ResidentAssignment_resident_4_OR9 + ResidentAssignment_resident_5_OR9
+ + ResidentAssignment_resident_6_OR9 + ResidentAssignment_resident_7_OR9
+ + ResidentAssignment_resident_8_OR9 + ResidentAssignment_resident_9_OR9 = 1
+_C51: ResidentAssignment_resident_0_OR10 + ResidentAssignment_resident_10_OR10
+ + ResidentAssignment_resident_11_OR10 + ResidentAssignment_resident_12_OR10
+ + ResidentAssignment_resident_13_OR10 + ResidentAssignment_resident_14_OR10
+ + ResidentAssignment_resident_15_OR10 + ResidentAssignment_resident_16_OR10
+ + ResidentAssignment_resident_17_OR10 + ResidentAssignment_resident_18_OR10
+ + ResidentAssignment_resident_19_OR10 + ResidentAssignment_resident_1_OR10
+ + ResidentAssignment_resident_20_OR10 + ResidentAssignment_resident_21_OR10
+ + ResidentAssignment_resident_22_OR10 + ResidentAssignment_resident_23_OR10
+ + ResidentAssignment_resident_24_OR10 + ResidentAssignment_resident_25_OR10
+ + ResidentAssignment_resident_26_OR10 + ResidentAssignment_resident_27_OR10
+ + ResidentAssignment_resident_28_OR10 + ResidentAssignment_resident_29_OR10
+ + ResidentAssignment_resident_2_OR10 + ResidentAssignment_resident_30_OR10
+ + ResidentAssignment_resident_31_OR10 + ResidentAssignment_resident_32_OR10
+ + ResidentAssignment_resident_33_OR10 + ResidentAssignment_resident_34_OR10
+ + ResidentAssignment_resident_35_OR10 + ResidentAssignment_resident_36_OR10
+ + ResidentAssignment_resident_37_OR10 + ResidentAssignment_resident_38_OR10
+ + ResidentAssignment_resident_39_OR10 + ResidentAssignment_resident_3_OR10
+ + ResidentAssignment_resident_4_OR10 + ResidentAssignment_resident_5_OR10
+ + ResidentAssignment_resident_6_OR10 + ResidentAssignment_resident_7_OR10
+ + ResidentAssignment_resident_8_OR10 + ResidentAssignment_resident_9_OR10 = 1
+_C52: ResidentAssignment_resident_0_OR11 + ResidentAssignment_resident_10_OR11
+ + ResidentAssignment_resident_11_OR11 + ResidentAssignment_resident_12_OR11
+ + ResidentAssignment_resident_13_OR11 + ResidentAssignment_resident_14_OR11
+ + ResidentAssignment_resident_15_OR11 + ResidentAssignment_resident_16_OR11
+ + ResidentAssignment_resident_17_OR11 + ResidentAssignment_resident_18_OR11
+ + ResidentAssignment_resident_19_OR11 + ResidentAssignment_resident_1_OR11
+ + ResidentAssignment_resident_20_OR11 + ResidentAssignment_resident_21_OR11
+ + ResidentAssignment_resident_22_OR11 + ResidentAssignment_resident_23_OR11
+ + ResidentAssignment_resident_24_OR11 + ResidentAssignment_resident_25_OR11
+ + ResidentAssignment_resident_26_OR11 + ResidentAssignment_resident_27_OR11
+ + ResidentAssignment_resident_28_OR11 + ResidentAssignment_resident_29_OR11
+ + ResidentAssignment_resident_2_OR11 + ResidentAssignment_resident_30_OR11
+ + ResidentAssignment_resident_31_OR11 + ResidentAssignment_resident_32_OR11
+ + ResidentAssignment_resident_33_OR11 + ResidentAssignment_resident_34_OR11
+ + ResidentAssignment_resident_35_OR11 + ResidentAssignment_resident_36_OR11
+ + ResidentAssignment_resident_37_OR11 + ResidentAssignment_resident_38_OR11
+ + ResidentAssignment_resident_39_OR11 + ResidentAssignment_resident_3_OR11
+ + ResidentAssignment_resident_4_OR11 + ResidentAssignment_resident_5_OR11
+ + ResidentAssignment_resident_6_OR11 + ResidentAssignment_resident_7_OR11
+ + ResidentAssignment_resident_8_OR11 + ResidentAssignment_resident_9_OR11 = 1
+_C53: ResidentAssignment_resident_0_OR12 + ResidentAssignment_resident_10_OR12
+ + ResidentAssignment_resident_11_OR12 + ResidentAssignment_resident_12_OR12
+ + ResidentAssignment_resident_13_OR12 + ResidentAssignment_resident_14_OR12
+ + ResidentAssignment_resident_15_OR12 + ResidentAssignment_resident_16_OR12
+ + ResidentAssignment_resident_17_OR12 + ResidentAssignment_resident_18_OR12
+ + ResidentAssignment_resident_19_OR12 + ResidentAssignment_resident_1_OR12
+ + ResidentAssignment_resident_20_OR12 + ResidentAssignment_resident_21_OR12
+ + ResidentAssignment_resident_22_OR12 + ResidentAssignment_resident_23_OR12
+ + ResidentAssignment_resident_24_OR12 + ResidentAssignment_resident_25_OR12
+ + ResidentAssignment_resident_26_OR12 + ResidentAssignment_resident_27_OR12
+ + ResidentAssignment_resident_28_OR12 + ResidentAssignment_resident_29_OR12
+ + ResidentAssignment_resident_2_OR12 + ResidentAssignment_resident_30_OR12
+ + ResidentAssignment_resident_31_OR12 + ResidentAssignment_resident_32_OR12
+ + ResidentAssignment_resident_33_OR12 + ResidentAssignment_resident_34_OR12
+ + ResidentAssignment_resident_35_OR12 + ResidentAssignment_resident_36_OR12
+ + ResidentAssignment_resident_37_OR12 + ResidentAssignment_resident_38_OR12
+ + ResidentAssignment_resident_39_OR12 + ResidentAssignment_resident_3_OR12
+ + ResidentAssignment_resident_4_OR12 + ResidentAssignment_resident_5_OR12
+ + ResidentAssignment_resident_6_OR12 + ResidentAssignment_resident_7_OR12
+ + ResidentAssignment_resident_8_OR12 + ResidentAssignment_resident_9_OR12 = 1
+_C54: ResidentAssignment_resident_0_OR13 + ResidentAssignment_resident_10_OR13
+ + ResidentAssignment_resident_11_OR13 + ResidentAssignment_resident_12_OR13
+ + ResidentAssignment_resident_13_OR13 + ResidentAssignment_resident_14_OR13
+ + ResidentAssignment_resident_15_OR13 + ResidentAssignment_resident_16_OR13
+ + ResidentAssignment_resident_17_OR13 + ResidentAssignment_resident_18_OR13
+ + ResidentAssignment_resident_19_OR13 + ResidentAssignment_resident_1_OR13
+ + ResidentAssignment_resident_20_OR13 + ResidentAssignment_resident_21_OR13
+ + ResidentAssignment_resident_22_OR13 + ResidentAssignment_resident_23_OR13
+ + ResidentAssignment_resident_24_OR13 + ResidentAssignment_resident_25_OR13
+ + ResidentAssignment_resident_26_OR13 + ResidentAssignment_resident_27_OR13
+ + ResidentAssignment_resident_28_OR13 + ResidentAssignment_resident_29_OR13
+ + ResidentAssignment_resident_2_OR13 + ResidentAssignment_resident_30_OR13
+ + ResidentAssignment_resident_31_OR13 + ResidentAssignment_resident_32_OR13
+ + ResidentAssignment_resident_33_OR13 + ResidentAssignment_resident_34_OR13
+ + ResidentAssignment_resident_35_OR13 + ResidentAssignment_resident_36_OR13
+ + ResidentAssignment_resident_37_OR13 + ResidentAssignment_resident_38_OR13
+ + ResidentAssignment_resident_39_OR13 + ResidentAssignment_resident_3_OR13
+ + ResidentAssignment_resident_4_OR13 + ResidentAssignment_resident_5_OR13
+ + ResidentAssignment_resident_6_OR13 + ResidentAssignment_resident_7_OR13
+ + ResidentAssignment_resident_8_OR13 + ResidentAssignment_resident_9_OR13 = 1
+_C55: ResidentAssignment_resident_0_OR14 + ResidentAssignment_resident_10_OR14
+ + ResidentAssignment_resident_11_OR14 + ResidentAssignment_resident_12_OR14
+ + ResidentAssignment_resident_13_OR14 + ResidentAssignment_resident_14_OR14
+ + ResidentAssignment_resident_15_OR14 + ResidentAssignment_resident_16_OR14
+ + ResidentAssignment_resident_17_OR14 + ResidentAssignment_resident_18_OR14
+ + ResidentAssignment_resident_19_OR14 + ResidentAssignment_resident_1_OR14
+ + ResidentAssignment_resident_20_OR14 + ResidentAssignment_resident_21_OR14
+ + ResidentAssignment_resident_22_OR14 + ResidentAssignment_resident_23_OR14
+ + ResidentAssignment_resident_24_OR14 + ResidentAssignment_resident_25_OR14
+ + ResidentAssignment_resident_26_OR14 + ResidentAssignment_resident_27_OR14
+ + ResidentAssignment_resident_28_OR14 + ResidentAssignment_resident_29_OR14
+ + ResidentAssignment_resident_2_OR14 + ResidentAssignment_resident_30_OR14
+ + ResidentAssignment_resident_31_OR14 + ResidentAssignment_resident_32_OR14
+ + ResidentAssignment_resident_33_OR14 + ResidentAssignment_resident_34_OR14
+ + ResidentAssignment_resident_35_OR14 + ResidentAssignment_resident_36_OR14
+ + ResidentAssignment_resident_37_OR14 + ResidentAssignment_resident_38_OR14
+ + ResidentAssignment_resident_39_OR14 + ResidentAssignment_resident_3_OR14
+ + ResidentAssignment_resident_4_OR14 + ResidentAssignment_resident_5_OR14
+ + ResidentAssignment_resident_6_OR14 + ResidentAssignment_resident_7_OR14
+ + ResidentAssignment_resident_8_OR14 + ResidentAssignment_resident_9_OR14 = 1
+_C56: ResidentAssignment_resident_0_OR15 + ResidentAssignment_resident_10_OR15
+ + ResidentAssignment_resident_11_OR15 + ResidentAssignment_resident_12_OR15
+ + ResidentAssignment_resident_13_OR15 + ResidentAssignment_resident_14_OR15
+ + ResidentAssignment_resident_15_OR15 + ResidentAssignment_resident_16_OR15
+ + ResidentAssignment_resident_17_OR15 + ResidentAssignment_resident_18_OR15
+ + ResidentAssignment_resident_19_OR15 + ResidentAssignment_resident_1_OR15
+ + ResidentAssignment_resident_20_OR15 + ResidentAssignment_resident_21_OR15
+ + ResidentAssignment_resident_22_OR15 + ResidentAssignment_resident_23_OR15
+ + ResidentAssignment_resident_24_OR15 + ResidentAssignment_resident_25_OR15
+ + ResidentAssignment_resident_26_OR15 + ResidentAssignment_resident_27_OR15
+ + ResidentAssignment_resident_28_OR15 + ResidentAssignment_resident_29_OR15
+ + ResidentAssignment_resident_2_OR15 + ResidentAssignment_resident_30_OR15
+ + ResidentAssignment_resident_31_OR15 + ResidentAssignment_resident_32_OR15
+ + ResidentAssignment_resident_33_OR15 + ResidentAssignment_resident_34_OR15
+ + ResidentAssignment_resident_35_OR15 + ResidentAssignment_resident_36_OR15
+ + ResidentAssignment_resident_37_OR15 + ResidentAssignment_resident_38_OR15
+ + ResidentAssignment_resident_39_OR15 + ResidentAssignment_resident_3_OR15
+ + ResidentAssignment_resident_4_OR15 + ResidentAssignment_resident_5_OR15
+ + ResidentAssignment_resident_6_OR15 + ResidentAssignment_resident_7_OR15
+ + ResidentAssignment_resident_8_OR15 + ResidentAssignment_resident_9_OR15 = 1
+_C57: ResidentAssignment_resident_0_OR16 + ResidentAssignment_resident_10_OR16
+ + ResidentAssignment_resident_11_OR16 + ResidentAssignment_resident_12_OR16
+ + ResidentAssignment_resident_13_OR16 + ResidentAssignment_resident_14_OR16
+ + ResidentAssignment_resident_15_OR16 + ResidentAssignment_resident_16_OR16
+ + ResidentAssignment_resident_17_OR16 + ResidentAssignment_resident_18_OR16
+ + ResidentAssignment_resident_19_OR16 + ResidentAssignment_resident_1_OR16
+ + ResidentAssignment_resident_20_OR16 + ResidentAssignment_resident_21_OR16
+ + ResidentAssignment_resident_22_OR16 + ResidentAssignment_resident_23_OR16
+ + ResidentAssignment_resident_24_OR16 + ResidentAssignment_resident_25_OR16
+ + ResidentAssignment_resident_26_OR16 + ResidentAssignment_resident_27_OR16
+ + ResidentAssignment_resident_28_OR16 + ResidentAssignment_resident_29_OR16
+ + ResidentAssignment_resident_2_OR16 + ResidentAssignment_resident_30_OR16
+ + ResidentAssignment_resident_31_OR16 + ResidentAssignment_resident_32_OR16
+ + ResidentAssignment_resident_33_OR16 + ResidentAssignment_resident_34_OR16
+ + ResidentAssignment_resident_35_OR16 + ResidentAssignment_resident_36_OR16
+ + ResidentAssignment_resident_37_OR16 + ResidentAssignment_resident_38_OR16
+ + ResidentAssignment_resident_39_OR16 + ResidentAssignment_resident_3_OR16
+ + ResidentAssignment_resident_4_OR16 + ResidentAssignment_resident_5_OR16
+ + ResidentAssignment_resident_6_OR16 + ResidentAssignment_resident_7_OR16
+ + ResidentAssignment_resident_8_OR16 + ResidentAssignment_resident_9_OR16 = 1
+_C58: ResidentAssignment_resident_0_OR17 + ResidentAssignment_resident_10_OR17
+ + ResidentAssignment_resident_11_OR17 + ResidentAssignment_resident_12_OR17
+ + ResidentAssignment_resident_13_OR17 + ResidentAssignment_resident_14_OR17
+ + ResidentAssignment_resident_15_OR17 + ResidentAssignment_resident_16_OR17
+ + ResidentAssignment_resident_17_OR17 + ResidentAssignment_resident_18_OR17
+ + ResidentAssignment_resident_19_OR17 + ResidentAssignment_resident_1_OR17
+ + ResidentAssignment_resident_20_OR17 + ResidentAssignment_resident_21_OR17
+ + ResidentAssignment_resident_22_OR17 + ResidentAssignment_resident_23_OR17
+ + ResidentAssignment_resident_24_OR17 + ResidentAssignment_resident_25_OR17
+ + ResidentAssignment_resident_26_OR17 + ResidentAssignment_resident_27_OR17
+ + ResidentAssignment_resident_28_OR17 + ResidentAssignment_resident_29_OR17
+ + ResidentAssignment_resident_2_OR17 + ResidentAssignment_resident_30_OR17
+ + ResidentAssignment_resident_31_OR17 + ResidentAssignment_resident_32_OR17
+ + ResidentAssignment_resident_33_OR17 + ResidentAssignment_resident_34_OR17
+ + ResidentAssignment_resident_35_OR17 + ResidentAssignment_resident_36_OR17
+ + ResidentAssignment_resident_37_OR17 + ResidentAssignment_resident_38_OR17
+ + ResidentAssignment_resident_39_OR17 + ResidentAssignment_resident_3_OR17
+ + ResidentAssignment_resident_4_OR17 + ResidentAssignment_resident_5_OR17
+ + ResidentAssignment_resident_6_OR17 + ResidentAssignment_resident_7_OR17
+ + ResidentAssignment_resident_8_OR17 + ResidentAssignment_resident_9_OR17 = 1
+_C59: ResidentAssignment_resident_0_OR18 + ResidentAssignment_resident_10_OR18
+ + ResidentAssignment_resident_11_OR18 + ResidentAssignment_resident_12_OR18
+ + ResidentAssignment_resident_13_OR18 + ResidentAssignment_resident_14_OR18
+ + ResidentAssignment_resident_15_OR18 + ResidentAssignment_resident_16_OR18
+ + ResidentAssignment_resident_17_OR18 + ResidentAssignment_resident_18_OR18
+ + ResidentAssignment_resident_19_OR18 + ResidentAssignment_resident_1_OR18
+ + ResidentAssignment_resident_20_OR18 + ResidentAssignment_resident_21_OR18
+ + ResidentAssignment_resident_22_OR18 + ResidentAssignment_resident_23_OR18
+ + ResidentAssignment_resident_24_OR18 + ResidentAssignment_resident_25_OR18
+ + ResidentAssignment_resident_26_OR18 + ResidentAssignment_resident_27_OR18
+ + ResidentAssignment_resident_28_OR18 + ResidentAssignment_resident_29_OR18
+ + ResidentAssignment_resident_2_OR18 + ResidentAssignment_resident_30_OR18
+ + ResidentAssignment_resident_31_OR18 + ResidentAssignment_resident_32_OR18
+ + ResidentAssignment_resident_33_OR18 + ResidentAssignment_resident_34_OR18
+ + ResidentAssignment_resident_35_OR18 + ResidentAssignment_resident_36_OR18
+ + ResidentAssignment_resident_37_OR18 + ResidentAssignment_resident_38_OR18
+ + ResidentAssignment_resident_39_OR18 + ResidentAssignment_resident_3_OR18
+ + ResidentAssignment_resident_4_OR18 + ResidentAssignment_resident_5_OR18
+ + ResidentAssignment_resident_6_OR18 + ResidentAssignment_resident_7_OR18
+ + ResidentAssignment_resident_8_OR18 + ResidentAssignment_resident_9_OR18 = 1
+_C6: ResidentAssignment_resident_5_OR0 + ResidentAssignment_resident_5_OR1
+ + ResidentAssignment_resident_5_OR10 + ResidentAssignment_resident_5_OR11
+ + ResidentAssignment_resident_5_OR12 + ResidentAssignment_resident_5_OR13
+ + ResidentAssignment_resident_5_OR14 + ResidentAssignment_resident_5_OR15
+ + ResidentAssignment_resident_5_OR16 + ResidentAssignment_resident_5_OR17
+ + ResidentAssignment_resident_5_OR18 + ResidentAssignment_resident_5_OR19
+ + ResidentAssignment_resident_5_OR2 + ResidentAssignment_resident_5_OR20
+ + ResidentAssignment_resident_5_OR21 + ResidentAssignment_resident_5_OR22
+ + ResidentAssignment_resident_5_OR23 + ResidentAssignment_resident_5_OR24
+ + ResidentAssignment_resident_5_OR25 + ResidentAssignment_resident_5_OR26
+ + ResidentAssignment_resident_5_OR27 + ResidentAssignment_resident_5_OR28
+ + ResidentAssignment_resident_5_OR29 + ResidentAssignment_resident_5_OR3
+ + ResidentAssignment_resident_5_OR30 + ResidentAssignment_resident_5_OR31
+ + ResidentAssignment_resident_5_OR32 + ResidentAssignment_resident_5_OR33
+ + ResidentAssignment_resident_5_OR34 + ResidentAssignment_resident_5_OR35
+ + ResidentAssignment_resident_5_OR36 + ResidentAssignment_resident_5_OR37
+ + ResidentAssignment_resident_5_OR38 + ResidentAssignment_resident_5_OR39
+ + ResidentAssignment_resident_5_OR4 + ResidentAssignment_resident_5_OR5
+ + ResidentAssignment_resident_5_OR6 + ResidentAssignment_resident_5_OR7
+ + ResidentAssignment_resident_5_OR8 + ResidentAssignment_resident_5_OR9 <= 1
+_C60: ResidentAssignment_resident_0_OR19 + ResidentAssignment_resident_10_OR19
+ + ResidentAssignment_resident_11_OR19 + ResidentAssignment_resident_12_OR19
+ + ResidentAssignment_resident_13_OR19 + ResidentAssignment_resident_14_OR19
+ + ResidentAssignment_resident_15_OR19 + ResidentAssignment_resident_16_OR19
+ + ResidentAssignment_resident_17_OR19 + ResidentAssignment_resident_18_OR19
+ + ResidentAssignment_resident_19_OR19 + ResidentAssignment_resident_1_OR19
+ + ResidentAssignment_resident_20_OR19 + ResidentAssignment_resident_21_OR19
+ + ResidentAssignment_resident_22_OR19 + ResidentAssignment_resident_23_OR19
+ + ResidentAssignment_resident_24_OR19 + ResidentAssignment_resident_25_OR19
+ + ResidentAssignment_resident_26_OR19 + ResidentAssignment_resident_27_OR19
+ + ResidentAssignment_resident_28_OR19 + ResidentAssignment_resident_29_OR19
+ + ResidentAssignment_resident_2_OR19 + ResidentAssignment_resident_30_OR19
+ + ResidentAssignment_resident_31_OR19 + ResidentAssignment_resident_32_OR19
+ + ResidentAssignment_resident_33_OR19 + ResidentAssignment_resident_34_OR19
+ + ResidentAssignment_resident_35_OR19 + ResidentAssignment_resident_36_OR19
+ + ResidentAssignment_resident_37_OR19 + ResidentAssignment_resident_38_OR19
+ + ResidentAssignment_resident_39_OR19 + ResidentAssignment_resident_3_OR19
+ + ResidentAssignment_resident_4_OR19 + ResidentAssignment_resident_5_OR19
+ + ResidentAssignment_resident_6_OR19 + ResidentAssignment_resident_7_OR19
+ + ResidentAssignment_resident_8_OR19 + ResidentAssignment_resident_9_OR19 = 1
+_C61: ResidentAssignment_resident_0_OR20 + ResidentAssignment_resident_10_OR20
+ + ResidentAssignment_resident_11_OR20 + ResidentAssignment_resident_12_OR20
+ + ResidentAssignment_resident_13_OR20 + ResidentAssignment_resident_14_OR20
+ + ResidentAssignment_resident_15_OR20 + ResidentAssignment_resident_16_OR20
+ + ResidentAssignment_resident_17_OR20 + ResidentAssignment_resident_18_OR20
+ + ResidentAssignment_resident_19_OR20 + ResidentAssignment_resident_1_OR20
+ + ResidentAssignment_resident_20_OR20 + ResidentAssignment_resident_21_OR20
+ + ResidentAssignment_resident_22_OR20 + ResidentAssignment_resident_23_OR20
+ + ResidentAssignment_resident_24_OR20 + ResidentAssignment_resident_25_OR20
+ + ResidentAssignment_resident_26_OR20 + ResidentAssignment_resident_27_OR20
+ + ResidentAssignment_resident_28_OR20 + ResidentAssignment_resident_29_OR20
+ + ResidentAssignment_resident_2_OR20 + ResidentAssignment_resident_30_OR20
+ + ResidentAssignment_resident_31_OR20 + ResidentAssignment_resident_32_OR20
+ + ResidentAssignment_resident_33_OR20 + ResidentAssignment_resident_34_OR20
+ + ResidentAssignment_resident_35_OR20 + ResidentAssignment_resident_36_OR20
+ + ResidentAssignment_resident_37_OR20 + ResidentAssignment_resident_38_OR20
+ + ResidentAssignment_resident_39_OR20 + ResidentAssignment_resident_3_OR20
+ + ResidentAssignment_resident_4_OR20 + ResidentAssignment_resident_5_OR20
+ + ResidentAssignment_resident_6_OR20 + ResidentAssignment_resident_7_OR20
+ + ResidentAssignment_resident_8_OR20 + ResidentAssignment_resident_9_OR20 = 1
+_C62: ResidentAssignment_resident_0_OR21 + ResidentAssignment_resident_10_OR21
+ + ResidentAssignment_resident_11_OR21 + ResidentAssignment_resident_12_OR21
+ + ResidentAssignment_resident_13_OR21 + ResidentAssignment_resident_14_OR21
+ + ResidentAssignment_resident_15_OR21 + ResidentAssignment_resident_16_OR21
+ + ResidentAssignment_resident_17_OR21 + ResidentAssignment_resident_18_OR21
+ + ResidentAssignment_resident_19_OR21 + ResidentAssignment_resident_1_OR21
+ + ResidentAssignment_resident_20_OR21 + ResidentAssignment_resident_21_OR21
+ + ResidentAssignment_resident_22_OR21 + ResidentAssignment_resident_23_OR21
+ + ResidentAssignment_resident_24_OR21 + ResidentAssignment_resident_25_OR21
+ + ResidentAssignment_resident_26_OR21 + ResidentAssignment_resident_27_OR21
+ + ResidentAssignment_resident_28_OR21 + ResidentAssignment_resident_29_OR21
+ + ResidentAssignment_resident_2_OR21 + ResidentAssignment_resident_30_OR21
+ + ResidentAssignment_resident_31_OR21 + ResidentAssignment_resident_32_OR21
+ + ResidentAssignment_resident_33_OR21 + ResidentAssignment_resident_34_OR21
+ + ResidentAssignment_resident_35_OR21 + ResidentAssignment_resident_36_OR21
+ + ResidentAssignment_resident_37_OR21 + ResidentAssignment_resident_38_OR21
+ + ResidentAssignment_resident_39_OR21 + ResidentAssignment_resident_3_OR21
+ + ResidentAssignment_resident_4_OR21 + ResidentAssignment_resident_5_OR21
+ + ResidentAssignment_resident_6_OR21 + ResidentAssignment_resident_7_OR21
+ + ResidentAssignment_resident_8_OR21 + ResidentAssignment_resident_9_OR21 = 1
+_C63: ResidentAssignment_resident_0_OR22 + ResidentAssignment_resident_10_OR22
+ + ResidentAssignment_resident_11_OR22 + ResidentAssignment_resident_12_OR22
+ + ResidentAssignment_resident_13_OR22 + ResidentAssignment_resident_14_OR22
+ + ResidentAssignment_resident_15_OR22 + ResidentAssignment_resident_16_OR22
+ + ResidentAssignment_resident_17_OR22 + ResidentAssignment_resident_18_OR22
+ + ResidentAssignment_resident_19_OR22 + ResidentAssignment_resident_1_OR22
+ + ResidentAssignment_resident_20_OR22 + ResidentAssignment_resident_21_OR22
+ + ResidentAssignment_resident_22_OR22 + ResidentAssignment_resident_23_OR22
+ + ResidentAssignment_resident_24_OR22 + ResidentAssignment_resident_25_OR22
+ + ResidentAssignment_resident_26_OR22 + ResidentAssignment_resident_27_OR22
+ + ResidentAssignment_resident_28_OR22 + ResidentAssignment_resident_29_OR22
+ + ResidentAssignment_resident_2_OR22 + ResidentAssignment_resident_30_OR22
+ + ResidentAssignment_resident_31_OR22 + ResidentAssignment_resident_32_OR22
+ + ResidentAssignment_resident_33_OR22 + ResidentAssignment_resident_34_OR22
+ + ResidentAssignment_resident_35_OR22 + ResidentAssignment_resident_36_OR22
+ + ResidentAssignment_resident_37_OR22 + ResidentAssignment_resident_38_OR22
+ + ResidentAssignment_resident_39_OR22 + ResidentAssignment_resident_3_OR22
+ + ResidentAssignment_resident_4_OR22 + ResidentAssignment_resident_5_OR22
+ + ResidentAssignment_resident_6_OR22 + ResidentAssignment_resident_7_OR22
+ + ResidentAssignment_resident_8_OR22 + ResidentAssignment_resident_9_OR22 = 1
+_C64: ResidentAssignment_resident_0_OR23 + ResidentAssignment_resident_10_OR23
+ + ResidentAssignment_resident_11_OR23 + ResidentAssignment_resident_12_OR23
+ + ResidentAssignment_resident_13_OR23 + ResidentAssignment_resident_14_OR23
+ + ResidentAssignment_resident_15_OR23 + ResidentAssignment_resident_16_OR23
+ + ResidentAssignment_resident_17_OR23 + ResidentAssignment_resident_18_OR23
+ + ResidentAssignment_resident_19_OR23 + ResidentAssignment_resident_1_OR23
+ + ResidentAssignment_resident_20_OR23 + ResidentAssignment_resident_21_OR23
+ + ResidentAssignment_resident_22_OR23 + ResidentAssignment_resident_23_OR23
+ + ResidentAssignment_resident_24_OR23 + ResidentAssignment_resident_25_OR23
+ + ResidentAssignment_resident_26_OR23 + ResidentAssignment_resident_27_OR23
+ + ResidentAssignment_resident_28_OR23 + ResidentAssignment_resident_29_OR23
+ + ResidentAssignment_resident_2_OR23 + ResidentAssignment_resident_30_OR23
+ + ResidentAssignment_resident_31_OR23 + ResidentAssignment_resident_32_OR23
+ + ResidentAssignment_resident_33_OR23 + ResidentAssignment_resident_34_OR23
+ + ResidentAssignment_resident_35_OR23 + ResidentAssignment_resident_36_OR23
+ + ResidentAssignment_resident_37_OR23 + ResidentAssignment_resident_38_OR23
+ + ResidentAssignment_resident_39_OR23 + ResidentAssignment_resident_3_OR23
+ + ResidentAssignment_resident_4_OR23 + ResidentAssignment_resident_5_OR23
+ + ResidentAssignment_resident_6_OR23 + ResidentAssignment_resident_7_OR23
+ + ResidentAssignment_resident_8_OR23 + ResidentAssignment_resident_9_OR23 = 1
+_C65: ResidentAssignment_resident_0_OR24 + ResidentAssignment_resident_10_OR24
+ + ResidentAssignment_resident_11_OR24 + ResidentAssignment_resident_12_OR24
+ + ResidentAssignment_resident_13_OR24 + ResidentAssignment_resident_14_OR24
+ + ResidentAssignment_resident_15_OR24 + ResidentAssignment_resident_16_OR24
+ + ResidentAssignment_resident_17_OR24 + ResidentAssignment_resident_18_OR24
+ + ResidentAssignment_resident_19_OR24 + ResidentAssignment_resident_1_OR24
+ + ResidentAssignment_resident_20_OR24 + ResidentAssignment_resident_21_OR24
+ + ResidentAssignment_resident_22_OR24 + ResidentAssignment_resident_23_OR24
+ + ResidentAssignment_resident_24_OR24 + ResidentAssignment_resident_25_OR24
+ + ResidentAssignment_resident_26_OR24 + ResidentAssignment_resident_27_OR24
+ + ResidentAssignment_resident_28_OR24 + ResidentAssignment_resident_29_OR24
+ + ResidentAssignment_resident_2_OR24 + ResidentAssignment_resident_30_OR24
+ + ResidentAssignment_resident_31_OR24 + ResidentAssignment_resident_32_OR24
+ + ResidentAssignment_resident_33_OR24 + ResidentAssignment_resident_34_OR24
+ + ResidentAssignment_resident_35_OR24 + ResidentAssignment_resident_36_OR24
+ + ResidentAssignment_resident_37_OR24 + ResidentAssignment_resident_38_OR24
+ + ResidentAssignment_resident_39_OR24 + ResidentAssignment_resident_3_OR24
+ + ResidentAssignment_resident_4_OR24 + ResidentAssignment_resident_5_OR24
+ + ResidentAssignment_resident_6_OR24 + ResidentAssignment_resident_7_OR24
+ + ResidentAssignment_resident_8_OR24 + ResidentAssignment_resident_9_OR24 = 1
+_C66: ResidentAssignment_resident_0_OR25 + ResidentAssignment_resident_10_OR25
+ + ResidentAssignment_resident_11_OR25 + ResidentAssignment_resident_12_OR25
+ + ResidentAssignment_resident_13_OR25 + ResidentAssignment_resident_14_OR25
+ + ResidentAssignment_resident_15_OR25 + ResidentAssignment_resident_16_OR25
+ + ResidentAssignment_resident_17_OR25 + ResidentAssignment_resident_18_OR25
+ + ResidentAssignment_resident_19_OR25 + ResidentAssignment_resident_1_OR25
+ + ResidentAssignment_resident_20_OR25 + ResidentAssignment_resident_21_OR25
+ + ResidentAssignment_resident_22_OR25 + ResidentAssignment_resident_23_OR25
+ + ResidentAssignment_resident_24_OR25 + ResidentAssignment_resident_25_OR25
+ + ResidentAssignment_resident_26_OR25 + ResidentAssignment_resident_27_OR25
+ + ResidentAssignment_resident_28_OR25 + ResidentAssignment_resident_29_OR25
+ + ResidentAssignment_resident_2_OR25 + ResidentAssignment_resident_30_OR25
+ + ResidentAssignment_resident_31_OR25 + ResidentAssignment_resident_32_OR25
+ + ResidentAssignment_resident_33_OR25 + ResidentAssignment_resident_34_OR25
+ + ResidentAssignment_resident_35_OR25 + ResidentAssignment_resident_36_OR25
+ + ResidentAssignment_resident_37_OR25 + ResidentAssignment_resident_38_OR25
+ + ResidentAssignment_resident_39_OR25 + ResidentAssignment_resident_3_OR25
+ + ResidentAssignment_resident_4_OR25 + ResidentAssignment_resident_5_OR25
+ + ResidentAssignment_resident_6_OR25 + ResidentAssignment_resident_7_OR25
+ + ResidentAssignment_resident_8_OR25 + ResidentAssignment_resident_9_OR25 = 1
+_C67: ResidentAssignment_resident_0_OR26 + ResidentAssignment_resident_10_OR26
+ + ResidentAssignment_resident_11_OR26 + ResidentAssignment_resident_12_OR26
+ + ResidentAssignment_resident_13_OR26 + ResidentAssignment_resident_14_OR26
+ + ResidentAssignment_resident_15_OR26 + ResidentAssignment_resident_16_OR26
+ + ResidentAssignment_resident_17_OR26 + ResidentAssignment_resident_18_OR26
+ + ResidentAssignment_resident_19_OR26 + ResidentAssignment_resident_1_OR26
+ + ResidentAssignment_resident_20_OR26 + ResidentAssignment_resident_21_OR26
+ + ResidentAssignment_resident_22_OR26 + ResidentAssignment_resident_23_OR26
+ + ResidentAssignment_resident_24_OR26 + ResidentAssignment_resident_25_OR26
+ + ResidentAssignment_resident_26_OR26 + ResidentAssignment_resident_27_OR26
+ + ResidentAssignment_resident_28_OR26 + ResidentAssignment_resident_29_OR26
+ + ResidentAssignment_resident_2_OR26 + ResidentAssignment_resident_30_OR26
+ + ResidentAssignment_resident_31_OR26 + ResidentAssignment_resident_32_OR26
+ + ResidentAssignment_resident_33_OR26 + ResidentAssignment_resident_34_OR26
+ + ResidentAssignment_resident_35_OR26 + ResidentAssignment_resident_36_OR26
+ + ResidentAssignment_resident_37_OR26 + ResidentAssignment_resident_38_OR26
+ + ResidentAssignment_resident_39_OR26 + ResidentAssignment_resident_3_OR26
+ + ResidentAssignment_resident_4_OR26 + ResidentAssignment_resident_5_OR26
+ + ResidentAssignment_resident_6_OR26 + ResidentAssignment_resident_7_OR26
+ + ResidentAssignment_resident_8_OR26 + ResidentAssignment_resident_9_OR26 = 1
+_C68: ResidentAssignment_resident_0_OR27 + ResidentAssignment_resident_10_OR27
+ + ResidentAssignment_resident_11_OR27 + ResidentAssignment_resident_12_OR27
+ + ResidentAssignment_resident_13_OR27 + ResidentAssignment_resident_14_OR27
+ + ResidentAssignment_resident_15_OR27 + ResidentAssignment_resident_16_OR27
+ + ResidentAssignment_resident_17_OR27 + ResidentAssignment_resident_18_OR27
+ + ResidentAssignment_resident_19_OR27 + ResidentAssignment_resident_1_OR27
+ + ResidentAssignment_resident_20_OR27 + ResidentAssignment_resident_21_OR27
+ + ResidentAssignment_resident_22_OR27 + ResidentAssignment_resident_23_OR27
+ + ResidentAssignment_resident_24_OR27 + ResidentAssignment_resident_25_OR27
+ + ResidentAssignment_resident_26_OR27 + ResidentAssignment_resident_27_OR27
+ + ResidentAssignment_resident_28_OR27 + ResidentAssignment_resident_29_OR27
+ + ResidentAssignment_resident_2_OR27 + ResidentAssignment_resident_30_OR27
+ + ResidentAssignment_resident_31_OR27 + ResidentAssignment_resident_32_OR27
+ + ResidentAssignment_resident_33_OR27 + ResidentAssignment_resident_34_OR27
+ + ResidentAssignment_resident_35_OR27 + ResidentAssignment_resident_36_OR27
+ + ResidentAssignment_resident_37_OR27 + ResidentAssignment_resident_38_OR27
+ + ResidentAssignment_resident_39_OR27 + ResidentAssignment_resident_3_OR27
+ + ResidentAssignment_resident_4_OR27 + ResidentAssignment_resident_5_OR27
+ + ResidentAssignment_resident_6_OR27 + ResidentAssignment_resident_7_OR27
+ + ResidentAssignment_resident_8_OR27 + ResidentAssignment_resident_9_OR27 = 1
+_C69: ResidentAssignment_resident_0_OR28 + ResidentAssignment_resident_10_OR28
+ + ResidentAssignment_resident_11_OR28 + ResidentAssignment_resident_12_OR28
+ + ResidentAssignment_resident_13_OR28 + ResidentAssignment_resident_14_OR28
+ + ResidentAssignment_resident_15_OR28 + ResidentAssignment_resident_16_OR28
+ + ResidentAssignment_resident_17_OR28 + ResidentAssignment_resident_18_OR28
+ + ResidentAssignment_resident_19_OR28 + ResidentAssignment_resident_1_OR28
+ + ResidentAssignment_resident_20_OR28 + ResidentAssignment_resident_21_OR28
+ + ResidentAssignment_resident_22_OR28 + ResidentAssignment_resident_23_OR28
+ + ResidentAssignment_resident_24_OR28 + ResidentAssignment_resident_25_OR28
+ + ResidentAssignment_resident_26_OR28 + ResidentAssignment_resident_27_OR28
+ + ResidentAssignment_resident_28_OR28 + ResidentAssignment_resident_29_OR28
+ + ResidentAssignment_resident_2_OR28 + ResidentAssignment_resident_30_OR28
+ + ResidentAssignment_resident_31_OR28 + ResidentAssignment_resident_32_OR28
+ + ResidentAssignment_resident_33_OR28 + ResidentAssignment_resident_34_OR28
+ + ResidentAssignment_resident_35_OR28 + ResidentAssignment_resident_36_OR28
+ + ResidentAssignment_resident_37_OR28 + ResidentAssignment_resident_38_OR28
+ + ResidentAssignment_resident_39_OR28 + ResidentAssignment_resident_3_OR28
+ + ResidentAssignment_resident_4_OR28 + ResidentAssignment_resident_5_OR28
+ + ResidentAssignment_resident_6_OR28 + ResidentAssignment_resident_7_OR28
+ + ResidentAssignment_resident_8_OR28 + ResidentAssignment_resident_9_OR28 = 1
+_C7: ResidentAssignment_resident_6_OR0 + ResidentAssignment_resident_6_OR1
+ + ResidentAssignment_resident_6_OR10 + ResidentAssignment_resident_6_OR11
+ + ResidentAssignment_resident_6_OR12 + ResidentAssignment_resident_6_OR13
+ + ResidentAssignment_resident_6_OR14 + ResidentAssignment_resident_6_OR15
+ + ResidentAssignment_resident_6_OR16 + ResidentAssignment_resident_6_OR17
+ + ResidentAssignment_resident_6_OR18 + ResidentAssignment_resident_6_OR19
+ + ResidentAssignment_resident_6_OR2 + ResidentAssignment_resident_6_OR20
+ + ResidentAssignment_resident_6_OR21 + ResidentAssignment_resident_6_OR22
+ + ResidentAssignment_resident_6_OR23 + ResidentAssignment_resident_6_OR24
+ + ResidentAssignment_resident_6_OR25 + ResidentAssignment_resident_6_OR26
+ + ResidentAssignment_resident_6_OR27 + ResidentAssignment_resident_6_OR28
+ + ResidentAssignment_resident_6_OR29 + ResidentAssignment_resident_6_OR3
+ + ResidentAssignment_resident_6_OR30 + ResidentAssignment_resident_6_OR31
+ + ResidentAssignment_resident_6_OR32 + ResidentAssignment_resident_6_OR33
+ + ResidentAssignment_resident_6_OR34 + ResidentAssignment_resident_6_OR35
+ + ResidentAssignment_resident_6_OR36 + ResidentAssignment_resident_6_OR37
+ + ResidentAssignment_resident_6_OR38 + ResidentAssignment_resident_6_OR39
+ + ResidentAssignment_resident_6_OR4 + ResidentAssignment_resident_6_OR5
+ + ResidentAssignment_resident_6_OR6 + ResidentAssignment_resident_6_OR7
+ + ResidentAssignment_resident_6_OR8 + ResidentAssignment_resident_6_OR9 <= 1
+_C70: ResidentAssignment_resident_0_OR29 + ResidentAssignment_resident_10_OR29
+ + ResidentAssignment_resident_11_OR29 + ResidentAssignment_resident_12_OR29
+ + ResidentAssignment_resident_13_OR29 + ResidentAssignment_resident_14_OR29
+ + ResidentAssignment_resident_15_OR29 + ResidentAssignment_resident_16_OR29
+ + ResidentAssignment_resident_17_OR29 + ResidentAssignment_resident_18_OR29
+ + ResidentAssignment_resident_19_OR29 + ResidentAssignment_resident_1_OR29
+ + ResidentAssignment_resident_20_OR29 + ResidentAssignment_resident_21_OR29
+ + ResidentAssignment_resident_22_OR29 + ResidentAssignment_resident_23_OR29
+ + ResidentAssignment_resident_24_OR29 + ResidentAssignment_resident_25_OR29
+ + ResidentAssignment_resident_26_OR29 + ResidentAssignment_resident_27_OR29
+ + ResidentAssignment_resident_28_OR29 + ResidentAssignment_resident_29_OR29
+ + ResidentAssignment_resident_2_OR29 + ResidentAssignment_resident_30_OR29
+ + ResidentAssignment_resident_31_OR29 + ResidentAssignment_resident_32_OR29
+ + ResidentAssignment_resident_33_OR29 + ResidentAssignment_resident_34_OR29
+ + ResidentAssignment_resident_35_OR29 + ResidentAssignment_resident_36_OR29
+ + ResidentAssignment_resident_37_OR29 + ResidentAssignment_resident_38_OR29
+ + ResidentAssignment_resident_39_OR29 + ResidentAssignment_resident_3_OR29
+ + ResidentAssignment_resident_4_OR29 + ResidentAssignment_resident_5_OR29
+ + ResidentAssignment_resident_6_OR29 + ResidentAssignment_resident_7_OR29
+ + ResidentAssignment_resident_8_OR29 + ResidentAssignment_resident_9_OR29 = 1
+_C71: ResidentAssignment_resident_0_OR30 + ResidentAssignment_resident_10_OR30
+ + ResidentAssignment_resident_11_OR30 + ResidentAssignment_resident_12_OR30
+ + ResidentAssignment_resident_13_OR30 + ResidentAssignment_resident_14_OR30
+ + ResidentAssignment_resident_15_OR30 + ResidentAssignment_resident_16_OR30
+ + ResidentAssignment_resident_17_OR30 + ResidentAssignment_resident_18_OR30
+ + ResidentAssignment_resident_19_OR30 + ResidentAssignment_resident_1_OR30
+ + ResidentAssignment_resident_20_OR30 + ResidentAssignment_resident_21_OR30
+ + ResidentAssignment_resident_22_OR30 + ResidentAssignment_resident_23_OR30
+ + ResidentAssignment_resident_24_OR30 + ResidentAssignment_resident_25_OR30
+ + ResidentAssignment_resident_26_OR30 + ResidentAssignment_resident_27_OR30
+ + ResidentAssignment_resident_28_OR30 + ResidentAssignment_resident_29_OR30
+ + ResidentAssignment_resident_2_OR30 + ResidentAssignment_resident_30_OR30
+ + ResidentAssignment_resident_31_OR30 + ResidentAssignment_resident_32_OR30
+ + ResidentAssignment_resident_33_OR30 + ResidentAssignment_resident_34_OR30
+ + ResidentAssignment_resident_35_OR30 + ResidentAssignment_resident_36_OR30
+ + ResidentAssignment_resident_37_OR30 + ResidentAssignment_resident_38_OR30
+ + ResidentAssignment_resident_39_OR30 + ResidentAssignment_resident_3_OR30
+ + ResidentAssignment_resident_4_OR30 + ResidentAssignment_resident_5_OR30
+ + ResidentAssignment_resident_6_OR30 + ResidentAssignment_resident_7_OR30
+ + ResidentAssignment_resident_8_OR30 + ResidentAssignment_resident_9_OR30 = 1
+_C72: ResidentAssignment_resident_0_OR31 + ResidentAssignment_resident_10_OR31
+ + ResidentAssignment_resident_11_OR31 + ResidentAssignment_resident_12_OR31
+ + ResidentAssignment_resident_13_OR31 + ResidentAssignment_resident_14_OR31
+ + ResidentAssignment_resident_15_OR31 + ResidentAssignment_resident_16_OR31
+ + ResidentAssignment_resident_17_OR31 + ResidentAssignment_resident_18_OR31
+ + ResidentAssignment_resident_19_OR31 + ResidentAssignment_resident_1_OR31
+ + ResidentAssignment_resident_20_OR31 + ResidentAssignment_resident_21_OR31
+ + ResidentAssignment_resident_22_OR31 + ResidentAssignment_resident_23_OR31
+ + ResidentAssignment_resident_24_OR31 + ResidentAssignment_resident_25_OR31
+ + ResidentAssignment_resident_26_OR31 + ResidentAssignment_resident_27_OR31
+ + ResidentAssignment_resident_28_OR31 + ResidentAssignment_resident_29_OR31
+ + ResidentAssignment_resident_2_OR31 + ResidentAssignment_resident_30_OR31
+ + ResidentAssignment_resident_31_OR31 + ResidentAssignment_resident_32_OR31
+ + ResidentAssignment_resident_33_OR31 + ResidentAssignment_resident_34_OR31
+ + ResidentAssignment_resident_35_OR31 + ResidentAssignment_resident_36_OR31
+ + ResidentAssignment_resident_37_OR31 + ResidentAssignment_resident_38_OR31
+ + ResidentAssignment_resident_39_OR31 + ResidentAssignment_resident_3_OR31
+ + ResidentAssignment_resident_4_OR31 + ResidentAssignment_resident_5_OR31
+ + ResidentAssignment_resident_6_OR31 + ResidentAssignment_resident_7_OR31
+ + ResidentAssignment_resident_8_OR31 + ResidentAssignment_resident_9_OR31 = 1
+_C73: ResidentAssignment_resident_0_OR32 + ResidentAssignment_resident_10_OR32
+ + ResidentAssignment_resident_11_OR32 + ResidentAssignment_resident_12_OR32
+ + ResidentAssignment_resident_13_OR32 + ResidentAssignment_resident_14_OR32
+ + ResidentAssignment_resident_15_OR32 + ResidentAssignment_resident_16_OR32
+ + ResidentAssignment_resident_17_OR32 + ResidentAssignment_resident_18_OR32
+ + ResidentAssignment_resident_19_OR32 + ResidentAssignment_resident_1_OR32
+ + ResidentAssignment_resident_20_OR32 + ResidentAssignment_resident_21_OR32
+ + ResidentAssignment_resident_22_OR32 + ResidentAssignment_resident_23_OR32
+ + ResidentAssignment_resident_24_OR32 + ResidentAssignment_resident_25_OR32
+ + ResidentAssignment_resident_26_OR32 + ResidentAssignment_resident_27_OR32
+ + ResidentAssignment_resident_28_OR32 + ResidentAssignment_resident_29_OR32
+ + ResidentAssignment_resident_2_OR32 + ResidentAssignment_resident_30_OR32
+ + ResidentAssignment_resident_31_OR32 + ResidentAssignment_resident_32_OR32
+ + ResidentAssignment_resident_33_OR32 + ResidentAssignment_resident_34_OR32
+ + ResidentAssignment_resident_35_OR32 + ResidentAssignment_resident_36_OR32
+ + ResidentAssignment_resident_37_OR32 + ResidentAssignment_resident_38_OR32
+ + ResidentAssignment_resident_39_OR32 + ResidentAssignment_resident_3_OR32
+ + ResidentAssignment_resident_4_OR32 + ResidentAssignment_resident_5_OR32
+ + ResidentAssignment_resident_6_OR32 + ResidentAssignment_resident_7_OR32
+ + ResidentAssignment_resident_8_OR32 + ResidentAssignment_resident_9_OR32 = 1
+_C74: ResidentAssignment_resident_0_OR33 + ResidentAssignment_resident_10_OR33
+ + ResidentAssignment_resident_11_OR33 + ResidentAssignment_resident_12_OR33
+ + ResidentAssignment_resident_13_OR33 + ResidentAssignment_resident_14_OR33
+ + ResidentAssignment_resident_15_OR33 + ResidentAssignment_resident_16_OR33
+ + ResidentAssignment_resident_17_OR33 + ResidentAssignment_resident_18_OR33
+ + ResidentAssignment_resident_19_OR33 + ResidentAssignment_resident_1_OR33
+ + ResidentAssignment_resident_20_OR33 + ResidentAssignment_resident_21_OR33
+ + ResidentAssignment_resident_22_OR33 + ResidentAssignment_resident_23_OR33
+ + ResidentAssignment_resident_24_OR33 + ResidentAssignment_resident_25_OR33
+ + ResidentAssignment_resident_26_OR33 + ResidentAssignment_resident_27_OR33
+ + ResidentAssignment_resident_28_OR33 + ResidentAssignment_resident_29_OR33
+ + ResidentAssignment_resident_2_OR33 + ResidentAssignment_resident_30_OR33
+ + ResidentAssignment_resident_31_OR33 + ResidentAssignment_resident_32_OR33
+ + ResidentAssignment_resident_33_OR33 + ResidentAssignment_resident_34_OR33
+ + ResidentAssignment_resident_35_OR33 + ResidentAssignment_resident_36_OR33
+ + ResidentAssignment_resident_37_OR33 + ResidentAssignment_resident_38_OR33
+ + ResidentAssignment_resident_39_OR33 + ResidentAssignment_resident_3_OR33
+ + ResidentAssignment_resident_4_OR33 + ResidentAssignment_resident_5_OR33
+ + ResidentAssignment_resident_6_OR33 + ResidentAssignment_resident_7_OR33
+ + ResidentAssignment_resident_8_OR33 + ResidentAssignment_resident_9_OR33 = 1
+_C75: ResidentAssignment_resident_0_OR34 + ResidentAssignment_resident_10_OR34
+ + ResidentAssignment_resident_11_OR34 + ResidentAssignment_resident_12_OR34
+ + ResidentAssignment_resident_13_OR34 + ResidentAssignment_resident_14_OR34
+ + ResidentAssignment_resident_15_OR34 + ResidentAssignment_resident_16_OR34
+ + ResidentAssignment_resident_17_OR34 + ResidentAssignment_resident_18_OR34
+ + ResidentAssignment_resident_19_OR34 + ResidentAssignment_resident_1_OR34
+ + ResidentAssignment_resident_20_OR34 + ResidentAssignment_resident_21_OR34
+ + ResidentAssignment_resident_22_OR34 + ResidentAssignment_resident_23_OR34
+ + ResidentAssignment_resident_24_OR34 + ResidentAssignment_resident_25_OR34
+ + ResidentAssignment_resident_26_OR34 + ResidentAssignment_resident_27_OR34
+ + ResidentAssignment_resident_28_OR34 + ResidentAssignment_resident_29_OR34
+ + ResidentAssignment_resident_2_OR34 + ResidentAssignment_resident_30_OR34
+ + ResidentAssignment_resident_31_OR34 + ResidentAssignment_resident_32_OR34
+ + ResidentAssignment_resident_33_OR34 + ResidentAssignment_resident_34_OR34
+ + ResidentAssignment_resident_35_OR34 + ResidentAssignment_resident_36_OR34
+ + ResidentAssignment_resident_37_OR34 + ResidentAssignment_resident_38_OR34
+ + ResidentAssignment_resident_39_OR34 + ResidentAssignment_resident_3_OR34
+ + ResidentAssignment_resident_4_OR34 + ResidentAssignment_resident_5_OR34
+ + ResidentAssignment_resident_6_OR34 + ResidentAssignment_resident_7_OR34
+ + ResidentAssignment_resident_8_OR34 + ResidentAssignment_resident_9_OR34 = 1
+_C76: ResidentAssignment_resident_0_OR35 + ResidentAssignment_resident_10_OR35
+ + ResidentAssignment_resident_11_OR35 + ResidentAssignment_resident_12_OR35
+ + ResidentAssignment_resident_13_OR35 + ResidentAssignment_resident_14_OR35
+ + ResidentAssignment_resident_15_OR35 + ResidentAssignment_resident_16_OR35
+ + ResidentAssignment_resident_17_OR35 + ResidentAssignment_resident_18_OR35
+ + ResidentAssignment_resident_19_OR35 + ResidentAssignment_resident_1_OR35
+ + ResidentAssignment_resident_20_OR35 + ResidentAssignment_resident_21_OR35
+ + ResidentAssignment_resident_22_OR35 + ResidentAssignment_resident_23_OR35
+ + ResidentAssignment_resident_24_OR35 + ResidentAssignment_resident_25_OR35
+ + ResidentAssignment_resident_26_OR35 + ResidentAssignment_resident_27_OR35
+ + ResidentAssignment_resident_28_OR35 + ResidentAssignment_resident_29_OR35
+ + ResidentAssignment_resident_2_OR35 + ResidentAssignment_resident_30_OR35
+ + ResidentAssignment_resident_31_OR35 + ResidentAssignment_resident_32_OR35
+ + ResidentAssignment_resident_33_OR35 + ResidentAssignment_resident_34_OR35
+ + ResidentAssignment_resident_35_OR35 + ResidentAssignment_resident_36_OR35
+ + ResidentAssignment_resident_37_OR35 + ResidentAssignment_resident_38_OR35
+ + ResidentAssignment_resident_39_OR35 + ResidentAssignment_resident_3_OR35
+ + ResidentAssignment_resident_4_OR35 + ResidentAssignment_resident_5_OR35
+ + ResidentAssignment_resident_6_OR35 + ResidentAssignment_resident_7_OR35
+ + ResidentAssignment_resident_8_OR35 + ResidentAssignment_resident_9_OR35 = 1
+_C77: ResidentAssignment_resident_0_OR36 + ResidentAssignment_resident_10_OR36
+ + ResidentAssignment_resident_11_OR36 + ResidentAssignment_resident_12_OR36
+ + ResidentAssignment_resident_13_OR36 + ResidentAssignment_resident_14_OR36
+ + ResidentAssignment_resident_15_OR36 + ResidentAssignment_resident_16_OR36
+ + ResidentAssignment_resident_17_OR36 + ResidentAssignment_resident_18_OR36
+ + ResidentAssignment_resident_19_OR36 + ResidentAssignment_resident_1_OR36
+ + ResidentAssignment_resident_20_OR36 + ResidentAssignment_resident_21_OR36
+ + ResidentAssignment_resident_22_OR36 + ResidentAssignment_resident_23_OR36
+ + ResidentAssignment_resident_24_OR36 + ResidentAssignment_resident_25_OR36
+ + ResidentAssignment_resident_26_OR36 + ResidentAssignment_resident_27_OR36
+ + ResidentAssignment_resident_28_OR36 + ResidentAssignment_resident_29_OR36
+ + ResidentAssignment_resident_2_OR36 + ResidentAssignment_resident_30_OR36
+ + ResidentAssignment_resident_31_OR36 + ResidentAssignment_resident_32_OR36
+ + ResidentAssignment_resident_33_OR36 + ResidentAssignment_resident_34_OR36
+ + ResidentAssignment_resident_35_OR36 + ResidentAssignment_resident_36_OR36
+ + ResidentAssignment_resident_37_OR36 + ResidentAssignment_resident_38_OR36
+ + ResidentAssignment_resident_39_OR36 + ResidentAssignment_resident_3_OR36
+ + ResidentAssignment_resident_4_OR36 + ResidentAssignment_resident_5_OR36
+ + ResidentAssignment_resident_6_OR36 + ResidentAssignment_resident_7_OR36
+ + ResidentAssignment_resident_8_OR36 + ResidentAssignment_resident_9_OR36 = 1
+_C78: ResidentAssignment_resident_0_OR37 + ResidentAssignment_resident_10_OR37
+ + ResidentAssignment_resident_11_OR37 + ResidentAssignment_resident_12_OR37
+ + ResidentAssignment_resident_13_OR37 + ResidentAssignment_resident_14_OR37
+ + ResidentAssignment_resident_15_OR37 + ResidentAssignment_resident_16_OR37
+ + ResidentAssignment_resident_17_OR37 + ResidentAssignment_resident_18_OR37
+ + ResidentAssignment_resident_19_OR37 + ResidentAssignment_resident_1_OR37
+ + ResidentAssignment_resident_20_OR37 + ResidentAssignment_resident_21_OR37
+ + ResidentAssignment_resident_22_OR37 + ResidentAssignment_resident_23_OR37
+ + ResidentAssignment_resident_24_OR37 + ResidentAssignment_resident_25_OR37
+ + ResidentAssignment_resident_26_OR37 + ResidentAssignment_resident_27_OR37
+ + ResidentAssignment_resident_28_OR37 + ResidentAssignment_resident_29_OR37
+ + ResidentAssignment_resident_2_OR37 + ResidentAssignment_resident_30_OR37
+ + ResidentAssignment_resident_31_OR37 + ResidentAssignment_resident_32_OR37
+ + ResidentAssignment_resident_33_OR37 + ResidentAssignment_resident_34_OR37
+ + ResidentAssignment_resident_35_OR37 + ResidentAssignment_resident_36_OR37
+ + ResidentAssignment_resident_37_OR37 + ResidentAssignment_resident_38_OR37
+ + ResidentAssignment_resident_39_OR37 + ResidentAssignment_resident_3_OR37
+ + ResidentAssignment_resident_4_OR37 + ResidentAssignment_resident_5_OR37
+ + ResidentAssignment_resident_6_OR37 + ResidentAssignment_resident_7_OR37
+ + ResidentAssignment_resident_8_OR37 + ResidentAssignment_resident_9_OR37 = 1
+_C79: ResidentAssignment_resident_0_OR38 + ResidentAssignment_resident_10_OR38
+ + ResidentAssignment_resident_11_OR38 + ResidentAssignment_resident_12_OR38
+ + ResidentAssignment_resident_13_OR38 + ResidentAssignment_resident_14_OR38
+ + ResidentAssignment_resident_15_OR38 + ResidentAssignment_resident_16_OR38
+ + ResidentAssignment_resident_17_OR38 + ResidentAssignment_resident_18_OR38
+ + ResidentAssignment_resident_19_OR38 + ResidentAssignment_resident_1_OR38
+ + ResidentAssignment_resident_20_OR38 + ResidentAssignment_resident_21_OR38
+ + ResidentAssignment_resident_22_OR38 + ResidentAssignment_resident_23_OR38
+ + ResidentAssignment_resident_24_OR38 + ResidentAssignment_resident_25_OR38
+ + ResidentAssignment_resident_26_OR38 + ResidentAssignment_resident_27_OR38
+ + ResidentAssignment_resident_28_OR38 + ResidentAssignment_resident_29_OR38
+ + ResidentAssignment_resident_2_OR38 + ResidentAssignment_resident_30_OR38
+ + ResidentAssignment_resident_31_OR38 + ResidentAssignment_resident_32_OR38
+ + ResidentAssignment_resident_33_OR38 + ResidentAssignment_resident_34_OR38
+ + ResidentAssignment_resident_35_OR38 + ResidentAssignment_resident_36_OR38
+ + ResidentAssignment_resident_37_OR38 + ResidentAssignment_resident_38_OR38
+ + ResidentAssignment_resident_39_OR38 + ResidentAssignment_resident_3_OR38
+ + ResidentAssignment_resident_4_OR38 + ResidentAssignment_resident_5_OR38
+ + ResidentAssignment_resident_6_OR38 + ResidentAssignment_resident_7_OR38
+ + ResidentAssignment_resident_8_OR38 + ResidentAssignment_resident_9_OR38 = 1
+_C8: ResidentAssignment_resident_7_OR0 + ResidentAssignment_resident_7_OR1
+ + ResidentAssignment_resident_7_OR10 + ResidentAssignment_resident_7_OR11
+ + ResidentAssignment_resident_7_OR12 + ResidentAssignment_resident_7_OR13
+ + ResidentAssignment_resident_7_OR14 + ResidentAssignment_resident_7_OR15
+ + ResidentAssignment_resident_7_OR16 + ResidentAssignment_resident_7_OR17
+ + ResidentAssignment_resident_7_OR18 + ResidentAssignment_resident_7_OR19
+ + ResidentAssignment_resident_7_OR2 + ResidentAssignment_resident_7_OR20
+ + ResidentAssignment_resident_7_OR21 + ResidentAssignment_resident_7_OR22
+ + ResidentAssignment_resident_7_OR23 + ResidentAssignment_resident_7_OR24
+ + ResidentAssignment_resident_7_OR25 + ResidentAssignment_resident_7_OR26
+ + ResidentAssignment_resident_7_OR27 + ResidentAssignment_resident_7_OR28
+ + ResidentAssignment_resident_7_OR29 + ResidentAssignment_resident_7_OR3
+ + ResidentAssignment_resident_7_OR30 + ResidentAssignment_resident_7_OR31
+ + ResidentAssignment_resident_7_OR32 + ResidentAssignment_resident_7_OR33
+ + ResidentAssignment_resident_7_OR34 + ResidentAssignment_resident_7_OR35
+ + ResidentAssignment_resident_7_OR36 + ResidentAssignment_resident_7_OR37
+ + ResidentAssignment_resident_7_OR38 + ResidentAssignment_resident_7_OR39
+ + ResidentAssignment_resident_7_OR4 + ResidentAssignment_resident_7_OR5
+ + ResidentAssignment_resident_7_OR6 + ResidentAssignment_resident_7_OR7
+ + ResidentAssignment_resident_7_OR8 + ResidentAssignment_resident_7_OR9 <= 1
+_C80: ResidentAssignment_resident_0_OR39 + ResidentAssignment_resident_10_OR39
+ + ResidentAssignment_resident_11_OR39 + ResidentAssignment_resident_12_OR39
+ + ResidentAssignment_resident_13_OR39 + ResidentAssignment_resident_14_OR39
+ + ResidentAssignment_resident_15_OR39 + ResidentAssignment_resident_16_OR39
+ + ResidentAssignment_resident_17_OR39 + ResidentAssignment_resident_18_OR39
+ + ResidentAssignment_resident_19_OR39 + ResidentAssignment_resident_1_OR39
+ + ResidentAssignment_resident_20_OR39 + ResidentAssignment_resident_21_OR39
+ + ResidentAssignment_resident_22_OR39 + ResidentAssignment_resident_23_OR39
+ + ResidentAssignment_resident_24_OR39 + ResidentAssignment_resident_25_OR39
+ + ResidentAssignment_resident_26_OR39 + ResidentAssignment_resident_27_OR39
+ + ResidentAssignment_resident_28_OR39 + ResidentAssignment_resident_29_OR39
+ + ResidentAssignment_resident_2_OR39 + ResidentAssignment_resident_30_OR39
+ + ResidentAssignment_resident_31_OR39 + ResidentAssignment_resident_32_OR39
+ + ResidentAssignment_resident_33_OR39 + ResidentAssignment_resident_34_OR39
+ + ResidentAssignment_resident_35_OR39 + ResidentAssignment_resident_36_OR39
+ + ResidentAssignment_resident_37_OR39 + ResidentAssignment_resident_38_OR39
+ + ResidentAssignment_resident_39_OR39 + ResidentAssignment_resident_3_OR39
+ + ResidentAssignment_resident_4_OR39 + ResidentAssignment_resident_5_OR39
+ + ResidentAssignment_resident_6_OR39 + ResidentAssignment_resident_7_OR39
+ + ResidentAssignment_resident_8_OR39 + ResidentAssignment_resident_9_OR39 = 1
+_C9: ResidentAssignment_resident_8_OR0 + ResidentAssignment_resident_8_OR1
+ + ResidentAssignment_resident_8_OR10 + ResidentAssignment_resident_8_OR11
+ + ResidentAssignment_resident_8_OR12 + ResidentAssignment_resident_8_OR13
+ + ResidentAssignment_resident_8_OR14 + ResidentAssignment_resident_8_OR15
+ + ResidentAssignment_resident_8_OR16 + ResidentAssignment_resident_8_OR17
+ + ResidentAssignment_resident_8_OR18 + ResidentAssignment_resident_8_OR19
+ + ResidentAssignment_resident_8_OR2 + ResidentAssignment_resident_8_OR20
+ + ResidentAssignment_resident_8_OR21 + ResidentAssignment_resident_8_OR22
+ + ResidentAssignment_resident_8_OR23 + ResidentAssignment_resident_8_OR24
+ + ResidentAssignment_resident_8_OR25 + ResidentAssignment_resident_8_OR26
+ + ResidentAssignment_resident_8_OR27 + ResidentAssignment_resident_8_OR28
+ + ResidentAssignment_resident_8_OR29 + ResidentAssignment_resident_8_OR3
+ + ResidentAssignment_resident_8_OR30 + ResidentAssignment_resident_8_OR31
+ + ResidentAssignment_resident_8_OR32 + ResidentAssignment_resident_8_OR33
+ + ResidentAssignment_resident_8_OR34 + ResidentAssignment_resident_8_OR35
+ + ResidentAssignment_resident_8_OR36 + ResidentAssignment_resident_8_OR37
+ + ResidentAssignment_resident_8_OR38 + ResidentAssignment_resident_8_OR39
+ + ResidentAssignment_resident_8_OR4 + ResidentAssignment_resident_8_OR5
+ + ResidentAssignment_resident_8_OR6 + ResidentAssignment_resident_8_OR7
+ + ResidentAssignment_resident_8_OR8 + ResidentAssignment_resident_8_OR9 <= 1
+Bounds
+ __dummy = 0
+Binaries
+ResidentAssignment_resident_0_OR0
+ResidentAssignment_resident_0_OR1
+ResidentAssignment_resident_0_OR10
+ResidentAssignment_resident_0_OR11
+ResidentAssignment_resident_0_OR12
+ResidentAssignment_resident_0_OR13
+ResidentAssignment_resident_0_OR14
+ResidentAssignment_resident_0_OR15
+ResidentAssignment_resident_0_OR16
+ResidentAssignment_resident_0_OR17
+ResidentAssignment_resident_0_OR18
+ResidentAssignment_resident_0_OR19
+ResidentAssignment_resident_0_OR2
+ResidentAssignment_resident_0_OR20
+ResidentAssignment_resident_0_OR21
+ResidentAssignment_resident_0_OR22
+ResidentAssignment_resident_0_OR23
+ResidentAssignment_resident_0_OR24
+ResidentAssignment_resident_0_OR25
+ResidentAssignment_resident_0_OR26
+ResidentAssignment_resident_0_OR27
+ResidentAssignment_resident_0_OR28
+ResidentAssignment_resident_0_OR29
+ResidentAssignment_resident_0_OR3
+ResidentAssignment_resident_0_OR30
+ResidentAssignment_resident_0_OR31
+ResidentAssignment_resident_0_OR32
+ResidentAssignment_resident_0_OR33
+ResidentAssignment_resident_0_OR34
+ResidentAssignment_resident_0_OR35
+ResidentAssignment_resident_0_OR36
+ResidentAssignment_resident_0_OR37
+ResidentAssignment_resident_0_OR38
+ResidentAssignment_resident_0_OR39
+ResidentAssignment_resident_0_OR4
+ResidentAssignment_resident_0_OR5
+ResidentAssignment_resident_0_OR6
+ResidentAssignment_resident_0_OR7
+ResidentAssignment_resident_0_OR8
+ResidentAssignment_resident_0_OR9
+ResidentAssignment_resident_10_OR0
+ResidentAssignment_resident_10_OR1
+ResidentAssignment_resident_10_OR10
+ResidentAssignment_resident_10_OR11
+ResidentAssignment_resident_10_OR12
+ResidentAssignment_resident_10_OR13
+ResidentAssignment_resident_10_OR14
+ResidentAssignment_resident_10_OR15
+ResidentAssignment_resident_10_OR16
+ResidentAssignment_resident_10_OR17
+ResidentAssignment_resident_10_OR18
+ResidentAssignment_resident_10_OR19
+ResidentAssignment_resident_10_OR2
+ResidentAssignment_resident_10_OR20
+ResidentAssignment_resident_10_OR21
+ResidentAssignment_resident_10_OR22
+ResidentAssignment_resident_10_OR23
+ResidentAssignment_resident_10_OR24
+ResidentAssignment_resident_10_OR25
+ResidentAssignment_resident_10_OR26
+ResidentAssignment_resident_10_OR27
+ResidentAssignment_resident_10_OR28
+ResidentAssignment_resident_10_OR29
+ResidentAssignment_resident_10_OR3
+ResidentAssignment_resident_10_OR30
+ResidentAssignment_resident_10_OR31
+ResidentAssignment_resident_10_OR32
+ResidentAssignment_resident_10_OR33
+ResidentAssignment_resident_10_OR34
+ResidentAssignment_resident_10_OR35
+ResidentAssignment_resident_10_OR36
+ResidentAssignment_resident_10_OR37
+ResidentAssignment_resident_10_OR38
+ResidentAssignment_resident_10_OR39
+ResidentAssignment_resident_10_OR4
+ResidentAssignment_resident_10_OR5
+ResidentAssignment_resident_10_OR6
+ResidentAssignment_resident_10_OR7
+ResidentAssignment_resident_10_OR8
+ResidentAssignment_resident_10_OR9
+ResidentAssignment_resident_11_OR0
+ResidentAssignment_resident_11_OR1
+ResidentAssignment_resident_11_OR10
+ResidentAssignment_resident_11_OR11
+ResidentAssignment_resident_11_OR12
+ResidentAssignment_resident_11_OR13
+ResidentAssignment_resident_11_OR14
+ResidentAssignment_resident_11_OR15
+ResidentAssignment_resident_11_OR16
+ResidentAssignment_resident_11_OR17
+ResidentAssignment_resident_11_OR18
+ResidentAssignment_resident_11_OR19
+ResidentAssignment_resident_11_OR2
+ResidentAssignment_resident_11_OR20
+ResidentAssignment_resident_11_OR21
+ResidentAssignment_resident_11_OR22
+ResidentAssignment_resident_11_OR23
+ResidentAssignment_resident_11_OR24
+ResidentAssignment_resident_11_OR25
+ResidentAssignment_resident_11_OR26
+ResidentAssignment_resident_11_OR27
+ResidentAssignment_resident_11_OR28
+ResidentAssignment_resident_11_OR29
+ResidentAssignment_resident_11_OR3
+ResidentAssignment_resident_11_OR30
+ResidentAssignment_resident_11_OR31
+ResidentAssignment_resident_11_OR32
+ResidentAssignment_resident_11_OR33
+ResidentAssignment_resident_11_OR34
+ResidentAssignment_resident_11_OR35
+ResidentAssignment_resident_11_OR36
+ResidentAssignment_resident_11_OR37
+ResidentAssignment_resident_11_OR38
+ResidentAssignment_resident_11_OR39
+ResidentAssignment_resident_11_OR4
+ResidentAssignment_resident_11_OR5
+ResidentAssignment_resident_11_OR6
+ResidentAssignment_resident_11_OR7
+ResidentAssignment_resident_11_OR8
+ResidentAssignment_resident_11_OR9
+ResidentAssignment_resident_12_OR0
+ResidentAssignment_resident_12_OR1
+ResidentAssignment_resident_12_OR10
+ResidentAssignment_resident_12_OR11
+ResidentAssignment_resident_12_OR12
+ResidentAssignment_resident_12_OR13
+ResidentAssignment_resident_12_OR14
+ResidentAssignment_resident_12_OR15
+ResidentAssignment_resident_12_OR16
+ResidentAssignment_resident_12_OR17
+ResidentAssignment_resident_12_OR18
+ResidentAssignment_resident_12_OR19
+ResidentAssignment_resident_12_OR2
+ResidentAssignment_resident_12_OR20
+ResidentAssignment_resident_12_OR21
+ResidentAssignment_resident_12_OR22
+ResidentAssignment_resident_12_OR23
+ResidentAssignment_resident_12_OR24
+ResidentAssignment_resident_12_OR25
+ResidentAssignment_resident_12_OR26
+ResidentAssignment_resident_12_OR27
+ResidentAssignment_resident_12_OR28
+ResidentAssignment_resident_12_OR29
+ResidentAssignment_resident_12_OR3
+ResidentAssignment_resident_12_OR30
+ResidentAssignment_resident_12_OR31
+ResidentAssignment_resident_12_OR32
+ResidentAssignment_resident_12_OR33
+ResidentAssignment_resident_12_OR34
+ResidentAssignment_resident_12_OR35
+ResidentAssignment_resident_12_OR36
+ResidentAssignment_resident_12_OR37
+ResidentAssignment_resident_12_OR38
+ResidentAssignment_resident_12_OR39
+ResidentAssignment_resident_12_OR4
+ResidentAssignment_resident_12_OR5
+ResidentAssignment_resident_12_OR6
+ResidentAssignment_resident_12_OR7
+ResidentAssignment_resident_12_OR8
+ResidentAssignment_resident_12_OR9
+ResidentAssignment_resident_13_OR0
+ResidentAssignment_resident_13_OR1
+ResidentAssignment_resident_13_OR10
+ResidentAssignment_resident_13_OR11
+ResidentAssignment_resident_13_OR12
+ResidentAssignment_resident_13_OR13
+ResidentAssignment_resident_13_OR14
+ResidentAssignment_resident_13_OR15
+ResidentAssignment_resident_13_OR16
+ResidentAssignment_resident_13_OR17
+ResidentAssignment_resident_13_OR18
+ResidentAssignment_resident_13_OR19
+ResidentAssignment_resident_13_OR2
+ResidentAssignment_resident_13_OR20
+ResidentAssignment_resident_13_OR21
+ResidentAssignment_resident_13_OR22
+ResidentAssignment_resident_13_OR23
+ResidentAssignment_resident_13_OR24
+ResidentAssignment_resident_13_OR25
+ResidentAssignment_resident_13_OR26
+ResidentAssignment_resident_13_OR27
+ResidentAssignment_resident_13_OR28
+ResidentAssignment_resident_13_OR29
+ResidentAssignment_resident_13_OR3
+ResidentAssignment_resident_13_OR30
+ResidentAssignment_resident_13_OR31
+ResidentAssignment_resident_13_OR32
+ResidentAssignment_resident_13_OR33
+ResidentAssignment_resident_13_OR34
+ResidentAssignment_resident_13_OR35
+ResidentAssignment_resident_13_OR36
+ResidentAssignment_resident_13_OR37
+ResidentAssignment_resident_13_OR38
+ResidentAssignment_resident_13_OR39
+ResidentAssignment_resident_13_OR4
+ResidentAssignment_resident_13_OR5
+ResidentAssignment_resident_13_OR6
+ResidentAssignment_resident_13_OR7
+ResidentAssignment_resident_13_OR8
+ResidentAssignment_resident_13_OR9
+ResidentAssignment_resident_14_OR0
+ResidentAssignment_resident_14_OR1
+ResidentAssignment_resident_14_OR10
+ResidentAssignment_resident_14_OR11
+ResidentAssignment_resident_14_OR12
+ResidentAssignment_resident_14_OR13
+ResidentAssignment_resident_14_OR14
+ResidentAssignment_resident_14_OR15
+ResidentAssignment_resident_14_OR16
+ResidentAssignment_resident_14_OR17
+ResidentAssignment_resident_14_OR18
+ResidentAssignment_resident_14_OR19
+ResidentAssignment_resident_14_OR2
+ResidentAssignment_resident_14_OR20
+ResidentAssignment_resident_14_OR21
+ResidentAssignment_resident_14_OR22
+ResidentAssignment_resident_14_OR23
+ResidentAssignment_resident_14_OR24
+ResidentAssignment_resident_14_OR25
+ResidentAssignment_resident_14_OR26
+ResidentAssignment_resident_14_OR27
+ResidentAssignment_resident_14_OR28
+ResidentAssignment_resident_14_OR29
+ResidentAssignment_resident_14_OR3
+ResidentAssignment_resident_14_OR30
+ResidentAssignment_resident_14_OR31
+ResidentAssignment_resident_14_OR32
+ResidentAssignment_resident_14_OR33
+ResidentAssignment_resident_14_OR34
+ResidentAssignment_resident_14_OR35
+ResidentAssignment_resident_14_OR36
+ResidentAssignment_resident_14_OR37
+ResidentAssignment_resident_14_OR38
+ResidentAssignment_resident_14_OR39
+ResidentAssignment_resident_14_OR4
+ResidentAssignment_resident_14_OR5
+ResidentAssignment_resident_14_OR6
+ResidentAssignment_resident_14_OR7
+ResidentAssignment_resident_14_OR8
+ResidentAssignment_resident_14_OR9
+ResidentAssignment_resident_15_OR0
+ResidentAssignment_resident_15_OR1
+ResidentAssignment_resident_15_OR10
+ResidentAssignment_resident_15_OR11
+ResidentAssignment_resident_15_OR12
+ResidentAssignment_resident_15_OR13
+ResidentAssignment_resident_15_OR14
+ResidentAssignment_resident_15_OR15
+ResidentAssignment_resident_15_OR16
+ResidentAssignment_resident_15_OR17
+ResidentAssignment_resident_15_OR18
+ResidentAssignment_resident_15_OR19
+ResidentAssignment_resident_15_OR2
+ResidentAssignment_resident_15_OR20
+ResidentAssignment_resident_15_OR21
+ResidentAssignment_resident_15_OR22
+ResidentAssignment_resident_15_OR23
+ResidentAssignment_resident_15_OR24
+ResidentAssignment_resident_15_OR25
+ResidentAssignment_resident_15_OR26
+ResidentAssignment_resident_15_OR27
+ResidentAssignment_resident_15_OR28
+ResidentAssignment_resident_15_OR29
+ResidentAssignment_resident_15_OR3
+ResidentAssignment_resident_15_OR30
+ResidentAssignment_resident_15_OR31
+ResidentAssignment_resident_15_OR32
+ResidentAssignment_resident_15_OR33
+ResidentAssignment_resident_15_OR34
+ResidentAssignment_resident_15_OR35
+ResidentAssignment_resident_15_OR36
+ResidentAssignment_resident_15_OR37
+ResidentAssignment_resident_15_OR38
+ResidentAssignment_resident_15_OR39
+ResidentAssignment_resident_15_OR4
+ResidentAssignment_resident_15_OR5
+ResidentAssignment_resident_15_OR6
+ResidentAssignment_resident_15_OR7
+ResidentAssignment_resident_15_OR8
+ResidentAssignment_resident_15_OR9
+ResidentAssignment_resident_16_OR0
+ResidentAssignment_resident_16_OR1
+ResidentAssignment_resident_16_OR10
+ResidentAssignment_resident_16_OR11
+ResidentAssignment_resident_16_OR12
+ResidentAssignment_resident_16_OR13
+ResidentAssignment_resident_16_OR14
+ResidentAssignment_resident_16_OR15
+ResidentAssignment_resident_16_OR16
+ResidentAssignment_resident_16_OR17
+ResidentAssignment_resident_16_OR18
+ResidentAssignment_resident_16_OR19
+ResidentAssignment_resident_16_OR2
+ResidentAssignment_resident_16_OR20
+ResidentAssignment_resident_16_OR21
+ResidentAssignment_resident_16_OR22
+ResidentAssignment_resident_16_OR23
+ResidentAssignment_resident_16_OR24
+ResidentAssignment_resident_16_OR25
+ResidentAssignment_resident_16_OR26
+ResidentAssignment_resident_16_OR27
+ResidentAssignment_resident_16_OR28
+ResidentAssignment_resident_16_OR29
+ResidentAssignment_resident_16_OR3
+ResidentAssignment_resident_16_OR30
+ResidentAssignment_resident_16_OR31
+ResidentAssignment_resident_16_OR32
+ResidentAssignment_resident_16_OR33
+ResidentAssignment_resident_16_OR34
+ResidentAssignment_resident_16_OR35
+ResidentAssignment_resident_16_OR36
+ResidentAssignment_resident_16_OR37
+ResidentAssignment_resident_16_OR38
+ResidentAssignment_resident_16_OR39
+ResidentAssignment_resident_16_OR4
+ResidentAssignment_resident_16_OR5
+ResidentAssignment_resident_16_OR6
+ResidentAssignment_resident_16_OR7
+ResidentAssignment_resident_16_OR8
+ResidentAssignment_resident_16_OR9
+ResidentAssignment_resident_17_OR0
+ResidentAssignment_resident_17_OR1
+ResidentAssignment_resident_17_OR10
+ResidentAssignment_resident_17_OR11
+ResidentAssignment_resident_17_OR12
+ResidentAssignment_resident_17_OR13
+ResidentAssignment_resident_17_OR14
+ResidentAssignment_resident_17_OR15
+ResidentAssignment_resident_17_OR16
+ResidentAssignment_resident_17_OR17
+ResidentAssignment_resident_17_OR18
+ResidentAssignment_resident_17_OR19
+ResidentAssignment_resident_17_OR2
+ResidentAssignment_resident_17_OR20
+ResidentAssignment_resident_17_OR21
+ResidentAssignment_resident_17_OR22
+ResidentAssignment_resident_17_OR23
+ResidentAssignment_resident_17_OR24
+ResidentAssignment_resident_17_OR25
+ResidentAssignment_resident_17_OR26
+ResidentAssignment_resident_17_OR27
+ResidentAssignment_resident_17_OR28
+ResidentAssignment_resident_17_OR29
+ResidentAssignment_resident_17_OR3
+ResidentAssignment_resident_17_OR30
+ResidentAssignment_resident_17_OR31
+ResidentAssignment_resident_17_OR32
+ResidentAssignment_resident_17_OR33
+ResidentAssignment_resident_17_OR34
+ResidentAssignment_resident_17_OR35
+ResidentAssignment_resident_17_OR36
+ResidentAssignment_resident_17_OR37
+ResidentAssignment_resident_17_OR38
+ResidentAssignment_resident_17_OR39
+ResidentAssignment_resident_17_OR4
+ResidentAssignment_resident_17_OR5
+ResidentAssignment_resident_17_OR6
+ResidentAssignment_resident_17_OR7
+ResidentAssignment_resident_17_OR8
+ResidentAssignment_resident_17_OR9
+ResidentAssignment_resident_18_OR0
+ResidentAssignment_resident_18_OR1
+ResidentAssignment_resident_18_OR10
+ResidentAssignment_resident_18_OR11
+ResidentAssignment_resident_18_OR12
+ResidentAssignment_resident_18_OR13
+ResidentAssignment_resident_18_OR14
+ResidentAssignment_resident_18_OR15
+ResidentAssignment_resident_18_OR16
+ResidentAssignment_resident_18_OR17
+ResidentAssignment_resident_18_OR18
+ResidentAssignment_resident_18_OR19
+ResidentAssignment_resident_18_OR2
+ResidentAssignment_resident_18_OR20
+ResidentAssignment_resident_18_OR21
+ResidentAssignment_resident_18_OR22
+ResidentAssignment_resident_18_OR23
+ResidentAssignment_resident_18_OR24
+ResidentAssignment_resident_18_OR25
+ResidentAssignment_resident_18_OR26
+ResidentAssignment_resident_18_OR27
+ResidentAssignment_resident_18_OR28
+ResidentAssignment_resident_18_OR29
+ResidentAssignment_resident_18_OR3
+ResidentAssignment_resident_18_OR30
+ResidentAssignment_resident_18_OR31
+ResidentAssignment_resident_18_OR32
+ResidentAssignment_resident_18_OR33
+ResidentAssignment_resident_18_OR34
+ResidentAssignment_resident_18_OR35
+ResidentAssignment_resident_18_OR36
+ResidentAssignment_resident_18_OR37
+ResidentAssignment_resident_18_OR38
+ResidentAssignment_resident_18_OR39
+ResidentAssignment_resident_18_OR4
+ResidentAssignment_resident_18_OR5
+ResidentAssignment_resident_18_OR6
+ResidentAssignment_resident_18_OR7
+ResidentAssignment_resident_18_OR8
+ResidentAssignment_resident_18_OR9
+ResidentAssignment_resident_19_OR0
+ResidentAssignment_resident_19_OR1
+ResidentAssignment_resident_19_OR10
+ResidentAssignment_resident_19_OR11
+ResidentAssignment_resident_19_OR12
+ResidentAssignment_resident_19_OR13
+ResidentAssignment_resident_19_OR14
+ResidentAssignment_resident_19_OR15
+ResidentAssignment_resident_19_OR16
+ResidentAssignment_resident_19_OR17
+ResidentAssignment_resident_19_OR18
+ResidentAssignment_resident_19_OR19
+ResidentAssignment_resident_19_OR2
+ResidentAssignment_resident_19_OR20
+ResidentAssignment_resident_19_OR21
+ResidentAssignment_resident_19_OR22
+ResidentAssignment_resident_19_OR23
+ResidentAssignment_resident_19_OR24
+ResidentAssignment_resident_19_OR25
+ResidentAssignment_resident_19_OR26
+ResidentAssignment_resident_19_OR27
+ResidentAssignment_resident_19_OR28
+ResidentAssignment_resident_19_OR29
+ResidentAssignment_resident_19_OR3
+ResidentAssignment_resident_19_OR30
+ResidentAssignment_resident_19_OR31
+ResidentAssignment_resident_19_OR32
+ResidentAssignment_resident_19_OR33
+ResidentAssignment_resident_19_OR34
+ResidentAssignment_resident_19_OR35
+ResidentAssignment_resident_19_OR36
+ResidentAssignment_resident_19_OR37
+ResidentAssignment_resident_19_OR38
+ResidentAssignment_resident_19_OR39
+ResidentAssignment_resident_19_OR4
+ResidentAssignment_resident_19_OR5
+ResidentAssignment_resident_19_OR6
+ResidentAssignment_resident_19_OR7
+ResidentAssignment_resident_19_OR8
+ResidentAssignment_resident_19_OR9
+ResidentAssignment_resident_1_OR0
+ResidentAssignment_resident_1_OR1
+ResidentAssignment_resident_1_OR10
+ResidentAssignment_resident_1_OR11
+ResidentAssignment_resident_1_OR12
+ResidentAssignment_resident_1_OR13
+ResidentAssignment_resident_1_OR14
+ResidentAssignment_resident_1_OR15
+ResidentAssignment_resident_1_OR16
+ResidentAssignment_resident_1_OR17
+ResidentAssignment_resident_1_OR18
+ResidentAssignment_resident_1_OR19
+ResidentAssignment_resident_1_OR2
+ResidentAssignment_resident_1_OR20
+ResidentAssignment_resident_1_OR21
+ResidentAssignment_resident_1_OR22
+ResidentAssignment_resident_1_OR23
+ResidentAssignment_resident_1_OR24
+ResidentAssignment_resident_1_OR25
+ResidentAssignment_resident_1_OR26
+ResidentAssignment_resident_1_OR27
+ResidentAssignment_resident_1_OR28
+ResidentAssignment_resident_1_OR29
+ResidentAssignment_resident_1_OR3
+ResidentAssignment_resident_1_OR30
+ResidentAssignment_resident_1_OR31
+ResidentAssignment_resident_1_OR32
+ResidentAssignment_resident_1_OR33
+ResidentAssignment_resident_1_OR34
+ResidentAssignment_resident_1_OR35
+ResidentAssignment_resident_1_OR36
+ResidentAssignment_resident_1_OR37
+ResidentAssignment_resident_1_OR38
+ResidentAssignment_resident_1_OR39
+ResidentAssignment_resident_1_OR4
+ResidentAssignment_resident_1_OR5
+ResidentAssignment_resident_1_OR6
+ResidentAssignment_resident_1_OR7
+ResidentAssignment_resident_1_OR8
+ResidentAssignment_resident_1_OR9
+ResidentAssignment_resident_20_OR0
+ResidentAssignment_resident_20_OR1
+ResidentAssignment_resident_20_OR10
+ResidentAssignment_resident_20_OR11
+ResidentAssignment_resident_20_OR12
+ResidentAssignment_resident_20_OR13
+ResidentAssignment_resident_20_OR14
+ResidentAssignment_resident_20_OR15
+ResidentAssignment_resident_20_OR16
+ResidentAssignment_resident_20_OR17
+ResidentAssignment_resident_20_OR18
+ResidentAssignment_resident_20_OR19
+ResidentAssignment_resident_20_OR2
+ResidentAssignment_resident_20_OR20
+ResidentAssignment_resident_20_OR21
+ResidentAssignment_resident_20_OR22
+ResidentAssignment_resident_20_OR23
+ResidentAssignment_resident_20_OR24
+ResidentAssignment_resident_20_OR25
+ResidentAssignment_resident_20_OR26
+ResidentAssignment_resident_20_OR27
+ResidentAssignment_resident_20_OR28
+ResidentAssignment_resident_20_OR29
+ResidentAssignment_resident_20_OR3
+ResidentAssignment_resident_20_OR30
+ResidentAssignment_resident_20_OR31
+ResidentAssignment_resident_20_OR32
+ResidentAssignment_resident_20_OR33
+ResidentAssignment_resident_20_OR34
+ResidentAssignment_resident_20_OR35
+ResidentAssignment_resident_20_OR36
+ResidentAssignment_resident_20_OR37
+ResidentAssignment_resident_20_OR38
+ResidentAssignment_resident_20_OR39
+ResidentAssignment_resident_20_OR4
+ResidentAssignment_resident_20_OR5
+ResidentAssignment_resident_20_OR6
+ResidentAssignment_resident_20_OR7
+ResidentAssignment_resident_20_OR8
+ResidentAssignment_resident_20_OR9
+ResidentAssignment_resident_21_OR0
+ResidentAssignment_resident_21_OR1
+ResidentAssignment_resident_21_OR10
+ResidentAssignment_resident_21_OR11
+ResidentAssignment_resident_21_OR12
+ResidentAssignment_resident_21_OR13
+ResidentAssignment_resident_21_OR14
+ResidentAssignment_resident_21_OR15
+ResidentAssignment_resident_21_OR16
+ResidentAssignment_resident_21_OR17
+ResidentAssignment_resident_21_OR18
+ResidentAssignment_resident_21_OR19
+ResidentAssignment_resident_21_OR2
+ResidentAssignment_resident_21_OR20
+ResidentAssignment_resident_21_OR21
+ResidentAssignment_resident_21_OR22
+ResidentAssignment_resident_21_OR23
+ResidentAssignment_resident_21_OR24
+ResidentAssignment_resident_21_OR25
+ResidentAssignment_resident_21_OR26
+ResidentAssignment_resident_21_OR27
+ResidentAssignment_resident_21_OR28
+ResidentAssignment_resident_21_OR29
+ResidentAssignment_resident_21_OR3
+ResidentAssignment_resident_21_OR30
+ResidentAssignment_resident_21_OR31
+ResidentAssignment_resident_21_OR32
+ResidentAssignment_resident_21_OR33
+ResidentAssignment_resident_21_OR34
+ResidentAssignment_resident_21_OR35
+ResidentAssignment_resident_21_OR36
+ResidentAssignment_resident_21_OR37
+ResidentAssignment_resident_21_OR38
+ResidentAssignment_resident_21_OR39
+ResidentAssignment_resident_21_OR4
+ResidentAssignment_resident_21_OR5
+ResidentAssignment_resident_21_OR6
+ResidentAssignment_resident_21_OR7
+ResidentAssignment_resident_21_OR8
+ResidentAssignment_resident_21_OR9
+ResidentAssignment_resident_22_OR0
+ResidentAssignment_resident_22_OR1
+ResidentAssignment_resident_22_OR10
+ResidentAssignment_resident_22_OR11
+ResidentAssignment_resident_22_OR12
+ResidentAssignment_resident_22_OR13
+ResidentAssignment_resident_22_OR14
+ResidentAssignment_resident_22_OR15
+ResidentAssignment_resident_22_OR16
+ResidentAssignment_resident_22_OR17
+ResidentAssignment_resident_22_OR18
+ResidentAssignment_resident_22_OR19
+ResidentAssignment_resident_22_OR2
+ResidentAssignment_resident_22_OR20
+ResidentAssignment_resident_22_OR21
+ResidentAssignment_resident_22_OR22
+ResidentAssignment_resident_22_OR23
+ResidentAssignment_resident_22_OR24
+ResidentAssignment_resident_22_OR25
+ResidentAssignment_resident_22_OR26
+ResidentAssignment_resident_22_OR27
+ResidentAssignment_resident_22_OR28
+ResidentAssignment_resident_22_OR29
+ResidentAssignment_resident_22_OR3
+ResidentAssignment_resident_22_OR30
+ResidentAssignment_resident_22_OR31
+ResidentAssignment_resident_22_OR32
+ResidentAssignment_resident_22_OR33
+ResidentAssignment_resident_22_OR34
+ResidentAssignment_resident_22_OR35
+ResidentAssignment_resident_22_OR36
+ResidentAssignment_resident_22_OR37
+ResidentAssignment_resident_22_OR38
+ResidentAssignment_resident_22_OR39
+ResidentAssignment_resident_22_OR4
+ResidentAssignment_resident_22_OR5
+ResidentAssignment_resident_22_OR6
+ResidentAssignment_resident_22_OR7
+ResidentAssignment_resident_22_OR8
+ResidentAssignment_resident_22_OR9
+ResidentAssignment_resident_23_OR0
+ResidentAssignment_resident_23_OR1
+ResidentAssignment_resident_23_OR10
+ResidentAssignment_resident_23_OR11
+ResidentAssignment_resident_23_OR12
+ResidentAssignment_resident_23_OR13
+ResidentAssignment_resident_23_OR14
+ResidentAssignment_resident_23_OR15
+ResidentAssignment_resident_23_OR16
+ResidentAssignment_resident_23_OR17
+ResidentAssignment_resident_23_OR18
+ResidentAssignment_resident_23_OR19
+ResidentAssignment_resident_23_OR2
+ResidentAssignment_resident_23_OR20
+ResidentAssignment_resident_23_OR21
+ResidentAssignment_resident_23_OR22
+ResidentAssignment_resident_23_OR23
+ResidentAssignment_resident_23_OR24
+ResidentAssignment_resident_23_OR25
+ResidentAssignment_resident_23_OR26
+ResidentAssignment_resident_23_OR27
+ResidentAssignment_resident_23_OR28
+ResidentAssignment_resident_23_OR29
+ResidentAssignment_resident_23_OR3
+ResidentAssignment_resident_23_OR30
+ResidentAssignment_resident_23_OR31
+ResidentAssignment_resident_23_OR32
+ResidentAssignment_resident_23_OR33
+ResidentAssignment_resident_23_OR34
+ResidentAssignment_resident_23_OR35
+ResidentAssignment_resident_23_OR36
+ResidentAssignment_resident_23_OR37
+ResidentAssignment_resident_23_OR38
+ResidentAssignment_resident_23_OR39
+ResidentAssignment_resident_23_OR4
+ResidentAssignment_resident_23_OR5
+ResidentAssignment_resident_23_OR6
+ResidentAssignment_resident_23_OR7
+ResidentAssignment_resident_23_OR8
+ResidentAssignment_resident_23_OR9
+ResidentAssignment_resident_24_OR0
+ResidentAssignment_resident_24_OR1
+ResidentAssignment_resident_24_OR10
+ResidentAssignment_resident_24_OR11
+ResidentAssignment_resident_24_OR12
+ResidentAssignment_resident_24_OR13
+ResidentAssignment_resident_24_OR14
+ResidentAssignment_resident_24_OR15
+ResidentAssignment_resident_24_OR16
+ResidentAssignment_resident_24_OR17
+ResidentAssignment_resident_24_OR18
+ResidentAssignment_resident_24_OR19
+ResidentAssignment_resident_24_OR2
+ResidentAssignment_resident_24_OR20
+ResidentAssignment_resident_24_OR21
+ResidentAssignment_resident_24_OR22
+ResidentAssignment_resident_24_OR23
+ResidentAssignment_resident_24_OR24
+ResidentAssignment_resident_24_OR25
+ResidentAssignment_resident_24_OR26
+ResidentAssignment_resident_24_OR27
+ResidentAssignment_resident_24_OR28
+ResidentAssignment_resident_24_OR29
+ResidentAssignment_resident_24_OR3
+ResidentAssignment_resident_24_OR30
+ResidentAssignment_resident_24_OR31
+ResidentAssignment_resident_24_OR32
+ResidentAssignment_resident_24_OR33
+ResidentAssignment_resident_24_OR34
+ResidentAssignment_resident_24_OR35
+ResidentAssignment_resident_24_OR36
+ResidentAssignment_resident_24_OR37
+ResidentAssignment_resident_24_OR38
+ResidentAssignment_resident_24_OR39
+ResidentAssignment_resident_24_OR4
+ResidentAssignment_resident_24_OR5
+ResidentAssignment_resident_24_OR6
+ResidentAssignment_resident_24_OR7
+ResidentAssignment_resident_24_OR8
+ResidentAssignment_resident_24_OR9
+ResidentAssignment_resident_25_OR0
+ResidentAssignment_resident_25_OR1
+ResidentAssignment_resident_25_OR10
+ResidentAssignment_resident_25_OR11
+ResidentAssignment_resident_25_OR12
+ResidentAssignment_resident_25_OR13
+ResidentAssignment_resident_25_OR14
+ResidentAssignment_resident_25_OR15
+ResidentAssignment_resident_25_OR16
+ResidentAssignment_resident_25_OR17
+ResidentAssignment_resident_25_OR18
+ResidentAssignment_resident_25_OR19
+ResidentAssignment_resident_25_OR2
+ResidentAssignment_resident_25_OR20
+ResidentAssignment_resident_25_OR21
+ResidentAssignment_resident_25_OR22
+ResidentAssignment_resident_25_OR23
+ResidentAssignment_resident_25_OR24
+ResidentAssignment_resident_25_OR25
+ResidentAssignment_resident_25_OR26
+ResidentAssignment_resident_25_OR27
+ResidentAssignment_resident_25_OR28
+ResidentAssignment_resident_25_OR29
+ResidentAssignment_resident_25_OR3
+ResidentAssignment_resident_25_OR30
+ResidentAssignment_resident_25_OR31
+ResidentAssignment_resident_25_OR32
+ResidentAssignment_resident_25_OR33
+ResidentAssignment_resident_25_OR34
+ResidentAssignment_resident_25_OR35
+ResidentAssignment_resident_25_OR36
+ResidentAssignment_resident_25_OR37
+ResidentAssignment_resident_25_OR38
+ResidentAssignment_resident_25_OR39
+ResidentAssignment_resident_25_OR4
+ResidentAssignment_resident_25_OR5
+ResidentAssignment_resident_25_OR6
+ResidentAssignment_resident_25_OR7
+ResidentAssignment_resident_25_OR8
+ResidentAssignment_resident_25_OR9
+ResidentAssignment_resident_26_OR0
+ResidentAssignment_resident_26_OR1
+ResidentAssignment_resident_26_OR10
+ResidentAssignment_resident_26_OR11
+ResidentAssignment_resident_26_OR12
+ResidentAssignment_resident_26_OR13
+ResidentAssignment_resident_26_OR14
+ResidentAssignment_resident_26_OR15
+ResidentAssignment_resident_26_OR16
+ResidentAssignment_resident_26_OR17
+ResidentAssignment_resident_26_OR18
+ResidentAssignment_resident_26_OR19
+ResidentAssignment_resident_26_OR2
+ResidentAssignment_resident_26_OR20
+ResidentAssignment_resident_26_OR21
+ResidentAssignment_resident_26_OR22
+ResidentAssignment_resident_26_OR23
+ResidentAssignment_resident_26_OR24
+ResidentAssignment_resident_26_OR25
+ResidentAssignment_resident_26_OR26
+ResidentAssignment_resident_26_OR27
+ResidentAssignment_resident_26_OR28
+ResidentAssignment_resident_26_OR29
+ResidentAssignment_resident_26_OR3
+ResidentAssignment_resident_26_OR30
+ResidentAssignment_resident_26_OR31
+ResidentAssignment_resident_26_OR32
+ResidentAssignment_resident_26_OR33
+ResidentAssignment_resident_26_OR34
+ResidentAssignment_resident_26_OR35
+ResidentAssignment_resident_26_OR36
+ResidentAssignment_resident_26_OR37
+ResidentAssignment_resident_26_OR38
+ResidentAssignment_resident_26_OR39
+ResidentAssignment_resident_26_OR4
+ResidentAssignment_resident_26_OR5
+ResidentAssignment_resident_26_OR6
+ResidentAssignment_resident_26_OR7
+ResidentAssignment_resident_26_OR8
+ResidentAssignment_resident_26_OR9
+ResidentAssignment_resident_27_OR0
+ResidentAssignment_resident_27_OR1
+ResidentAssignment_resident_27_OR10
+ResidentAssignment_resident_27_OR11
+ResidentAssignment_resident_27_OR12
+ResidentAssignment_resident_27_OR13
+ResidentAssignment_resident_27_OR14
+ResidentAssignment_resident_27_OR15
+ResidentAssignment_resident_27_OR16
+ResidentAssignment_resident_27_OR17
+ResidentAssignment_resident_27_OR18
+ResidentAssignment_resident_27_OR19
+ResidentAssignment_resident_27_OR2
+ResidentAssignment_resident_27_OR20
+ResidentAssignment_resident_27_OR21
+ResidentAssignment_resident_27_OR22
+ResidentAssignment_resident_27_OR23
+ResidentAssignment_resident_27_OR24
+ResidentAssignment_resident_27_OR25
+ResidentAssignment_resident_27_OR26
+ResidentAssignment_resident_27_OR27
+ResidentAssignment_resident_27_OR28
+ResidentAssignment_resident_27_OR29
+ResidentAssignment_resident_27_OR3
+ResidentAssignment_resident_27_OR30
+ResidentAssignment_resident_27_OR31
+ResidentAssignment_resident_27_OR32
+ResidentAssignment_resident_27_OR33
+ResidentAssignment_resident_27_OR34
+ResidentAssignment_resident_27_OR35
+ResidentAssignment_resident_27_OR36
+ResidentAssignment_resident_27_OR37
+ResidentAssignment_resident_27_OR38
+ResidentAssignment_resident_27_OR39
+ResidentAssignment_resident_27_OR4
+ResidentAssignment_resident_27_OR5
+ResidentAssignment_resident_27_OR6
+ResidentAssignment_resident_27_OR7
+ResidentAssignment_resident_27_OR8
+ResidentAssignment_resident_27_OR9
+ResidentAssignment_resident_28_OR0
+ResidentAssignment_resident_28_OR1
+ResidentAssignment_resident_28_OR10
+ResidentAssignment_resident_28_OR11
+ResidentAssignment_resident_28_OR12
+ResidentAssignment_resident_28_OR13
+ResidentAssignment_resident_28_OR14
+ResidentAssignment_resident_28_OR15
+ResidentAssignment_resident_28_OR16
+ResidentAssignment_resident_28_OR17
+ResidentAssignment_resident_28_OR18
+ResidentAssignment_resident_28_OR19
+ResidentAssignment_resident_28_OR2
+ResidentAssignment_resident_28_OR20
+ResidentAssignment_resident_28_OR21
+ResidentAssignment_resident_28_OR22
+ResidentAssignment_resident_28_OR23
+ResidentAssignment_resident_28_OR24
+ResidentAssignment_resident_28_OR25
+ResidentAssignment_resident_28_OR26
+ResidentAssignment_resident_28_OR27
+ResidentAssignment_resident_28_OR28
+ResidentAssignment_resident_28_OR29
+ResidentAssignment_resident_28_OR3
+ResidentAssignment_resident_28_OR30
+ResidentAssignment_resident_28_OR31
+ResidentAssignment_resident_28_OR32
+ResidentAssignment_resident_28_OR33
+ResidentAssignment_resident_28_OR34
+ResidentAssignment_resident_28_OR35
+ResidentAssignment_resident_28_OR36
+ResidentAssignment_resident_28_OR37
+ResidentAssignment_resident_28_OR38
+ResidentAssignment_resident_28_OR39
+ResidentAssignment_resident_28_OR4
+ResidentAssignment_resident_28_OR5
+ResidentAssignment_resident_28_OR6
+ResidentAssignment_resident_28_OR7
+ResidentAssignment_resident_28_OR8
+ResidentAssignment_resident_28_OR9
+ResidentAssignment_resident_29_OR0
+ResidentAssignment_resident_29_OR1
+ResidentAssignment_resident_29_OR10
+ResidentAssignment_resident_29_OR11
+ResidentAssignment_resident_29_OR12
+ResidentAssignment_resident_29_OR13
+ResidentAssignment_resident_29_OR14
+ResidentAssignment_resident_29_OR15
+ResidentAssignment_resident_29_OR16
+ResidentAssignment_resident_29_OR17
+ResidentAssignment_resident_29_OR18
+ResidentAssignment_resident_29_OR19
+ResidentAssignment_resident_29_OR2
+ResidentAssignment_resident_29_OR20
+ResidentAssignment_resident_29_OR21
+ResidentAssignment_resident_29_OR22
+ResidentAssignment_resident_29_OR23
+ResidentAssignment_resident_29_OR24
+ResidentAssignment_resident_29_OR25
+ResidentAssignment_resident_29_OR26
+ResidentAssignment_resident_29_OR27
+ResidentAssignment_resident_29_OR28
+ResidentAssignment_resident_29_OR29
+ResidentAssignment_resident_29_OR3
+ResidentAssignment_resident_29_OR30
+ResidentAssignment_resident_29_OR31
+ResidentAssignment_resident_29_OR32
+ResidentAssignment_resident_29_OR33
+ResidentAssignment_resident_29_OR34
+ResidentAssignment_resident_29_OR35
+ResidentAssignment_resident_29_OR36
+ResidentAssignment_resident_29_OR37
+ResidentAssignment_resident_29_OR38
+ResidentAssignment_resident_29_OR39
+ResidentAssignment_resident_29_OR4
+ResidentAssignment_resident_29_OR5
+ResidentAssignment_resident_29_OR6
+ResidentAssignment_resident_29_OR7
+ResidentAssignment_resident_29_OR8
+ResidentAssignment_resident_29_OR9
+ResidentAssignment_resident_2_OR0
+ResidentAssignment_resident_2_OR1
+ResidentAssignment_resident_2_OR10
+ResidentAssignment_resident_2_OR11
+ResidentAssignment_resident_2_OR12
+ResidentAssignment_resident_2_OR13
+ResidentAssignment_resident_2_OR14
+ResidentAssignment_resident_2_OR15
+ResidentAssignment_resident_2_OR16
+ResidentAssignment_resident_2_OR17
+ResidentAssignment_resident_2_OR18
+ResidentAssignment_resident_2_OR19
+ResidentAssignment_resident_2_OR2
+ResidentAssignment_resident_2_OR20
+ResidentAssignment_resident_2_OR21
+ResidentAssignment_resident_2_OR22
+ResidentAssignment_resident_2_OR23
+ResidentAssignment_resident_2_OR24
+ResidentAssignment_resident_2_OR25
+ResidentAssignment_resident_2_OR26
+ResidentAssignment_resident_2_OR27
+ResidentAssignment_resident_2_OR28
+ResidentAssignment_resident_2_OR29
+ResidentAssignment_resident_2_OR3
+ResidentAssignment_resident_2_OR30
+ResidentAssignment_resident_2_OR31
+ResidentAssignment_resident_2_OR32
+ResidentAssignment_resident_2_OR33
+ResidentAssignment_resident_2_OR34
+ResidentAssignment_resident_2_OR35
+ResidentAssignment_resident_2_OR36
+ResidentAssignment_resident_2_OR37
+ResidentAssignment_resident_2_OR38
+ResidentAssignment_resident_2_OR39
+ResidentAssignment_resident_2_OR4
+ResidentAssignment_resident_2_OR5
+ResidentAssignment_resident_2_OR6
+ResidentAssignment_resident_2_OR7
+ResidentAssignment_resident_2_OR8
+ResidentAssignment_resident_2_OR9
+ResidentAssignment_resident_30_OR0
+ResidentAssignment_resident_30_OR1
+ResidentAssignment_resident_30_OR10
+ResidentAssignment_resident_30_OR11
+ResidentAssignment_resident_30_OR12
+ResidentAssignment_resident_30_OR13
+ResidentAssignment_resident_30_OR14
+ResidentAssignment_resident_30_OR15
+ResidentAssignment_resident_30_OR16
+ResidentAssignment_resident_30_OR17
+ResidentAssignment_resident_30_OR18
+ResidentAssignment_resident_30_OR19
+ResidentAssignment_resident_30_OR2
+ResidentAssignment_resident_30_OR20
+ResidentAssignment_resident_30_OR21
+ResidentAssignment_resident_30_OR22
+ResidentAssignment_resident_30_OR23
+ResidentAssignment_resident_30_OR24
+ResidentAssignment_resident_30_OR25
+ResidentAssignment_resident_30_OR26
+ResidentAssignment_resident_30_OR27
+ResidentAssignment_resident_30_OR28
+ResidentAssignment_resident_30_OR29
+ResidentAssignment_resident_30_OR3
+ResidentAssignment_resident_30_OR30
+ResidentAssignment_resident_30_OR31
+ResidentAssignment_resident_30_OR32
+ResidentAssignment_resident_30_OR33
+ResidentAssignment_resident_30_OR34
+ResidentAssignment_resident_30_OR35
+ResidentAssignment_resident_30_OR36
+ResidentAssignment_resident_30_OR37
+ResidentAssignment_resident_30_OR38
+ResidentAssignment_resident_30_OR39
+ResidentAssignment_resident_30_OR4
+ResidentAssignment_resident_30_OR5
+ResidentAssignment_resident_30_OR6
+ResidentAssignment_resident_30_OR7
+ResidentAssignment_resident_30_OR8
+ResidentAssignment_resident_30_OR9
+ResidentAssignment_resident_31_OR0
+ResidentAssignment_resident_31_OR1
+ResidentAssignment_resident_31_OR10
+ResidentAssignment_resident_31_OR11
+ResidentAssignment_resident_31_OR12
+ResidentAssignment_resident_31_OR13
+ResidentAssignment_resident_31_OR14
+ResidentAssignment_resident_31_OR15
+ResidentAssignment_resident_31_OR16
+ResidentAssignment_resident_31_OR17
+ResidentAssignment_resident_31_OR18
+ResidentAssignment_resident_31_OR19
+ResidentAssignment_resident_31_OR2
+ResidentAssignment_resident_31_OR20
+ResidentAssignment_resident_31_OR21
+ResidentAssignment_resident_31_OR22
+ResidentAssignment_resident_31_OR23
+ResidentAssignment_resident_31_OR24
+ResidentAssignment_resident_31_OR25
+ResidentAssignment_resident_31_OR26
+ResidentAssignment_resident_31_OR27
+ResidentAssignment_resident_31_OR28
+ResidentAssignment_resident_31_OR29
+ResidentAssignment_resident_31_OR3
+ResidentAssignment_resident_31_OR30
+ResidentAssignment_resident_31_OR31
+ResidentAssignment_resident_31_OR32
+ResidentAssignment_resident_31_OR33
+ResidentAssignment_resident_31_OR34
+ResidentAssignment_resident_31_OR35
+ResidentAssignment_resident_31_OR36
+ResidentAssignment_resident_31_OR37
+ResidentAssignment_resident_31_OR38
+ResidentAssignment_resident_31_OR39
+ResidentAssignment_resident_31_OR4
+ResidentAssignment_resident_31_OR5
+ResidentAssignment_resident_31_OR6
+ResidentAssignment_resident_31_OR7
+ResidentAssignment_resident_31_OR8
+ResidentAssignment_resident_31_OR9
+ResidentAssignment_resident_32_OR0
+ResidentAssignment_resident_32_OR1
+ResidentAssignment_resident_32_OR10
+ResidentAssignment_resident_32_OR11
+ResidentAssignment_resident_32_OR12
+ResidentAssignment_resident_32_OR13
+ResidentAssignment_resident_32_OR14
+ResidentAssignment_resident_32_OR15
+ResidentAssignment_resident_32_OR16
+ResidentAssignment_resident_32_OR17
+ResidentAssignment_resident_32_OR18
+ResidentAssignment_resident_32_OR19
+ResidentAssignment_resident_32_OR2
+ResidentAssignment_resident_32_OR20
+ResidentAssignment_resident_32_OR21
+ResidentAssignment_resident_32_OR22
+ResidentAssignment_resident_32_OR23
+ResidentAssignment_resident_32_OR24
+ResidentAssignment_resident_32_OR25
+ResidentAssignment_resident_32_OR26
+ResidentAssignment_resident_32_OR27
+ResidentAssignment_resident_32_OR28
+ResidentAssignment_resident_32_OR29
+ResidentAssignment_resident_32_OR3
+ResidentAssignment_resident_32_OR30
+ResidentAssignment_resident_32_OR31
+ResidentAssignment_resident_32_OR32
+ResidentAssignment_resident_32_OR33
+ResidentAssignment_resident_32_OR34
+ResidentAssignment_resident_32_OR35
+ResidentAssignment_resident_32_OR36
+ResidentAssignment_resident_32_OR37
+ResidentAssignment_resident_32_OR38
+ResidentAssignment_resident_32_OR39
+ResidentAssignment_resident_32_OR4
+ResidentAssignment_resident_32_OR5
+ResidentAssignment_resident_32_OR6
+ResidentAssignment_resident_32_OR7
+ResidentAssignment_resident_32_OR8
+ResidentAssignment_resident_32_OR9
+ResidentAssignment_resident_33_OR0
+ResidentAssignment_resident_33_OR1
+ResidentAssignment_resident_33_OR10
+ResidentAssignment_resident_33_OR11
+ResidentAssignment_resident_33_OR12
+ResidentAssignment_resident_33_OR13
+ResidentAssignment_resident_33_OR14
+ResidentAssignment_resident_33_OR15
+ResidentAssignment_resident_33_OR16
+ResidentAssignment_resident_33_OR17
+ResidentAssignment_resident_33_OR18
+ResidentAssignment_resident_33_OR19
+ResidentAssignment_resident_33_OR2
+ResidentAssignment_resident_33_OR20
+ResidentAssignment_resident_33_OR21
+ResidentAssignment_resident_33_OR22
+ResidentAssignment_resident_33_OR23
+ResidentAssignment_resident_33_OR24
+ResidentAssignment_resident_33_OR25
+ResidentAssignment_resident_33_OR26
+ResidentAssignment_resident_33_OR27
+ResidentAssignment_resident_33_OR28
+ResidentAssignment_resident_33_OR29
+ResidentAssignment_resident_33_OR3
+ResidentAssignment_resident_33_OR30
+ResidentAssignment_resident_33_OR31
+ResidentAssignment_resident_33_OR32
+ResidentAssignment_resident_33_OR33
+ResidentAssignment_resident_33_OR34
+ResidentAssignment_resident_33_OR35
+ResidentAssignment_resident_33_OR36
+ResidentAssignment_resident_33_OR37
+ResidentAssignment_resident_33_OR38
+ResidentAssignment_resident_33_OR39
+ResidentAssignment_resident_33_OR4
+ResidentAssignment_resident_33_OR5
+ResidentAssignment_resident_33_OR6
+ResidentAssignment_resident_33_OR7
+ResidentAssignment_resident_33_OR8
+ResidentAssignment_resident_33_OR9
+ResidentAssignment_resident_34_OR0
+ResidentAssignment_resident_34_OR1
+ResidentAssignment_resident_34_OR10
+ResidentAssignment_resident_34_OR11
+ResidentAssignment_resident_34_OR12
+ResidentAssignment_resident_34_OR13
+ResidentAssignment_resident_34_OR14
+ResidentAssignment_resident_34_OR15
+ResidentAssignment_resident_34_OR16
+ResidentAssignment_resident_34_OR17
+ResidentAssignment_resident_34_OR18
+ResidentAssignment_resident_34_OR19
+ResidentAssignment_resident_34_OR2
+ResidentAssignment_resident_34_OR20
+ResidentAssignment_resident_34_OR21
+ResidentAssignment_resident_34_OR22
+ResidentAssignment_resident_34_OR23
+ResidentAssignment_resident_34_OR24
+ResidentAssignment_resident_34_OR25
+ResidentAssignment_resident_34_OR26
+ResidentAssignment_resident_34_OR27
+ResidentAssignment_resident_34_OR28
+ResidentAssignment_resident_34_OR29
+ResidentAssignment_resident_34_OR3
+ResidentAssignment_resident_34_OR30
+ResidentAssignment_resident_34_OR31
+ResidentAssignment_resident_34_OR32
+ResidentAssignment_resident_34_OR33
+ResidentAssignment_resident_34_OR34
+ResidentAssignment_resident_34_OR35
+ResidentAssignment_resident_34_OR36
+ResidentAssignment_resident_34_OR37
+ResidentAssignment_resident_34_OR38
+ResidentAssignment_resident_34_OR39
+ResidentAssignment_resident_34_OR4
+ResidentAssignment_resident_34_OR5
+ResidentAssignment_resident_34_OR6
+ResidentAssignment_resident_34_OR7
+ResidentAssignment_resident_34_OR8
+ResidentAssignment_resident_34_OR9
+ResidentAssignment_resident_35_OR0
+ResidentAssignment_resident_35_OR1
+ResidentAssignment_resident_35_OR10
+ResidentAssignment_resident_35_OR11
+ResidentAssignment_resident_35_OR12
+ResidentAssignment_resident_35_OR13
+ResidentAssignment_resident_35_OR14
+ResidentAssignment_resident_35_OR15
+ResidentAssignment_resident_35_OR16
+ResidentAssignment_resident_35_OR17
+ResidentAssignment_resident_35_OR18
+ResidentAssignment_resident_35_OR19
+ResidentAssignment_resident_35_OR2
+ResidentAssignment_resident_35_OR20
+ResidentAssignment_resident_35_OR21
+ResidentAssignment_resident_35_OR22
+ResidentAssignment_resident_35_OR23
+ResidentAssignment_resident_35_OR24
+ResidentAssignment_resident_35_OR25
+ResidentAssignment_resident_35_OR26
+ResidentAssignment_resident_35_OR27
+ResidentAssignment_resident_35_OR28
+ResidentAssignment_resident_35_OR29
+ResidentAssignment_resident_35_OR3
+ResidentAssignment_resident_35_OR30
+ResidentAssignment_resident_35_OR31
+ResidentAssignment_resident_35_OR32
+ResidentAssignment_resident_35_OR33
+ResidentAssignment_resident_35_OR34
+ResidentAssignment_resident_35_OR35
+ResidentAssignment_resident_35_OR36
+ResidentAssignment_resident_35_OR37
+ResidentAssignment_resident_35_OR38
+ResidentAssignment_resident_35_OR39
+ResidentAssignment_resident_35_OR4
+ResidentAssignment_resident_35_OR5
+ResidentAssignment_resident_35_OR6
+ResidentAssignment_resident_35_OR7
+ResidentAssignment_resident_35_OR8
+ResidentAssignment_resident_35_OR9
+ResidentAssignment_resident_36_OR0
+ResidentAssignment_resident_36_OR1
+ResidentAssignment_resident_36_OR10
+ResidentAssignment_resident_36_OR11
+ResidentAssignment_resident_36_OR12
+ResidentAssignment_resident_36_OR13
+ResidentAssignment_resident_36_OR14
+ResidentAssignment_resident_36_OR15
+ResidentAssignment_resident_36_OR16
+ResidentAssignment_resident_36_OR17
+ResidentAssignment_resident_36_OR18
+ResidentAssignment_resident_36_OR19
+ResidentAssignment_resident_36_OR2
+ResidentAssignment_resident_36_OR20
+ResidentAssignment_resident_36_OR21
+ResidentAssignment_resident_36_OR22
+ResidentAssignment_resident_36_OR23
+ResidentAssignment_resident_36_OR24
+ResidentAssignment_resident_36_OR25
+ResidentAssignment_resident_36_OR26
+ResidentAssignment_resident_36_OR27
+ResidentAssignment_resident_36_OR28
+ResidentAssignment_resident_36_OR29
+ResidentAssignment_resident_36_OR3
+ResidentAssignment_resident_36_OR30
+ResidentAssignment_resident_36_OR31
+ResidentAssignment_resident_36_OR32
+ResidentAssignment_resident_36_OR33
+ResidentAssignment_resident_36_OR34
+ResidentAssignment_resident_36_OR35
+ResidentAssignment_resident_36_OR36
+ResidentAssignment_resident_36_OR37
+ResidentAssignment_resident_36_OR38
+ResidentAssignment_resident_36_OR39
+ResidentAssignment_resident_36_OR4
+ResidentAssignment_resident_36_OR5
+ResidentAssignment_resident_36_OR6
+ResidentAssignment_resident_36_OR7
+ResidentAssignment_resident_36_OR8
+ResidentAssignment_resident_36_OR9
+ResidentAssignment_resident_37_OR0
+ResidentAssignment_resident_37_OR1
+ResidentAssignment_resident_37_OR10
+ResidentAssignment_resident_37_OR11
+ResidentAssignment_resident_37_OR12
+ResidentAssignment_resident_37_OR13
+ResidentAssignment_resident_37_OR14
+ResidentAssignment_resident_37_OR15
+ResidentAssignment_resident_37_OR16
+ResidentAssignment_resident_37_OR17
+ResidentAssignment_resident_37_OR18
+ResidentAssignment_resident_37_OR19
+ResidentAssignment_resident_37_OR2
+ResidentAssignment_resident_37_OR20
+ResidentAssignment_resident_37_OR21
+ResidentAssignment_resident_37_OR22
+ResidentAssignment_resident_37_OR23
+ResidentAssignment_resident_37_OR24
+ResidentAssignment_resident_37_OR25
+ResidentAssignment_resident_37_OR26
+ResidentAssignment_resident_37_OR27
+ResidentAssignment_resident_37_OR28
+ResidentAssignment_resident_37_OR29
+ResidentAssignment_resident_37_OR3
+ResidentAssignment_resident_37_OR30
+ResidentAssignment_resident_37_OR31
+ResidentAssignment_resident_37_OR32
+ResidentAssignment_resident_37_OR33
+ResidentAssignment_resident_37_OR34
+ResidentAssignment_resident_37_OR35
+ResidentAssignment_resident_37_OR36
+ResidentAssignment_resident_37_OR37
+ResidentAssignment_resident_37_OR38
+ResidentAssignment_resident_37_OR39
+ResidentAssignment_resident_37_OR4
+ResidentAssignment_resident_37_OR5
+ResidentAssignment_resident_37_OR6
+ResidentAssignment_resident_37_OR7
+ResidentAssignment_resident_37_OR8
+ResidentAssignment_resident_37_OR9
+ResidentAssignment_resident_38_OR0
+ResidentAssignment_resident_38_OR1
+ResidentAssignment_resident_38_OR10
+ResidentAssignment_resident_38_OR11
+ResidentAssignment_resident_38_OR12
+ResidentAssignment_resident_38_OR13
+ResidentAssignment_resident_38_OR14
+ResidentAssignment_resident_38_OR15
+ResidentAssignment_resident_38_OR16
+ResidentAssignment_resident_38_OR17
+ResidentAssignment_resident_38_OR18
+ResidentAssignment_resident_38_OR19
+ResidentAssignment_resident_38_OR2
+ResidentAssignment_resident_38_OR20
+ResidentAssignment_resident_38_OR21
+ResidentAssignment_resident_38_OR22
+ResidentAssignment_resident_38_OR23
+ResidentAssignment_resident_38_OR24
+ResidentAssignment_resident_38_OR25
+ResidentAssignment_resident_38_OR26
+ResidentAssignment_resident_38_OR27
+ResidentAssignment_resident_38_OR28
+ResidentAssignment_resident_38_OR29
+ResidentAssignment_resident_38_OR3
+ResidentAssignment_resident_38_OR30
+ResidentAssignment_resident_38_OR31
+ResidentAssignment_resident_38_OR32
+ResidentAssignment_resident_38_OR33
+ResidentAssignment_resident_38_OR34
+ResidentAssignment_resident_38_OR35
+ResidentAssignment_resident_38_OR36
+ResidentAssignment_resident_38_OR37
+ResidentAssignment_resident_38_OR38
+ResidentAssignment_resident_38_OR39
+ResidentAssignment_resident_38_OR4
+ResidentAssignment_resident_38_OR5
+ResidentAssignment_resident_38_OR6
+ResidentAssignment_resident_38_OR7
+ResidentAssignment_resident_38_OR8
+ResidentAssignment_resident_38_OR9
+ResidentAssignment_resident_39_OR0
+ResidentAssignment_resident_39_OR1
+ResidentAssignment_resident_39_OR10
+ResidentAssignment_resident_39_OR11
+ResidentAssignment_resident_39_OR12
+ResidentAssignment_resident_39_OR13
+ResidentAssignment_resident_39_OR14
+ResidentAssignment_resident_39_OR15
+ResidentAssignment_resident_39_OR16
+ResidentAssignment_resident_39_OR17
+ResidentAssignment_resident_39_OR18
+ResidentAssignment_resident_39_OR19
+ResidentAssignment_resident_39_OR2
+ResidentAssignment_resident_39_OR20
+ResidentAssignment_resident_39_OR21
+ResidentAssignment_resident_39_OR22
+ResidentAssignment_resident_39_OR23
+ResidentAssignment_resident_39_OR24
+ResidentAssignment_resident_39_OR25
+ResidentAssignment_resident_39_OR26
+ResidentAssignment_resident_39_OR27
+ResidentAssignment_resident_39_OR28
+ResidentAssignment_resident_39_OR29
+ResidentAssignment_resident_39_OR3
+ResidentAssignment_resident_39_OR30
+ResidentAssignment_resident_39_OR31
+ResidentAssignment_resident_39_OR32
+ResidentAssignment_resident_39_OR33
+ResidentAssignment_resident_39_OR34
+ResidentAssignment_resident_39_OR35
+ResidentAssignment_resident_39_OR36
+ResidentAssignment_resident_39_OR37
+ResidentAssignment_resident_39_OR38
+ResidentAssignment_resident_39_OR39
+ResidentAssignment_resident_39_OR4
+ResidentAssignment_resident_39_OR5
+ResidentAssignment_resident_39_OR6
+ResidentAssignment_resident_39_OR7
+ResidentAssignment_resident_39_OR8
+ResidentAssignment_resident_39_OR9
+ResidentAssignment_resident_3_OR0
+ResidentAssignment_resident_3_OR1
+ResidentAssignment_resident_3_OR10
+ResidentAssignment_resident_3_OR11
+ResidentAssignment_resident_3_OR12
+ResidentAssignment_resident_3_OR13
+ResidentAssignment_resident_3_OR14
+ResidentAssignment_resident_3_OR15
+ResidentAssignment_resident_3_OR16
+ResidentAssignment_resident_3_OR17
+ResidentAssignment_resident_3_OR18
+ResidentAssignment_resident_3_OR19
+ResidentAssignment_resident_3_OR2
+ResidentAssignment_resident_3_OR20
+ResidentAssignment_resident_3_OR21
+ResidentAssignment_resident_3_OR22
+ResidentAssignment_resident_3_OR23
+ResidentAssignment_resident_3_OR24
+ResidentAssignment_resident_3_OR25
+ResidentAssignment_resident_3_OR26
+ResidentAssignment_resident_3_OR27
+ResidentAssignment_resident_3_OR28
+ResidentAssignment_resident_3_OR29
+ResidentAssignment_resident_3_OR3
+ResidentAssignment_resident_3_OR30
+ResidentAssignment_resident_3_OR31
+ResidentAssignment_resident_3_OR32
+ResidentAssignment_resident_3_OR33
+ResidentAssignment_resident_3_OR34
+ResidentAssignment_resident_3_OR35
+ResidentAssignment_resident_3_OR36
+ResidentAssignment_resident_3_OR37
+ResidentAssignment_resident_3_OR38
+ResidentAssignment_resident_3_OR39
+ResidentAssignment_resident_3_OR4
+ResidentAssignment_resident_3_OR5
+ResidentAssignment_resident_3_OR6
+ResidentAssignment_resident_3_OR7
+ResidentAssignment_resident_3_OR8
+ResidentAssignment_resident_3_OR9
+ResidentAssignment_resident_4_OR0
+ResidentAssignment_resident_4_OR1
+ResidentAssignment_resident_4_OR10
+ResidentAssignment_resident_4_OR11
+ResidentAssignment_resident_4_OR12
+ResidentAssignment_resident_4_OR13
+ResidentAssignment_resident_4_OR14
+ResidentAssignment_resident_4_OR15
+ResidentAssignment_resident_4_OR16
+ResidentAssignment_resident_4_OR17
+ResidentAssignment_resident_4_OR18
+ResidentAssignment_resident_4_OR19
+ResidentAssignment_resident_4_OR2
+ResidentAssignment_resident_4_OR20
+ResidentAssignment_resident_4_OR21
+ResidentAssignment_resident_4_OR22
+ResidentAssignment_resident_4_OR23
+ResidentAssignment_resident_4_OR24
+ResidentAssignment_resident_4_OR25
+ResidentAssignment_resident_4_OR26
+ResidentAssignment_resident_4_OR27
+ResidentAssignment_resident_4_OR28
+ResidentAssignment_resident_4_OR29
+ResidentAssignment_resident_4_OR3
+ResidentAssignment_resident_4_OR30
+ResidentAssignment_resident_4_OR31
+ResidentAssignment_resident_4_OR32
+ResidentAssignment_resident_4_OR33
+ResidentAssignment_resident_4_OR34
+ResidentAssignment_resident_4_OR35
+ResidentAssignment_resident_4_OR36
+ResidentAssignment_resident_4_OR37
+ResidentAssignment_resident_4_OR38
+ResidentAssignment_resident_4_OR39
+ResidentAssignment_resident_4_OR4
+ResidentAssignment_resident_4_OR5
+ResidentAssignment_resident_4_OR6
+ResidentAssignment_resident_4_OR7
+ResidentAssignment_resident_4_OR8
+ResidentAssignment_resident_4_OR9
+ResidentAssignment_resident_5_OR0
+ResidentAssignment_resident_5_OR1
+ResidentAssignment_resident_5_OR10
+ResidentAssignment_resident_5_OR11
+ResidentAssignment_resident_5_OR12
+ResidentAssignment_resident_5_OR13
+ResidentAssignment_resident_5_OR14
+ResidentAssignment_resident_5_OR15
+ResidentAssignment_resident_5_OR16
+ResidentAssignment_resident_5_OR17
+ResidentAssignment_resident_5_OR18
+ResidentAssignment_resident_5_OR19
+ResidentAssignment_resident_5_OR2
+ResidentAssignment_resident_5_OR20
+ResidentAssignment_resident_5_OR21
+ResidentAssignment_resident_5_OR22
+ResidentAssignment_resident_5_OR23
+ResidentAssignment_resident_5_OR24
+ResidentAssignment_resident_5_OR25
+ResidentAssignment_resident_5_OR26
+ResidentAssignment_resident_5_OR27
+ResidentAssignment_resident_5_OR28
+ResidentAssignment_resident_5_OR29
+ResidentAssignment_resident_5_OR3
+ResidentAssignment_resident_5_OR30
+ResidentAssignment_resident_5_OR31
+ResidentAssignment_resident_5_OR32
+ResidentAssignment_resident_5_OR33
+ResidentAssignment_resident_5_OR34
+ResidentAssignment_resident_5_OR35
+ResidentAssignment_resident_5_OR36
+ResidentAssignment_resident_5_OR37
+ResidentAssignment_resident_5_OR38
+ResidentAssignment_resident_5_OR39
+ResidentAssignment_resident_5_OR4
+ResidentAssignment_resident_5_OR5
+ResidentAssignment_resident_5_OR6
+ResidentAssignment_resident_5_OR7
+ResidentAssignment_resident_5_OR8
+ResidentAssignment_resident_5_OR9
+ResidentAssignment_resident_6_OR0
+ResidentAssignment_resident_6_OR1
+ResidentAssignment_resident_6_OR10
+ResidentAssignment_resident_6_OR11
+ResidentAssignment_resident_6_OR12
+ResidentAssignment_resident_6_OR13
+ResidentAssignment_resident_6_OR14
+ResidentAssignment_resident_6_OR15
+ResidentAssignment_resident_6_OR16
+ResidentAssignment_resident_6_OR17
+ResidentAssignment_resident_6_OR18
+ResidentAssignment_resident_6_OR19
+ResidentAssignment_resident_6_OR2
+ResidentAssignment_resident_6_OR20
+ResidentAssignment_resident_6_OR21
+ResidentAssignment_resident_6_OR22
+ResidentAssignment_resident_6_OR23
+ResidentAssignment_resident_6_OR24
+ResidentAssignment_resident_6_OR25
+ResidentAssignment_resident_6_OR26
+ResidentAssignment_resident_6_OR27
+ResidentAssignment_resident_6_OR28
+ResidentAssignment_resident_6_OR29
+ResidentAssignment_resident_6_OR3
+ResidentAssignment_resident_6_OR30
+ResidentAssignment_resident_6_OR31
+ResidentAssignment_resident_6_OR32
+ResidentAssignment_resident_6_OR33
+ResidentAssignment_resident_6_OR34
+ResidentAssignment_resident_6_OR35
+ResidentAssignment_resident_6_OR36
+ResidentAssignment_resident_6_OR37
+ResidentAssignment_resident_6_OR38
+ResidentAssignment_resident_6_OR39
+ResidentAssignment_resident_6_OR4
+ResidentAssignment_resident_6_OR5
+ResidentAssignment_resident_6_OR6
+ResidentAssignment_resident_6_OR7
+ResidentAssignment_resident_6_OR8
+ResidentAssignment_resident_6_OR9
+ResidentAssignment_resident_7_OR0
+ResidentAssignment_resident_7_OR1
+ResidentAssignment_resident_7_OR10
+ResidentAssignment_resident_7_OR11
+ResidentAssignment_resident_7_OR12
+ResidentAssignment_resident_7_OR13
+ResidentAssignment_resident_7_OR14
+ResidentAssignment_resident_7_OR15
+ResidentAssignment_resident_7_OR16
+ResidentAssignment_resident_7_OR17
+ResidentAssignment_resident_7_OR18
+ResidentAssignment_resident_7_OR19
+ResidentAssignment_resident_7_OR2
+ResidentAssignment_resident_7_OR20
+ResidentAssignment_resident_7_OR21
+ResidentAssignment_resident_7_OR22
+ResidentAssignment_resident_7_OR23
+ResidentAssignment_resident_7_OR24
+ResidentAssignment_resident_7_OR25
+ResidentAssignment_resident_7_OR26
+ResidentAssignment_resident_7_OR27
+ResidentAssignment_resident_7_OR28
+ResidentAssignment_resident_7_OR29
+ResidentAssignment_resident_7_OR3
+ResidentAssignment_resident_7_OR30
+ResidentAssignment_resident_7_OR31
+ResidentAssignment_resident_7_OR32
+ResidentAssignment_resident_7_OR33
+ResidentAssignment_resident_7_OR34
+ResidentAssignment_resident_7_OR35
+ResidentAssignment_resident_7_OR36
+ResidentAssignment_resident_7_OR37
+ResidentAssignment_resident_7_OR38
+ResidentAssignment_resident_7_OR39
+ResidentAssignment_resident_7_OR4
+ResidentAssignment_resident_7_OR5
+ResidentAssignment_resident_7_OR6
+ResidentAssignment_resident_7_OR7
+ResidentAssignment_resident_7_OR8
+ResidentAssignment_resident_7_OR9
+ResidentAssignment_resident_8_OR0
+ResidentAssignment_resident_8_OR1
+ResidentAssignment_resident_8_OR10
+ResidentAssignment_resident_8_OR11
+ResidentAssignment_resident_8_OR12
+ResidentAssignment_resident_8_OR13
+ResidentAssignment_resident_8_OR14
+ResidentAssignment_resident_8_OR15
+ResidentAssignment_resident_8_OR16
+ResidentAssignment_resident_8_OR17
+ResidentAssignment_resident_8_OR18
+ResidentAssignment_resident_8_OR19
+ResidentAssignment_resident_8_OR2
+ResidentAssignment_resident_8_OR20
+ResidentAssignment_resident_8_OR21
+ResidentAssignment_resident_8_OR22
+ResidentAssignment_resident_8_OR23
+ResidentAssignment_resident_8_OR24
+ResidentAssignment_resident_8_OR25
+ResidentAssignment_resident_8_OR26
+ResidentAssignment_resident_8_OR27
+ResidentAssignment_resident_8_OR28
+ResidentAssignment_resident_8_OR29
+ResidentAssignment_resident_8_OR3
+ResidentAssignment_resident_8_OR30
+ResidentAssignment_resident_8_OR31
+ResidentAssignment_resident_8_OR32
+ResidentAssignment_resident_8_OR33
+ResidentAssignment_resident_8_OR34
+ResidentAssignment_resident_8_OR35
+ResidentAssignment_resident_8_OR36
+ResidentAssignment_resident_8_OR37
+ResidentAssignment_resident_8_OR38
+ResidentAssignment_resident_8_OR39
+ResidentAssignment_resident_8_OR4
+ResidentAssignment_resident_8_OR5
+ResidentAssignment_resident_8_OR6
+ResidentAssignment_resident_8_OR7
+ResidentAssignment_resident_8_OR8
+ResidentAssignment_resident_8_OR9
+ResidentAssignment_resident_9_OR0
+ResidentAssignment_resident_9_OR1
+ResidentAssignment_resident_9_OR10
+ResidentAssignment_resident_9_OR11
+ResidentAssignment_resident_9_OR12
+ResidentAssignment_resident_9_OR13
+ResidentAssignment_resident_9_OR14
+ResidentAssignment_resident_9_OR15
+ResidentAssignment_resident_9_OR16
+ResidentAssignment_resident_9_OR17
+ResidentAssignment_resident_9_OR18
+ResidentAssignment_resident_9_OR19
+ResidentAssignment_resident_9_OR2
+ResidentAssignment_resident_9_OR20
+ResidentAssignment_resident_9_OR21
+ResidentAssignment_resident_9_OR22
+ResidentAssignment_resident_9_OR23
+ResidentAssignment_resident_9_OR24
+ResidentAssignment_resident_9_OR25
+ResidentAssignment_resident_9_OR26
+ResidentAssignment_resident_9_OR27
+ResidentAssignment_resident_9_OR28
+ResidentAssignment_resident_9_OR29
+ResidentAssignment_resident_9_OR3
+ResidentAssignment_resident_9_OR30
+ResidentAssignment_resident_9_OR31
+ResidentAssignment_resident_9_OR32
+ResidentAssignment_resident_9_OR33
+ResidentAssignment_resident_9_OR34
+ResidentAssignment_resident_9_OR35
+ResidentAssignment_resident_9_OR36
+ResidentAssignment_resident_9_OR37
+ResidentAssignment_resident_9_OR38
+ResidentAssignment_resident_9_OR39
+ResidentAssignment_resident_9_OR4
+ResidentAssignment_resident_9_OR5
+ResidentAssignment_resident_9_OR6
+ResidentAssignment_resident_9_OR7
+ResidentAssignment_resident_9_OR8
+ResidentAssignment_resident_9_OR9
+End
